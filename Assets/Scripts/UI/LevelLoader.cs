@@ -9,12 +9,67 @@ public class LevelLoader : MonoBehaviour
     public GameObject loadingScreen;
     public Slider slider;
     public TextMeshProUGUI progressText;
+    private int RandomNum;
 
     public void LoadLevel(int sceneIndex)
     {
         StartCoroutine(LoadAsynchronously(sceneIndex));
         Time.timeScale = 1f;
         PauseMenu.gameIsPaused = false;
+    }
+
+    public void LoadLevel_RandomStandardTrack()
+    {
+        RandomNum = UnityEngine.Random.Range(0, 2);
+
+        if (RandomNum == 0)
+        {
+            LoadLevel(1);
+        }
+        else if (RandomNum == 1)
+        {
+            LoadLevel(2);
+        }
+        else if (RandomNum == 2)
+        {
+            LoadLevel(3);
+        }
+    }
+
+    public void LoadLevel_RandomTimeTrial()
+    {
+        RandomNum = UnityEngine.Random.Range(0, 2);
+
+        if (RandomNum == 0)
+        {
+            LoadLevel(3);
+        }
+        else if (RandomNum == 1)
+        {
+            LoadLevel(4);
+        }
+        else if (RandomNum == 2)
+        {
+            LoadLevel(5);
+        }
+    }
+
+    public void LoadLevel_RandomAITrack()
+    {
+        RandomNum = UnityEngine.Random.Range(0, 2);
+
+        if (RandomNum == 0)
+        {
+            LoadLevel(6);
+        }
+        else if (RandomNum == 1)
+        {
+            LoadLevel(7);
+        }
+        else if (RandomNum == 2)
+        {
+            LoadLevel(8);
+        }
     }
 
     IEnumerator LoadAsynchronously (int sceneIndex)

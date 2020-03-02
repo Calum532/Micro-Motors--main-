@@ -447,7 +447,7 @@ public class Garage : MonoBehaviour
             RacerPrice.GetComponent<TextMeshProUGUI>().text = "Owned";
         }
 
-        RacerNameUI.GetComponent<TextMeshProUGUI>().text = "Sky Car";
+        RacerNameUI.GetComponent<TextMeshProUGUI>().text = "Retro";
         RacerNameUI.GetComponent<TextMeshProUGUI>().color = new Color32(0, 255, 255, 255);
     }
 

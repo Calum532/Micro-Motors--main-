@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Standard Races/Standard Race 2.unity
     guid: 055c97c5a9d52e241b91acbb6ebccbfe
   - enabled: 1
+    path: Assets/Scenes/Standard Races/Standard Race 3.unity
+    guid: 87a035fef886bee4a9b0417056899be3
+  - enabled: 1
     path: Assets/Scenes/Time Trials/Time Trial 1.unity
     guid: a6f7eef935f2d1a418da76c1431da83e
   - enabled: 1
@@ -23,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Garage.unity
     guid: 6eb0ff1ad84ad144e9d82574e1ec1ebe
+  - enabled: 1
+    path: Assets/Scenes/Test Drive.unity
+    guid: 96ba179f6daff7b41925b71f9b8598fd
   m_configObjects: {}
