@@ -31,6 +31,10 @@ public class RaceTimer_TimeTrial2 : MonoBehaviour
         CountdownContainer.SetActive(true);
         cTimer = countdownTimer;
         FindObjectOfType<AudioManager>().Play("Race1Music");
+        RawTime = 0;
+        MinuteCount = 0;
+        SecondCount = 0;
+        MilliCount = 0;
     }
 
     void Update()

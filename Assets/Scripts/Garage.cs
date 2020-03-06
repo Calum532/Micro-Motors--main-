@@ -6,14 +6,14 @@ using UnityEngine.UI;
 
 public class Garage : MonoBehaviour
 {
-    public static bool RCOwned = false;
+    public static bool RCOwned = true;
     public static bool UFOOwned = false;
     public static bool TaxiOwned = false;
     public static bool TruckOwned = true;
     public static bool TankOwned = false;
     public static bool MonsterOwned = false;
     public static bool DozerOwned = false;
-    public static bool SkyCarOwned = false;
+    public static bool SkyCarOwned = true;
 
     public int RCCost;
     public int UFOCost;

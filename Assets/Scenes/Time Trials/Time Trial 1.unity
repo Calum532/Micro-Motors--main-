@@ -1406,7 +1406,7 @@ PrefabInstance:
     - target: {fileID: 2798087236061509245, guid: 660d542a06d0c8b488f1e3eb24689997,
         type: 3}
       propertyPath: m_MaximumSteerAngle
-      value: 10
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 2798087236061509245, guid: 660d542a06d0c8b488f1e3eb24689997,
         type: 3}
@@ -1512,7 +1512,7 @@ PrefabInstance:
     - target: {fileID: 1249272986677259324, guid: adf3986b3003bab4aa2a459e6765ca21,
         type: 3}
       propertyPath: m_MaximumSteerAngle
-      value: 10
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 1249272986677259324, guid: adf3986b3003bab4aa2a459e6765ca21,
         type: 3}
@@ -2108,7 +2108,7 @@ PrefabInstance:
     - target: {fileID: 6005278077453427243, guid: fc11541329c3a9e47986ace739caa388,
         type: 3}
       propertyPath: m_MaximumSteerAngle
-      value: 10
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 6005278077453427243, guid: fc11541329c3a9e47986ace739caa388,
         type: 3}
@@ -2839,8 +2839,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58afa3b6f6acb854e93b5dbb8a291fa7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pauseMenuUI: {fileID: 0}
-  settingsUI: {fileID: 0}
+  pauseMenuUI: {fileID: 1859275541}
+  settingsUI: {fileID: 613480374}
 --- !u!114 &419672558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3052,7 +3052,7 @@ PrefabInstance:
     - target: {fileID: 2156230631077516456, guid: 122f4211b23d53e49b68271bf45ccf95,
         type: 3}
       propertyPath: m_MaximumSteerAngle
-      value: 10
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 2156230631077516456, guid: 122f4211b23d53e49b68271bf45ccf95,
         type: 3}
@@ -5348,6 +5348,12 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 613480371}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &613480374 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 656656591644043235, guid: 78e8eb45956bfb949846431a1f8758ec,
+    type: 3}
+  m_PrefabInstance: {fileID: 613480371}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &619392083
 GameObject:
   m_ObjectHideFlags: 0
@@ -5843,7 +5849,7 @@ PrefabInstance:
     - target: {fileID: 2439327364812938150, guid: 60afed8723227be41b6c9f8c611c823b,
         type: 3}
       propertyPath: m_MaximumSteerAngle
-      value: 10
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 2439327364812938150, guid: 60afed8723227be41b6c9f8c611c823b,
         type: 3}
@@ -6641,7 +6647,7 @@ PrefabInstance:
     - target: {fileID: 4964810367533218854, guid: ed8945417e66740448014d5afc30c638,
         type: 3}
       propertyPath: m_MaximumSteerAngle
-      value: 10
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 4964810367533218854, guid: ed8945417e66740448014d5afc30c638,
         type: 3}
@@ -6881,7 +6887,7 @@ PrefabInstance:
     - target: {fileID: 1750229558696237503, guid: b666a8cb0c0d1a84fa415c2b5b4b8b46,
         type: 3}
       propertyPath: m_MaximumSteerAngle
-      value: 10
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 1750229558696237503, guid: b666a8cb0c0d1a84fa415c2b5b4b8b46,
         type: 3}
@@ -14151,11 +14157,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 419672557}
+      objectReference: {fileID: 419672562}
     - target: {fileID: 1180764328823010520, guid: d88f560555ac4cb41bf3406fb26d3b09,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadMainMenu
+      value: LoadLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180764328823010520, guid: d88f560555ac4cb41bf3406fb26d3b09,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1180764328823010534, guid: d88f560555ac4cb41bf3406fb26d3b09,
         type: 3}
@@ -14272,6 +14283,12 @@ PrefabInstance:
 --- !u!224 &1859275540 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1180764328794064292, guid: d88f560555ac4cb41bf3406fb26d3b09,
+    type: 3}
+  m_PrefabInstance: {fileID: 1859275539}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1859275541 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1180764328794064289, guid: d88f560555ac4cb41bf3406fb26d3b09,
     type: 3}
   m_PrefabInstance: {fileID: 1859275539}
   m_PrefabAsset: {fileID: 0}
@@ -14895,7 +14912,7 @@ PrefabInstance:
     - target: {fileID: 8596983093493156135, guid: cde1d96a9057fee44b6ee0ca9195d356,
         type: 3}
       propertyPath: m_MaximumSteerAngle
-      value: 10
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 8596983093493156135, guid: cde1d96a9057fee44b6ee0ca9195d356,
         type: 3}
@@ -15193,12 +15210,13 @@ AudioSource:
   m_GameObject: {fileID: 1983780433}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: bb14ac742b84e36428f03a77db45c456,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 7be8a0ed0f968ca439ee68512e0f9efd, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.3
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -18734,7 +18752,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 5
+          m_IntArgument: 7
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -23120,7 +23138,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 3
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0

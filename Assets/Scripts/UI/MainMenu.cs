@@ -5,6 +5,7 @@ public class MainMenu : MonoBehaviour
     public GameObject menuUI;
     public GameObject raceTypeUI;
     public GameObject SR_raceTrackUI;
+    public GameObject AI_raceTrackUI;
     public GameObject TimeTrial_TrackUI;
     public GameObject settingsUI;
 
@@ -29,6 +30,12 @@ public class MainMenu : MonoBehaviour
     {
         raceTypeUI.SetActive(false);
         TimeTrial_TrackUI.SetActive(true);
+    }
+
+    public void AI_RaceTrackSelect() //AI race selected
+    {
+        raceTypeUI.SetActive(false);
+        AI_raceTrackUI.SetActive(true);
     }
 
     public void DisplaySettings()

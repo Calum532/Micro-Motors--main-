@@ -2113,14 +2113,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b14ad0b990a45f4495f3709524e6b25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RCCost: 100
+  RCCost: 0
   UFOCost: 200
   TaxiCost: 300
   TruckCost: 0
   TankCost: 500
   MonsterCost: 600
   DozerCost: 700
-  SkyCarCost: 800
+  SkyCarCost: 0
   RC: {fileID: 1953605054838803336}
   UFO: {fileID: 7452222667951505420}
   Taxi: {fileID: 6188760895927887751}
@@ -2827,7 +2827,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &687204434
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3692,7 +3692,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &842978452
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4118,7 +4118,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &946281539
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7029,7 +7029,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1591950985
 RectTransform:
   m_ObjectHideFlags: 0

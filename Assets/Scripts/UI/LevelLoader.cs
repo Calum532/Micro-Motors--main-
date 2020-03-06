@@ -42,15 +42,15 @@ public class LevelLoader : MonoBehaviour
 
         if (RandomNum == 0)
         {
-            LoadLevel(3);
+            LoadLevel(4);
         }
         else if (RandomNum == 1)
         {
-            LoadLevel(4);
+            LoadLevel(5);
         }
         else if (RandomNum == 2)
         {
-            LoadLevel(5);
+            LoadLevel(6);
         }
     }
 
@@ -60,15 +60,15 @@ public class LevelLoader : MonoBehaviour
 
         if (RandomNum == 0)
         {
-            LoadLevel(6);
+            LoadLevel(9);
         }
         else if (RandomNum == 1)
         {
-            LoadLevel(7);
+            LoadLevel(10);
         }
         else if (RandomNum == 2)
         {
-            LoadLevel(8);
+            LoadLevel(11);
         }
     }
 

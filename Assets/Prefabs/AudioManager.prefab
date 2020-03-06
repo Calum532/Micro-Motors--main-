@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75ce261a6b3d8ab4eba1bd17593cacf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mixerGroup: {fileID: 0}
+  mixerGroup: {fileID: 24300002, guid: bb14ac742b84e36428f03a77db45c456, type: 2}
   sounds:
   - name: PickUp
     clip: {fileID: 8300000, guid: 7ced09c52b7835848a7fa0a559ad7f6f, type: 3}
@@ -56,7 +56,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Boost
     clip: {fileID: 8300000, guid: 7c29c309722a2444582a425e8e6aeb77, type: 3}
-    volume: 0.5
+    volume: 0.7
     volumeVariance: 0
     pitch: 1
     pitchVariance: 0
@@ -65,7 +65,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Click
     clip: {fileID: 8300000, guid: 0b64b4a923f54dd419a170d9ff915f36, type: 3}
-    volume: 0.4
+    volume: 0.6
     volumeVariance: 0
     pitch: 1
     pitchVariance: 0
@@ -74,7 +74,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Cha-Ching
     clip: {fileID: 8300000, guid: 27ab8b562428e7e4c90450e6457904c8, type: 3}
-    volume: 0.9
+    volume: 0.8
     volumeVariance: 0
     pitch: 1
     pitchVariance: 0
@@ -83,7 +83,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Nope
     clip: {fileID: 8300000, guid: a288c85e9a295fb459e18e08a4ec9bb0, type: 3}
-    volume: 0.8
+    volume: 0.7
     volumeVariance: 0
     pitch: 1
     pitchVariance: 0
@@ -92,7 +92,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: You did it!
     clip: {fileID: 8300000, guid: 8f44a7e8c70643b4d9d822790d0202fe, type: 3}
-    volume: 1
+    volume: 0.8
     volumeVariance: 0
     pitch: 1
     pitchVariance: 0

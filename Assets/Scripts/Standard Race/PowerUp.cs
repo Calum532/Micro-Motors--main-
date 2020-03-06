@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
 
 public class PowerUp : MonoBehaviour
@@ -10,15 +9,15 @@ public class PowerUp : MonoBehaviour
     public GameObject child2;
     public GameObject child3;
     public GameObject child4;
+    //public GameObject FrontCam;
+    //public GameObject ZoomedOutCam;
 
     public float respawnDuration = 5f;
     public float effectDuration = 10f;
+    public float grow;
+    public float rotateSpeed;
 
     private int randomNum;
-
-    public float grow;
-
-    public float rotateSpeed;
 
     private void Update()
     {
@@ -38,34 +37,16 @@ public class PowerUp : MonoBehaviour
             StartCoroutine(respawnCountdown());
 
             randomNum = UnityEngine.Random.Range(0, 1);
+            Debug.Log("Random number generated: " + randomNum);
+
             if (randomNum == 0)
-            {
-                StartCoroutine(PickupGrow(other));
-            }
-            else if (randomNum == 1)
             {
                 StartCoroutine(PickupShrink(other));
             }
-            /*else if (RandomNum == 2)
+            else if (randomNum == 1)
             {
-                StartCoroutine(PickupBoost(other));
+                StartCoroutine(PickupGrow(other));
             }
-            else if (RandomNum == 3)
-            {
-                StartCoroutine(PickupBlur(other));
-            }
-            else if (RandomNum == 4)
-            {
-                StartCoroutine(Pickup(other));
-            }
-            else if (RandomNum == 5)
-            {
-                StartCoroutine(Pickup(other));
-            }
-            else
-            {
-                StartCoroutine(Pickup(other));
-            }*/
         }
     }
 
@@ -91,37 +72,26 @@ public class PowerUp : MonoBehaviour
     IEnumerator PickupGrow(Collider racer)
     {
         FindObjectOfType<AudioManager>().Play("Buff");
-
+        //ZoomedOutCam.SetActive(true);
+        //FrontCam.SetActive(false);
         racer.transform.localScale *= grow;
-        yield return new WaitForSeconds(effectDuration);
-        racer.transform.localScale /= grow;
 
+        yield return new WaitForSeconds(effectDuration);
+
+        racer.transform.localScale /= grow;
+        //FrontCam.SetActive(true);
+        //ZoomedOutCam.SetActive(false);
         FindObjectOfType<AudioManager>().Play("Debuff");
     }
 
     IEnumerator PickupShrink(Collider racer)
     {
         FindObjectOfType<AudioManager>().Play("Debuff");
-
         racer.transform.localScale /= grow;
-        yield return new WaitForSeconds(effectDuration);
-        racer.transform.localScale *= grow;
 
+        yield return new WaitForSeconds(effectDuration);
+
+        racer.transform.localScale *= grow;
         FindObjectOfType<AudioManager>().Play("Buff");
     }
-
-    /*IEnumerator PickupBoost(Collider racer)
-    {
-
-    }
-
-    IEnumerator PickupBlur(Collider racer)
-    {
-
-    }
-
-    IEnumerator Pickup(Collider racer)
-    {
-
-    }*/
 }
