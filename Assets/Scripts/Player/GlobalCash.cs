@@ -5,8 +5,8 @@ using TMPro;
 
 public class GlobalCash : MonoBehaviour
 {
-    public int CreditsValue;
-    public static int TotalCredits;
+    public float CreditsValue;
+    public static float TotalCredits;
     public GameObject CreditsDisplay;
     
     void Start()

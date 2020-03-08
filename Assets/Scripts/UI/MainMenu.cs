@@ -51,6 +51,7 @@ public class MainMenu : MonoBehaviour
         settingsUI.SetActive(false);
         SR_raceTrackUI.SetActive(false);
         TimeTrial_TrackUI.SetActive(false);
+        AI_raceTrackUI.SetActive(false);
     }
 
     public void QuitGame()

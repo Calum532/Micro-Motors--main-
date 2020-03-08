@@ -2,26 +2,19 @@
 using TMPro;
 using UnityStandardAssets.Vehicles.Car;
 
-public class LapComplete : MonoBehaviour
+public class LapComplete_AIRace : MonoBehaviour
 {
     public GameObject RaceCompleteUI;
     public GameObject GameUI;
     public GameObject LapCompleteTrig;
     public GameObject HalfLapTrig;
-    public GameObject BestMinuteDisplay;
-    public GameObject BestSecondDisplay;
-    public GameObject BestMilliDisplay;
-    public GameObject LapTimeBox;
     public GameObject LapCounter;
     public GameObject RaceCompleteCam;
     public GameObject FrontCam;
 
     public int playerLapsDone = 1;
 
-    public float RawTime;
-    public int firstPlaceWinnings = 500;
-    public int secondPlaceWinnings = 300;
-    public int thirdPlaceWinnings = 100;
+    public float Winnings;
     public GameObject winningsDisplay;
 
     GameObject Player;
@@ -48,7 +41,6 @@ public class LapComplete : MonoBehaviour
             if (playerLapsDone >= 1) //race complete
             {
                 PauseMenu.gameIsPaused = true;
-                Player.GetComponent<CarUserControl>().enabled = false;
                 Player.GetComponent<CarAIControl>().enabled = true;
                 RaceCompleteUI.SetActive(true);
                 GameUI.SetActive(false);
@@ -58,20 +50,23 @@ public class LapComplete : MonoBehaviour
 
                 if(PlayerPos.playerPosition == 1)
                 {
-                    GlobalCash.TotalCredits += firstPlaceWinnings;
-                    winningsDisplay.GetComponent<TextMeshProUGUI>().text = "Winnings: $" + firstPlaceWinnings;
+                    Winnings = PlaceBet.betAmount * 3f;
+                    GlobalCash.TotalCredits += Winnings;
+                    winningsDisplay.GetComponent<TextMeshProUGUI>().text = "Winnings: $" + Winnings;
                     PlayerPrefs.SetFloat("SavedCash", GlobalCash.TotalCredits);
                 }
                 else if (PlayerPos.playerPosition == 2)
                 {
-                    GlobalCash.TotalCredits += secondPlaceWinnings;
-                    winningsDisplay.GetComponent<TextMeshProUGUI>().text = "Winnings: $" + secondPlaceWinnings;
+                    Winnings = PlaceBet.betAmount * 2f;
+                    GlobalCash.TotalCredits += Winnings;
+                    winningsDisplay.GetComponent<TextMeshProUGUI>().text = "Winnings: $" + Winnings;
                     PlayerPrefs.SetFloat("SavedCash", GlobalCash.TotalCredits);
                 }
                 else if (PlayerPos.playerPosition == 3)
                 {
-                    GlobalCash.TotalCredits += thirdPlaceWinnings;
-                    winningsDisplay.GetComponent<TextMeshProUGUI>().text = "Winnings: $" + thirdPlaceWinnings;
+                    Winnings = PlaceBet.betAmount * 1.5f;
+                    GlobalCash.TotalCredits += Winnings;
+                    winningsDisplay.GetComponent<TextMeshProUGUI>().text = "Winnings: $" + Winnings;
                     PlayerPrefs.SetFloat("SavedCash", GlobalCash.TotalCredits);
                 }
                 else
@@ -80,7 +75,7 @@ public class LapComplete : MonoBehaviour
                 }
             }
 
-            LapCounter.GetComponent<TextMeshProUGUI>().text = "" + playerLapsDone + "/3";
+            LapCounter.GetComponent<TextMeshProUGUI>().text = "" + playerLapsDone + "/1";
             HalfLapTrig.SetActive(true);
             LapCompleteTrig.SetActive(false);
         }

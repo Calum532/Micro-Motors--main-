@@ -60,7 +60,7 @@ public class LapComplete_TimeTrial : MonoBehaviour
                 FrontCam.SetActive(false);
                 FindObjectOfType<AudioManager>().Play("You did it!");
                 GlobalCash.TotalCredits += 500;
-                PlayerPrefs.SetInt("SavedCash", GlobalCash.TotalCredits);
+                PlayerPrefs.SetFloat("SavedCash", GlobalCash.TotalCredits);
             }
 
             PlayerPrefs.SetInt("BestMinSave", RaceTimer_TimeTrial.MinuteCount);

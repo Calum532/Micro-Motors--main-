@@ -15,14 +15,14 @@ public class Garage : MonoBehaviour
     public static bool DozerOwned = false;
     public static bool SkyCarOwned = true;
 
-    public int RCCost;
-    public int UFOCost;
-    public int TaxiCost;
-    public int TruckCost;
-    public int TankCost;
-    public int MonsterCost;
-    public int DozerCost;
-    public int SkyCarCost;
+    public float RCCost;
+    public float UFOCost;
+    public float TaxiCost;
+    public float TruckCost;
+    public float TankCost;
+    public float MonsterCost;
+    public float DozerCost;
+    public float SkyCarCost;
 
     public GameObject RC;
     public GameObject UFO;
@@ -457,6 +457,7 @@ public class Garage : MonoBehaviour
         {
             FindObjectOfType<AudioManager>().Play("Cha-Ching");
             GlobalCash.TotalCredits = GlobalCash.TotalCredits - RCCost;
+            PlayerPrefs.SetFloat("SavedCash", GlobalCash.TotalCredits);
             RCOwned = true;
             RCTick.SetActive(true);
             RCCross.SetActive(false);
@@ -466,6 +467,7 @@ public class Garage : MonoBehaviour
         {
             FindObjectOfType<AudioManager>().Play("Cha-Ching");
             GlobalCash.TotalCredits = GlobalCash.TotalCredits - UFOCost;
+            PlayerPrefs.SetFloat("SavedCash", GlobalCash.TotalCredits);
             UFOOwned = true;
             UFOTick.SetActive(true);
             UFOCross.SetActive(false);
@@ -475,6 +477,7 @@ public class Garage : MonoBehaviour
         {
             FindObjectOfType<AudioManager>().Play("Cha-Ching");
             GlobalCash.TotalCredits = GlobalCash.TotalCredits - TaxiCost;
+            PlayerPrefs.SetFloat("SavedCash", GlobalCash.TotalCredits);
             TaxiOwned = true;
             TaxiTick.SetActive(true);
             TaxiCross.SetActive(false);
@@ -484,6 +487,7 @@ public class Garage : MonoBehaviour
         {
             FindObjectOfType<AudioManager>().Play("Cha-Ching");
             GlobalCash.TotalCredits = GlobalCash.TotalCredits - TruckCost;
+            PlayerPrefs.SetFloat("SavedCash", GlobalCash.TotalCredits);
             TruckOwned = true;
             TruckTick.SetActive(true);
             TruckCross.SetActive(false);
@@ -493,6 +497,7 @@ public class Garage : MonoBehaviour
         {
             FindObjectOfType<AudioManager>().Play("Cha-Ching");
             GlobalCash.TotalCredits = GlobalCash.TotalCredits - TankCost;
+            PlayerPrefs.SetFloat("SavedCash", GlobalCash.TotalCredits);
             TankOwned = true;
             TankTick.SetActive(true);
             TankCross.SetActive(false);
@@ -502,6 +507,7 @@ public class Garage : MonoBehaviour
         {
             FindObjectOfType<AudioManager>().Play("Cha-Ching");
             GlobalCash.TotalCredits = GlobalCash.TotalCredits - MonsterCost;
+            PlayerPrefs.SetFloat("SavedCash", GlobalCash.TotalCredits);
             MonsterOwned = true;
             MonsterTick.SetActive(true);
             MonsterCross.SetActive(false);
@@ -511,6 +517,7 @@ public class Garage : MonoBehaviour
         {
             FindObjectOfType<AudioManager>().Play("Cha-Ching");
             GlobalCash.TotalCredits = GlobalCash.TotalCredits - DozerCost;
+            PlayerPrefs.SetFloat("SavedCash", GlobalCash.TotalCredits);
             DozerOwned = true;
             DozerTick.SetActive(true);
             DozerCross.SetActive(false);
@@ -520,6 +527,7 @@ public class Garage : MonoBehaviour
         {
             FindObjectOfType<AudioManager>().Play("Cha-Ching");
             GlobalCash.TotalCredits = GlobalCash.TotalCredits - SkyCarCost;
+            PlayerPrefs.SetFloat("SavedCash", GlobalCash.TotalCredits);
             SkyCarOwned = true;
             SkyCarTick.SetActive(true);
             SkyCarCross.SetActive(false);

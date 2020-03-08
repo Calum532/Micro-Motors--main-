@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Test Drive.unity
     guid: 96ba179f6daff7b41925b71f9b8598fd
+  - enabled: 1
+    path: Assets/Scenes/AI Race/AI Race 1.unity
+    guid: bf64c30850de3864c97dad746b22ef09
   m_configObjects: {}
