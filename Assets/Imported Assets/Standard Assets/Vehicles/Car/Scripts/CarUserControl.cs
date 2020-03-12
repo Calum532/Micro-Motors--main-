@@ -1,14 +1,20 @@
+using System.Collections;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
 namespace UnityStandardAssets.Vehicles.Car
 {
-    [RequireComponent(typeof (CarController))]
+    [RequireComponent(typeof(CarController))]
     public class CarUserControl : MonoBehaviour
     {
         private CarController m_Car; // the car controller we want to use
         public GameObject ReverseCam;
         public GameObject FrontCam;
+        public GameObject WaypointTargetObject;
+        public GameObject resetOnCooldownUI;
+        GameObject Player;
+
+        private bool resetCooldownFinished = true;
 
         private void Awake()
         {
@@ -28,6 +34,8 @@ namespace UnityStandardAssets.Vehicles.Car
             m_Car.Move(h, v, v, 0f);
 #endif
 
+            Player = GameObject.FindGameObjectWithTag("Player");
+
             if (Input.GetKey(KeyCode.LeftControl))
             {
                 ReverseCam.SetActive(true);
@@ -38,6 +46,27 @@ namespace UnityStandardAssets.Vehicles.Car
                 ReverseCam.SetActive(false);
                 FrontCam.SetActive(true);
             }
+
+            if (Input.GetKeyDown(KeyCode.F) && resetCooldownFinished == true)
+            {
+                StartCoroutine(resetVehicle());
+            }
+            else if (Input.GetKeyDown(KeyCode.F) && resetCooldownFinished == false)
+            {
+                FindObjectOfType<AudioManager>().Play("Nope");
+                resetOnCooldownUI.SetActive(true);
+            }
+        }
+
+        IEnumerator resetVehicle()
+        {
+            resetCooldownFinished = false;
+            Player.transform.position = WaypointTargetObject.transform.position;
+            Player.transform.rotation = Quaternion.Euler(0, 0, 0);
+            //Player.transform.LookAt(WaypointTargetObject);
+            yield return new WaitForSeconds(5);
+            resetCooldownFinished = true;
+            resetOnCooldownUI.SetActive(false);
         }
     }
 }
