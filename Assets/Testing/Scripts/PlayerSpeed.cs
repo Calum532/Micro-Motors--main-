@@ -8,7 +8,7 @@ public class PlayerSpeed : MonoBehaviour
     public static float magnitudeSpeed;
     public static double mphSpeed;
     public bool validReset = false;
-    private float resetCountdown = 5;
+    private float resetCountdown = 4;
 
     public GameObject SpeedUI;
     public GameObject WaypointTargetObject;
@@ -38,14 +38,14 @@ public class PlayerSpeed : MonoBehaviour
                     transform.position = WaypointTargetObject.transform.position;
                     transform.rotation = WaypointTargetObject.transform.rotation;
                     press_F_To_Reset_UI.SetActive(false);
-                    resetCountdown = 5;
+                    resetCountdown = 4;
                     validReset = false;
                 }
             }
         }
         else if (mphSpeed > 5)
         {
-            resetCountdown = 5;
+            resetCountdown = 4;
             validReset = false;
         }
     }
