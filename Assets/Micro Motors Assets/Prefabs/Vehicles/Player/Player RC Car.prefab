@@ -6019,7 +6019,7 @@ GameObject:
   - component: {fileID: 2439327364261641393}
   - component: {fileID: 2439327364261641388}
   - component: {fileID: 2439327364261641395}
-  - component: {fileID: 2439327364261641394}
+  - component: {fileID: 5192448114464359198}
   m_Layer: 0
   m_Name: RC Car Model
   m_TagString: Untagged
@@ -6088,8 +6088,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &2439327364261641394
-MeshCollider:
+--- !u!65 &5192448114464359198
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6098,10 +6098,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 390387430656503092, guid: 7b1e990c85e18864580b82b3fd1d6e1c, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 25, y: 33, z: 13}
+  m_Center: {x: -0.17110015, y: -1.8028008, z: 7.1225023}
 --- !u!1 &2439327364303274343
 GameObject:
   m_ObjectHideFlags: 0
@@ -6747,6 +6746,7 @@ GameObject:
   - component: {fileID: 2439327364812938151}
   - component: {fileID: 431694895621043495}
   - component: {fileID: 2035385978}
+  - component: {fileID: 6877212135193787780}
   m_Layer: 0
   m_Name: Player RC Car
   m_TagString: Player
@@ -6918,6 +6918,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ReverseCam: {fileID: 0}
   FrontCam: {fileID: 0}
+  WaypointTargetObject: {fileID: 0}
+  resetOnCooldownUI: {fileID: 0}
 --- !u!65 &431694895621043495
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6944,6 +6946,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PositionDisplayChild: {fileID: 0}
+--- !u!114 &6877212135193787780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2439327364812938149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 205a0bd4dff143742a250027315ba719, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionParticles: {fileID: 687623714209134970, guid: d555077a447462b4ebd7002fbe0cda82,
+    type: 3}
+  ForceRequired: 8
 --- !u!1 &2439327364887340573
 GameObject:
   m_ObjectHideFlags: 0

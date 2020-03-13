@@ -4909,7 +4909,6 @@ GameObject:
   - component: {fileID: 4964810365764842814}
   - component: {fileID: 4964810365764842755}
   - component: {fileID: 4964810365764842752}
-  - component: {fileID: 4964810365764842753}
   m_Layer: 0
   m_Name: 14075_WWII_Tank_US_M3_tracks
   m_TagString: Untagged
@@ -4978,20 +4977,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &4964810365764842753
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4964810365764842815}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 3520316710184341226, guid: c7ecfcd20b509fc4498921a98887d9f8, type: 3}
 --- !u!1 &4964810365798192390
 GameObject:
   m_ObjectHideFlags: 0
@@ -5604,7 +5589,6 @@ GameObject:
   - component: {fileID: 4964810366168978393}
   - component: {fileID: 4964810366168978394}
   - component: {fileID: 4964810366168978395}
-  - component: {fileID: 4964810366168978392}
   m_Layer: 0
   m_Name: 14075_WWII_Tank_US_M3_turret
   m_TagString: Untagged
@@ -5673,20 +5657,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &4964810366168978392
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4964810366168978390}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: -5591690613760261703, guid: c7ecfcd20b509fc4498921a98887d9f8, type: 3}
 --- !u!1 &4964810366392282276
 GameObject:
   m_ObjectHideFlags: 0
@@ -6947,7 +6917,7 @@ GameObject:
   - component: {fileID: 4964810367345018787}
   - component: {fileID: 4964810367345018788}
   - component: {fileID: 4964810367345018789}
-  - component: {fileID: 4964810367345018786}
+  - component: {fileID: 8228784638768325770}
   m_Layer: 0
   m_Name: 14075_WWII_Tank_US_M3_hull
   m_TagString: Untagged
@@ -7016,8 +6986,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &4964810367345018786
-MeshCollider:
+--- !u!65 &8228784638768325770
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -7026,10 +6996,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 5146257851628352157, guid: c7ecfcd20b509fc4498921a98887d9f8, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 2.99, y: 1.41, z: 1.0131}
+  m_Center: {x: -0.19, y: -0.05770001, z: 1.68325}
 --- !u!1 &4964810367533218855
 GameObject:
   m_ObjectHideFlags: 0
@@ -7045,8 +7014,9 @@ GameObject:
   - component: {fileID: 4964810367533218859}
   - component: {fileID: 4964810367533218856}
   - component: {fileID: 6281492564229721828}
-  - component: {fileID: 2868400398728754961}
   - component: {fileID: 477491847}
+  - component: {fileID: 2868400398728754961}
+  - component: {fileID: 5919110853217909683}
   m_Layer: 0
   m_Name: Player Tank
   m_TagString: Player
@@ -7218,19 +7188,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ReverseCam: {fileID: 0}
   FrontCam: {fileID: 0}
---- !u!65 &2868400398728754961
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4964810367533218855}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.1, y: 2.8, z: 4.5}
-  m_Center: {x: 0, y: 0.88140774, z: -0.02978754}
+  WaypointTargetObject: {fileID: 0}
+  resetOnCooldownUI: {fileID: 0}
 --- !u!114 &477491847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7244,6 +7203,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PositionDisplayChild: {fileID: 0}
+--- !u!65 &2868400398728754961
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4964810367533218855}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.1, y: 2.8, z: 4.5}
+  m_Center: {x: 0, y: 0.88140774, z: -0.02978754}
+--- !u!114 &5919110853217909683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4964810367533218855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 205a0bd4dff143742a250027315ba719, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionParticles: {fileID: 687623714209134970, guid: d555077a447462b4ebd7002fbe0cda82,
+    type: 3}
+  ForceRequired: 8
 --- !u!1 &8983227907288252430
 GameObject:
   m_ObjectHideFlags: 0

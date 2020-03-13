@@ -653,7 +653,7 @@ GameObject:
   - component: {fileID: 2798087235892865645}
   - component: {fileID: 2798087235892865646}
   - component: {fileID: 2798087235892865647}
-  - component: {fileID: 2798087235892865644}
+  - component: {fileID: 574531175407674576}
   m_Layer: 0
   m_Name: UFO_body
   m_TagString: Untagged
@@ -722,8 +722,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &2798087235892865644
-MeshCollider:
+--- !u!65 &574531175407674576
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -732,10 +732,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 8683626548517001181, guid: 05c08dec32d3b8a46a1a27e2a42b483d, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 63, y: 15, z: 63}
+  m_Center: {x: 1.3294983, y: 23.3, z: 0.34614754}
 --- !u!1 &2798087235981022149
 GameObject:
   m_ObjectHideFlags: 0
@@ -874,6 +873,7 @@ GameObject:
   - component: {fileID: 2798087236061509244}
   - component: {fileID: 1448034414165330277}
   - component: {fileID: 1965734376}
+  - component: {fileID: 8219307665835900483}
   m_Layer: 0
   m_Name: Player UFO
   m_TagString: Player
@@ -1045,6 +1045,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ReverseCam: {fileID: 0}
   FrontCam: {fileID: 0}
+  WaypointTargetObject: {fileID: 0}
+  resetOnCooldownUI: {fileID: 0}
 --- !u!135 &1448034414165330277
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1071,6 +1073,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PositionDisplayChild: {fileID: 0}
+--- !u!114 &8219307665835900483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2798087236061509234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 205a0bd4dff143742a250027315ba719, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionParticles: {fileID: 687623714209134970, guid: d555077a447462b4ebd7002fbe0cda82,
+    type: 3}
+  ForceRequired: 8
 --- !u!1 &2798087236084340143
 GameObject:
   m_ObjectHideFlags: 0
@@ -6767,7 +6784,6 @@ GameObject:
   - component: {fileID: 2798087237092073528}
   - component: {fileID: 2798087237092073509}
   - component: {fileID: 2798087237092073530}
-  - component: {fileID: 2798087237092073531}
   m_Layer: 0
   m_Name: UFO_cockpit
   m_TagString: Untagged
@@ -6836,20 +6852,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &2798087237092073531
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2798087237092073529}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 8269849218835344742, guid: 05c08dec32d3b8a46a1a27e2a42b483d, type: 3}
 --- !u!1 &2798087237110738993
 GameObject:
   m_ObjectHideFlags: 0
