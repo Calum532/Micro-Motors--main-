@@ -4458,7 +4458,7 @@ ParticleSystemRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 807846828155900432}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -4531,6 +4531,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 566e53a73bca1654788c948ff329dc9a, type: 3}
   - {fileID: 8300000, guid: fb9410b001552d74abe19709b485a697, type: 3}
   playAfter: 0.015
+  deleteAfter: 0
 --- !u!82 &6182612948380569495
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9156,7 +9157,7 @@ ParticleSystemRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9085616603250313929}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -13761,7 +13762,7 @@ ParticleSystemRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9085616603415904527}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
