@@ -9,7 +9,6 @@ public class RaceTimer : MonoBehaviour
     public static bool finished;
 
     public GameObject CountdownContainer;
-    public GameObject SpeedUI;
 
     public bool raceStarted = false;
     GameObject[] AICars;
@@ -20,7 +19,7 @@ public class RaceTimer : MonoBehaviour
         cTimer = countdownTimer;
         finished = false;
     }
-
+    
     void Update()
     {
         //if player has chosen a vehicle

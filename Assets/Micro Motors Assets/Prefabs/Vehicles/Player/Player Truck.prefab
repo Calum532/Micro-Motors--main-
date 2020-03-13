@@ -893,6 +893,7 @@ GameObject:
   - component: {fileID: 9030482657324866170}
   - component: {fileID: 444352946}
   - component: {fileID: 4727071235080626253}
+  - component: {fileID: 1517532843922160781}
   m_Layer: 0
   m_Name: Player Truck
   m_TagString: Player
@@ -1063,8 +1064,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ReverseCam: {fileID: 0}
   FrontCam: {fileID: 0}
-  WaypointTargetObject: {fileID: 0}
-  resetOnCooldownUI: {fileID: 0}
 --- !u!65 &9030482657324866170
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1106,6 +1105,22 @@ MonoBehaviour:
   collisionParticles: {fileID: 687623714209134970, guid: d555077a447462b4ebd7002fbe0cda82,
     type: 3}
   ForceRequired: 8
+--- !u!114 &1517532843922160781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8596983093493156134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98da2b4278606c04194ebb3fad86d100, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  validReset: 0
+  SpeedUI: {fileID: 0}
+  WaypointTargetObject: {fileID: 8596983094657961588}
+  press_F_To_Reset_UI: {fileID: 0}
 --- !u!1 &8596983093560051031
 GameObject:
   m_ObjectHideFlags: 0

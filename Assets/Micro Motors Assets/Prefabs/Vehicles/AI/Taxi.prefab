@@ -6736,6 +6736,7 @@ GameObject:
   - component: {fileID: 1082426330097562476}
   - component: {fileID: 1082426330097562475}
   - component: {fileID: 6960367536218367037}
+  - component: {fileID: 3848285521800784571}
   m_Layer: 0
   m_Name: AI SkyCar
   m_TagString: AICar
@@ -6909,6 +6910,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.6, y: 2, z: 4.660098}
   m_Center: {x: 0, y: 0.5095401, z: -0.13004923}
+--- !u!114 &3848285521800784571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082426330097562472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac063265e4270cb4d8329d3ec8fa3a47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aiMagnitudeSpeed: 0
+  aiMphSpeed: 0
+  aiWaypointTargetObject: {fileID: 1082426331274544607}
 --- !u!1 &1082426330100507343
 GameObject:
   m_ObjectHideFlags: 0
@@ -12397,6 +12413,7 @@ GameObject:
   - component: {fileID: 1082426330490208568}
   - component: {fileID: 1082426330490208711}
   - component: {fileID: 7336582107641940721}
+  - component: {fileID: 1875646567003005881}
   m_Layer: 0
   m_Name: AI Taxi
   m_TagString: AICar
@@ -12568,6 +12585,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.9, y: 1.9, z: 4.441306}
   m_Center: {x: 0, y: 0.4861927, z: -0.020653248}
+--- !u!114 &1875646567003005881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082426330490208709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac063265e4270cb4d8329d3ec8fa3a47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aiMagnitudeSpeed: 0
+  aiMphSpeed: 0
+  aiWaypointTargetObject: {fileID: 1082426331036265443}
 --- !u!1 &1082426330518542562
 GameObject:
   m_ObjectHideFlags: 0

@@ -13685,6 +13685,7 @@ GameObject:
   - component: {fileID: 2869086355814918065}
   - component: {fileID: 2869086355814918064}
   - component: {fileID: 5521984565418213978}
+  - component: {fileID: 3372617081353121858}
   m_Layer: 0
   m_Name: AI Tank
   m_TagString: AICar
@@ -13856,6 +13857,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.1, y: 2.8, z: 4.5}
   m_Center: {x: 0, y: 0.88140774, z: -0.02978754}
+--- !u!114 &3372617081353121858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2869086355814918066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac063265e4270cb4d8329d3ec8fa3a47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aiMagnitudeSpeed: 0
+  aiMphSpeed: 0
+  aiWaypointTargetObject: {fileID: 2869086354771284959}
 --- !u!1 &2869086355824324200
 GameObject:
   m_ObjectHideFlags: 0
@@ -14972,6 +14988,7 @@ GameObject:
   - component: {fileID: 2869086356143238097}
   - component: {fileID: 2869086356143238096}
   - component: {fileID: 1756644584}
+  - component: {fileID: 1183144541448111112}
   m_Layer: 0
   m_Name: AI SkyCar
   m_TagString: AICar
@@ -15145,3 +15162,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.6, y: 2, z: 4.660098}
   m_Center: {x: 0, y: 0.5095401, z: -0.13004923}
+--- !u!114 &1183144541448111112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2869086356143238109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac063265e4270cb4d8329d3ec8fa3a47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aiMagnitudeSpeed: 0
+  aiMphSpeed: 0
+  aiWaypointTargetObject: {fileID: 2869086355549007419}

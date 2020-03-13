@@ -14,14 +14,11 @@ public class RaceTimer_TimeTrial2 : MonoBehaviour
     public static float MilliCount;
     public static string MilliDisplay;
     public static float RawTime;
-    public static float magnitudeSpeed;
-    public static double mphSpeed;
 
     public GameObject MinuteBox;
     public GameObject SecondBox;
     public GameObject MilliBox;
     public GameObject CountdownContainer;
-    public GameObject SpeedUI;
 
     bool raceStarted = false;
     GameObject Player;
@@ -30,7 +27,6 @@ public class RaceTimer_TimeTrial2 : MonoBehaviour
     {
         CountdownContainer.SetActive(true);
         cTimer = countdownTimer;
-        FindObjectOfType<AudioManager>().Play("Race1Music");
         RawTime = 0;
         MinuteCount = 0;
         SecondCount = 0;
@@ -44,9 +40,6 @@ public class RaceTimer_TimeTrial2 : MonoBehaviour
         {
             Player = GameObject.FindGameObjectWithTag("Player");
             Player.GetComponent<CarUserControl>().enabled = false;
-            magnitudeSpeed = Player.GetComponent<Rigidbody>().velocity.magnitude;
-            mphSpeed = magnitudeSpeed * 2.222;
-            SpeedUI.GetComponent<TextMeshProUGUI>().text = mphSpeed.ToString("F0") + "mph";
 
             //start 3 second race countdown
             if (raceTimer == false)
@@ -59,7 +52,6 @@ public class RaceTimer_TimeTrial2 : MonoBehaviour
             //Race starts
             if (cTimer <= 0f)
             {
-                FindObjectOfType<AudioManager>().Play("Race1Music");
                 PauseMenu.gameIsPaused = false;
                 raceTimer = true;
                 raceStarted = true;
@@ -107,10 +99,12 @@ public class RaceTimer_TimeTrial2 : MonoBehaviour
                 if (raceStarted)
                 {
                     Player.GetComponent<CarUserControl>().enabled = true;
+                    Player.GetComponent<PlayerSpeed>().enabled = true;
                 }
                 else
                 {
                     Player.GetComponent<CarUserControl>().enabled = false;
+                    Player.GetComponent<PlayerSpeed>().enabled = false;
                 }
             }
         }

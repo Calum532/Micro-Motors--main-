@@ -11,7 +11,7 @@ public class GlobalCash : MonoBehaviour
     
     void Start()
     {
-        TotalCredits = PlayerPrefs.GetInt("SavedCash");
+        TotalCredits = PlayerPrefs.GetFloat("SavedCash");
     }
 
     void Update()

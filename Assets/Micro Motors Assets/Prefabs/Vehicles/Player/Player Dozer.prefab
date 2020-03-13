@@ -128,6 +128,8 @@ GameObject:
   - component: {fileID: 3126617746116573842}
   - component: {fileID: 5587674596140142008}
   - component: {fileID: 882097192}
+  - component: {fileID: 6509416945654007522}
+  - component: {fileID: 4230805720622948111}
   m_Layer: 0
   m_Name: Player Dozer
   m_TagString: Player
@@ -298,8 +300,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ReverseCam: {fileID: 0}
   FrontCam: {fileID: 0}
-  WaypointTargetObject: {fileID: 0}
-  resetOnCooldownUI: {fileID: 0}
 --- !u!65 &5587674596140142008
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -326,6 +326,37 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PositionDisplayChild: {fileID: 0}
+--- !u!114 &6509416945654007522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1249272986677259315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98da2b4278606c04194ebb3fad86d100, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  validReset: 0
+  SpeedUI: {fileID: 0}
+  WaypointTargetObject: {fileID: 1249272986743121025}
+  press_F_To_Reset_UI: {fileID: 0}
+--- !u!114 &4230805720622948111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1249272986677259315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 205a0bd4dff143742a250027315ba719, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionParticles: {fileID: 687623714209134970, guid: d555077a447462b4ebd7002fbe0cda82,
+    type: 3}
+  ForceRequired: 8
 --- !u!1 &1249272986733213455
 GameObject:
   m_ObjectHideFlags: 0

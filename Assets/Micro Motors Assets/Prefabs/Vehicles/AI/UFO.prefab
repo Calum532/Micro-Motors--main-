@@ -564,6 +564,7 @@ GameObject:
   - component: {fileID: 1695059719459691800}
   - component: {fileID: 1695059719459691783}
   - component: {fileID: 5562538868645834357}
+  - component: {fileID: 8516337265845963278}
   m_Layer: 0
   m_Name: AI SkyCar
   m_TagString: AICar
@@ -737,6 +738,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.6, y: 2, z: 4.660098}
   m_Center: {x: 0, y: 0.5095401, z: -0.13004923}
+--- !u!114 &8516337265845963278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695059719459691780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac063265e4270cb4d8329d3ec8fa3a47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aiMagnitudeSpeed: 0
+  aiMphSpeed: 0
+  aiWaypointTargetObject: {fileID: 1695059720027459688}
 --- !u!1 &1695059719463737822
 GameObject:
   m_ObjectHideFlags: 0
@@ -14239,6 +14255,7 @@ GameObject:
   - component: {fileID: 1695059721233248036}
   - component: {fileID: 1695059721233248035}
   - component: {fileID: 8199999504199522912}
+  - component: {fileID: 8768411448659514905}
   m_Layer: 0
   m_Name: AI UFO
   m_TagString: AICar
@@ -14410,6 +14427,21 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 2.2
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8768411448659514905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695059721233248033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac063265e4270cb4d8329d3ec8fa3a47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aiMagnitudeSpeed: 0
+  aiMphSpeed: 0
+  aiWaypointTargetObject: {fileID: 1695059721520414158}
 --- !u!1 &1695059721288327781
 GameObject:
   m_ObjectHideFlags: 0

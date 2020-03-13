@@ -874,6 +874,7 @@ GameObject:
   - component: {fileID: 1448034414165330277}
   - component: {fileID: 1965734376}
   - component: {fileID: 8219307665835900483}
+  - component: {fileID: 3028190996418795355}
   m_Layer: 0
   m_Name: Player UFO
   m_TagString: Player
@@ -1045,8 +1046,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ReverseCam: {fileID: 0}
   FrontCam: {fileID: 0}
-  WaypointTargetObject: {fileID: 0}
-  resetOnCooldownUI: {fileID: 0}
 --- !u!135 &1448034414165330277
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1088,6 +1087,22 @@ MonoBehaviour:
   collisionParticles: {fileID: 687623714209134970, guid: d555077a447462b4ebd7002fbe0cda82,
     type: 3}
   ForceRequired: 8
+--- !u!114 &3028190996418795355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2798087236061509234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98da2b4278606c04194ebb3fad86d100, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  validReset: 0
+  SpeedUI: {fileID: 0}
+  WaypointTargetObject: {fileID: 2798087235542874771}
+  press_F_To_Reset_UI: {fileID: 0}
 --- !u!1 &2798087236084340143
 GameObject:
   m_ObjectHideFlags: 0

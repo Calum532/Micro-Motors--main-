@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 
 public class PlaceBet : MonoBehaviour
 {
@@ -13,7 +12,6 @@ public class PlaceBet : MonoBehaviour
 
     public void Start()
     {
-        GlobalCash.TotalCredits += 500f;
         PlayerPrefs.SetFloat("SavedCash", GlobalCash.TotalCredits);
     }
 
