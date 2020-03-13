@@ -2257,9 +2257,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Note:\nFor the purpose of testing all vehicles have unlocked by default.
-    \n\nIn the final build of the game most of these vehicle must bought with credits
-    to use in races or time trials."
+  m_text: "Note:\nFor the purpose of testing all vehicles have been unlocked by default.
+    \n\nIn the final build of the game most of these vehicles must be bought with
+    credits in order to use them in races or time trials."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -2304,7 +2304,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 171
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -2328,12 +2328,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 436124176}
-    characterCount: 183
+    characterCount: 206
     spriteCount: 0
-    spaceCount: 35
-    wordCount: 34
+    spaceCount: 40
+    wordCount: 39
     linkCount: 0
-    lineCount: 14
+    lineCount: 11
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
