@@ -12,12 +12,7 @@ public class PlayerSpeed : MonoBehaviour
 
     public GameObject SpeedUI;
     public GameObject WaypointTargetObject;
-    public GameObject press_F_To_Reset_UI;
-
-    private void Start()
-    {
-        press_F_To_Reset_UI.SetActive(false);
-    }
+    public GameObject Reset_UI;
 
     // Update is called once per frame
     void Update()
@@ -31,13 +26,13 @@ public class PlayerSpeed : MonoBehaviour
             resetCountdown -= Time.deltaTime;
             if (resetCountdown <= 0)
             {
-                press_F_To_Reset_UI.SetActive(true);
+                Reset_UI.GetComponent<TextMeshProUGUI>().text = "Press [E] to reset racer";
                 validReset = true;
-                if (Input.GetKeyDown(KeyCode.F) && validReset == true)
+                if (Input.GetKeyDown(KeyCode.E) && validReset == true)
                 {
                     transform.position = WaypointTargetObject.transform.position;
                     transform.rotation = WaypointTargetObject.transform.rotation;
-                    press_F_To_Reset_UI.SetActive(false);
+                    Reset_UI.GetComponent<TextMeshProUGUI>().text = "";
                     resetCountdown = 4;
                     validReset = false;
                 }
@@ -47,6 +42,7 @@ public class PlayerSpeed : MonoBehaviour
         {
             resetCountdown = 4;
             validReset = false;
+            Reset_UI.GetComponent<TextMeshProUGUI>().text = "";
         }
     }
 }

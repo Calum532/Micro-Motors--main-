@@ -17,7 +17,6 @@ public class ResetAICar : MonoBehaviour
 
         if (aiMphSpeed < 5)
         {
-            Debug.Log("starting countdown");
             resetCountdown -= Time.deltaTime;
             if(resetCountdown <= 0)
             {

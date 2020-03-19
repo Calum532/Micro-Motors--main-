@@ -27,7 +27,6 @@ public class RaceTimer : MonoBehaviour
         {
             Player = GameObject.FindGameObjectWithTag("Player");
             AICars = GameObject.FindGameObjectsWithTag("AICar");
-            Player.GetComponent<CarUserControl>().enabled = false;
 
             //start 3 second race countdown
             if (raceTimer == false)
@@ -52,7 +51,7 @@ public class RaceTimer : MonoBehaviour
                 if (raceStarted)
                 {
                     Player.GetComponent<CarUserControl>().enabled = true;
-                    Player.GetComponent<PlayerSpeed>().enabled = true;
+                    //Player.GetComponent<PlayerSpeed>().enabled = true;
 
                     foreach (GameObject car in AICars)
                     {
@@ -63,7 +62,7 @@ public class RaceTimer : MonoBehaviour
                 else if(!raceStarted)
                 {
                     Player.GetComponent<CarUserControl>().enabled = false;
-                    Player.GetComponent<PlayerSpeed>().enabled = false;
+                    //Player.GetComponent<PlayerSpeed>().enabled = false;
 
                     foreach (GameObject car in AICars)
                     {
