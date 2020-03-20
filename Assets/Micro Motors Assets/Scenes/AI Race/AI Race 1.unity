@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.005
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.43137255, g: 0.47058824, b: 0.54901963, a: 1}
+  m_AmbientSkyColor: {r: 0.43137255, g: 0.54901963, b: 0.43757054, a: 1}
   m_AmbientEquatorColor: {r: 0.39215687, g: 0.43137255, b: 0.5882353, a: 1}
   m_AmbientGroundColor: {r: 0.15686275, g: 0.15686275, b: 0.23529412, a: 1}
   m_AmbientIntensity: 1
@@ -7184,6 +7184,12 @@ PrefabInstance:
 --- !u!224 &197546761 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5586807323362992746, guid: e90790423c99b694d9b242338ffbb503,
+    type: 3}
+  m_PrefabInstance: {fileID: 197546760}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &197546762 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5586807323362992747, guid: e90790423c99b694d9b242338ffbb503,
     type: 3}
   m_PrefabInstance: {fileID: 197546760}
   m_PrefabAsset: {fileID: 0}
@@ -27145,7 +27151,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1624157679}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -42.83, y: 0.2, z: -27.318}
+  m_LocalPosition: {x: -42.83, y: 3.66, z: -27.318}
   m_LocalScale: {x: 1.5041, y: 1.5041, z: 1.5041}
   m_Children:
   - {fileID: 1515899565}
@@ -45295,6 +45301,11 @@ PrefabInstance:
       propertyPath: circuit
       value: 
       objectReference: {fileID: 1624157681}
+    - target: {fileID: 1249272986677259327, guid: adf3986b3003bab4aa2a459e6765ca21,
+        type: 3}
+      propertyPath: lookAheadForTargetOffset
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 1249272987552194758, guid: adf3986b3003bab4aa2a459e6765ca21,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -45371,6 +45382,11 @@ PrefabInstance:
       propertyPath: SpeedUI
       value: 
       objectReference: {fileID: 1615618470}
+    - target: {fileID: 6509416945654007522, guid: adf3986b3003bab4aa2a459e6765ca21,
+        type: 3}
+      propertyPath: Reset_UI
+      value: 
+      objectReference: {fileID: 197546762}
     m_RemovedComponents:
     - {fileID: 3126617746116573842, guid: adf3986b3003bab4aa2a459e6765ca21, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: adf3986b3003bab4aa2a459e6765ca21, type: 3}
@@ -45503,6 +45519,11 @@ PrefabInstance:
       propertyPath: circuit
       value: 
       objectReference: {fileID: 1624157681}
+    - target: {fileID: 1750229558696237488, guid: b666a8cb0c0d1a84fa415c2b5b4b8b46,
+        type: 3}
+      propertyPath: lookAheadForTargetOffset
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 1750229558696237491, guid: b666a8cb0c0d1a84fa415c2b5b4b8b46,
         type: 3}
       propertyPath: m_Enabled
@@ -45589,6 +45610,11 @@ PrefabInstance:
       propertyPath: SpeedUI
       value: 
       objectReference: {fileID: 1615618470}
+    - target: {fileID: 6459577591543667017, guid: b666a8cb0c0d1a84fa415c2b5b4b8b46,
+        type: 3}
+      propertyPath: Reset_UI
+      value: 
+      objectReference: {fileID: 197546762}
     m_RemovedComponents:
     - {fileID: 1750229558696237502, guid: b666a8cb0c0d1a84fa415c2b5b4b8b46, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b666a8cb0c0d1a84fa415c2b5b4b8b46, type: 3}
@@ -45762,6 +45788,11 @@ PrefabInstance:
       propertyPath: circuit
       value: 
       objectReference: {fileID: 1624157681}
+    - target: {fileID: 2156230631077516463, guid: 122f4211b23d53e49b68271bf45ccf95,
+        type: 3}
+      propertyPath: lookAheadForTargetOffset
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 5540424055118498599, guid: 122f4211b23d53e49b68271bf45ccf95,
         type: 3}
       propertyPath: press_F_To_Reset_UI
@@ -45773,6 +45804,11 @@ PrefabInstance:
       propertyPath: SpeedUI
       value: 
       objectReference: {fileID: 1615618470}
+    - target: {fileID: 5540424055118498599, guid: 122f4211b23d53e49b68271bf45ccf95,
+        type: 3}
+      propertyPath: Reset_UI
+      value: 
+      objectReference: {fileID: 197546762}
     m_RemovedComponents:
     - {fileID: 2156230631077516457, guid: 122f4211b23d53e49b68271bf45ccf95, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 122f4211b23d53e49b68271bf45ccf95, type: 3}
@@ -45960,6 +45996,11 @@ PrefabInstance:
       propertyPath: circuit
       value: 
       objectReference: {fileID: 1624157681}
+    - target: {fileID: 2439327364812938145, guid: 60afed8723227be41b6c9f8c611c823b,
+        type: 3}
+      propertyPath: lookAheadForTargetOffset
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 2439327364812938146, guid: 60afed8723227be41b6c9f8c611c823b,
         type: 3}
       propertyPath: m_Enabled
@@ -45991,6 +46032,11 @@ PrefabInstance:
       propertyPath: SpeedUI
       value: 
       objectReference: {fileID: 1615618470}
+    - target: {fileID: 7166823662535519594, guid: 60afed8723227be41b6c9f8c611c823b,
+        type: 3}
+      propertyPath: Reset_UI
+      value: 
+      objectReference: {fileID: 197546762}
     m_RemovedComponents:
     - {fileID: 2439327364812938151, guid: 60afed8723227be41b6c9f8c611c823b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 60afed8723227be41b6c9f8c611c823b, type: 3}
@@ -46085,6 +46131,11 @@ PrefabInstance:
       propertyPath: circuit
       value: 
       objectReference: {fileID: 1624157681}
+    - target: {fileID: 2798087236061509246, guid: 660d542a06d0c8b488f1e3eb24689997,
+        type: 3}
+      propertyPath: lookAheadForTargetOffset
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 3028190996418795355, guid: 660d542a06d0c8b488f1e3eb24689997,
         type: 3}
       propertyPath: press_F_To_Reset_UI
@@ -46096,6 +46147,11 @@ PrefabInstance:
       propertyPath: SpeedUI
       value: 
       objectReference: {fileID: 1615618470}
+    - target: {fileID: 3028190996418795355, guid: 660d542a06d0c8b488f1e3eb24689997,
+        type: 3}
+      propertyPath: Reset_UI
+      value: 
+      objectReference: {fileID: 197546762}
     m_RemovedComponents:
     - {fileID: 2798087236061509244, guid: 660d542a06d0c8b488f1e3eb24689997, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 660d542a06d0c8b488f1e3eb24689997, type: 3}
@@ -46733,6 +46789,11 @@ PrefabInstance:
       propertyPath: SpeedUI
       value: 
       objectReference: {fileID: 1615618470}
+    - target: {fileID: 1746471991311731392, guid: ed8945417e66740448014d5afc30c638,
+        type: 3}
+      propertyPath: Reset_UI
+      value: 
+      objectReference: {fileID: 197546762}
     - target: {fileID: 4964810365499456153, guid: ed8945417e66740448014d5afc30c638,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -46803,6 +46864,11 @@ PrefabInstance:
       propertyPath: circuit
       value: 
       objectReference: {fileID: 1624157681}
+    - target: {fileID: 4964810367533218859, guid: ed8945417e66740448014d5afc30c638,
+        type: 3}
+      propertyPath: lookAheadForTargetOffset
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 6281492564229721828, guid: ed8945417e66740448014d5afc30c638,
         type: 3}
       propertyPath: ReverseCam
@@ -50552,6 +50618,11 @@ PrefabInstance:
       propertyPath: circuit
       value: 
       objectReference: {fileID: 1624157681}
+    - target: {fileID: 6005278077463107459, guid: fc11541329c3a9e47986ace739caa388,
+        type: 3}
+      propertyPath: lookAheadForTargetOffset
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 6005278077463107486, guid: fc11541329c3a9e47986ace739caa388,
         type: 3}
       propertyPath: ReverseCam
@@ -50651,6 +50722,11 @@ PrefabInstance:
       propertyPath: SpeedUI
       value: 
       objectReference: {fileID: 1615618470}
+    - target: {fileID: 6184973158415136058, guid: fc11541329c3a9e47986ace739caa388,
+        type: 3}
+      propertyPath: Reset_UI
+      value: 
+      objectReference: {fileID: 197546762}
     m_RemovedComponents:
     - {fileID: 6005278077463107486, guid: fc11541329c3a9e47986ace739caa388, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: fc11541329c3a9e47986ace739caa388, type: 3}
@@ -52024,6 +52100,11 @@ PrefabInstance:
       propertyPath: SpeedUI
       value: 
       objectReference: {fileID: 1615618470}
+    - target: {fileID: 1517532843922160781, guid: cde1d96a9057fee44b6ee0ca9195d356,
+        type: 3}
+      propertyPath: Reset_UI
+      value: 
+      objectReference: {fileID: 197546762}
     - target: {fileID: 8596983093493156128, guid: cde1d96a9057fee44b6ee0ca9195d356,
         type: 3}
       propertyPath: ReverseCam
@@ -52039,6 +52120,11 @@ PrefabInstance:
       propertyPath: circuit
       value: 
       objectReference: {fileID: 1624157681}
+    - target: {fileID: 8596983093493156130, guid: cde1d96a9057fee44b6ee0ca9195d356,
+        type: 3}
+      propertyPath: lookAheadForTargetOffset
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 8596983093493156131, guid: cde1d96a9057fee44b6ee0ca9195d356,
         type: 3}
       propertyPath: m_Enabled
