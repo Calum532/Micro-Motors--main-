@@ -20,11 +20,11 @@ RenderSettings:
   m_FogDensity: 0.005
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.43137255, g: 0.47058824, b: 0.54901963, a: 1}
+  m_AmbientSkyColor: {r: 0.54901963, g: 0.46516043, b: 0.43137255, a: 1}
   m_AmbientEquatorColor: {r: 0.39215687, g: 0.43137255, b: 0.5882353, a: 1}
   m_AmbientGroundColor: {r: 0.15686275, g: 0.15686275, b: 0.23529412, a: 1}
   m_AmbientIntensity: 3
-  m_AmbientMode: 0
+  m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 414e8937c37ceb546a1d953068c6ccac, type: 2}
   m_HaloStrength: 0.5
@@ -85515,6 +85515,11 @@ PrefabInstance:
       propertyPath: circuit
       value: 
       objectReference: {fileID: 1727083079}
+    - target: {fileID: 2869086356143238109, guid: 10004953179ac2a4fa1aeb39124a125c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3372617081353121858, guid: 10004953179ac2a4fa1aeb39124a125c,
         type: 3}
       propertyPath: m_Enabled
@@ -96548,10 +96553,20 @@ PrefabInstance:
       propertyPath: FrontCam
       value: 
       objectReference: {fileID: 1311509846}
+    - target: {fileID: 6005278077463107486, guid: fc11541329c3a9e47986ace739caa388,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6005278077463107487, guid: fc11541329c3a9e47986ace739caa388,
         type: 3}
       propertyPath: m_Name
       value: Player SkyCar
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005278077463107487, guid: fc11541329c3a9e47986ace739caa388,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6005278077463464895, guid: fc11541329c3a9e47986ace739caa388,
         type: 3}
@@ -99102,10 +99117,18 @@ PrefabInstance:
       propertyPath: positionDisplay
       value: 
       objectReference: {fileID: 1206962716}
+    - target: {fileID: 267858647, guid: 64a3e2c4f7a47dd4e861dda6b896ef2c, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 538818886, guid: 64a3e2c4f7a47dd4e861dda6b896ef2c, type: 3}
       propertyPath: positionDisplay
       value: 
       objectReference: {fileID: 1206962716}
+    - target: {fileID: 2020106284, guid: 64a3e2c4f7a47dd4e861dda6b896ef2c, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 4372821041491922360, guid: 64a3e2c4f7a47dd4e861dda6b896ef2c,
         type: 3}
       propertyPath: m_Enabled
