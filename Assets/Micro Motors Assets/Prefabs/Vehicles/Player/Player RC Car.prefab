@@ -6748,7 +6748,7 @@ GameObject:
   - component: {fileID: 2035385978}
   - component: {fileID: 6877212135193787780}
   - component: {fileID: 7166823662535519594}
-  - component: {fileID: 7880599084019548367}
+  - component: {fileID: 3620350569039503699}
   m_Layer: 0
   m_Name: Player RC Car
   m_TagString: Player
@@ -6876,7 +6876,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   circuit: {fileID: 0}
-  lookAheadForTargetOffset: 15
+  lookAheadForTargetOffset: 25
   lookAheadForTargetFactor: 0.1
   lookAheadForSpeedOffset: 20
   lookAheadForSpeedFactor: 0.5
@@ -6978,7 +6978,7 @@ MonoBehaviour:
   SpeedUI: {fileID: 0}
   WaypointTargetObject: {fileID: 2439327364694755446}
   Reset_UI: {fileID: 0}
---- !u!114 &7880599084019548367
+--- !u!114 &3620350569039503699
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

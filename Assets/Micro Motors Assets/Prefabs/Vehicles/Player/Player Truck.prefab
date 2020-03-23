@@ -973,7 +973,7 @@ GameObject:
   - component: {fileID: 444352946}
   - component: {fileID: 4727071235080626253}
   - component: {fileID: 1517532843922160781}
-  - component: {fileID: 725527179141963808}
+  - component: {fileID: 8603623843365510001}
   m_Layer: 0
   m_Name: Player Truck
   m_TagString: Player
@@ -1100,7 +1100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   circuit: {fileID: 0}
-  lookAheadForTargetOffset: 15
+  lookAheadForTargetOffset: 25
   lookAheadForTargetFactor: 0.1
   lookAheadForSpeedOffset: 20
   lookAheadForSpeedFactor: 0.5
@@ -1202,7 +1202,7 @@ MonoBehaviour:
   SpeedUI: {fileID: 0}
   WaypointTargetObject: {fileID: 8596983094657961588}
   Reset_UI: {fileID: 0}
---- !u!114 &725527179141963808
+--- !u!114 &8603623843365510001
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

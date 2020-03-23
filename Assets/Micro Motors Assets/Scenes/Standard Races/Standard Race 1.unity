@@ -41861,21 +41861,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player Dozer
       objectReference: {fileID: 0}
-    - target: {fileID: 1249272986677259315, guid: adf3986b3003bab4aa2a459e6765ca21,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1249272986677259327, guid: adf3986b3003bab4aa2a459e6765ca21,
         type: 3}
       propertyPath: circuit
       value: 
       objectReference: {fileID: 1624157681}
-    - target: {fileID: 1249272986677259327, guid: adf3986b3003bab4aa2a459e6765ca21,
-        type: 3}
-      propertyPath: lookAheadForTargetOffset
-      value: 25
-      objectReference: {fileID: 0}
     - target: {fileID: 1249272987552194758, guid: adf3986b3003bab4aa2a459e6765ca21,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -41941,21 +41931,11 @@ PrefabInstance:
       propertyPath: FrontCam
       value: 
       objectReference: {fileID: 1311509846}
-    - target: {fileID: 3126617746116573842, guid: adf3986b3003bab4aa2a459e6765ca21,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6509416945654007522, guid: adf3986b3003bab4aa2a459e6765ca21,
         type: 3}
       propertyPath: SpeedUI
       value: 
       objectReference: {fileID: 1615618470}
-    - target: {fileID: 6509416945654007522, guid: adf3986b3003bab4aa2a459e6765ca21,
-        type: 3}
-      propertyPath: press_F_To_Reset_UI
-      value: 
-      objectReference: {fileID: 1872957947}
     - target: {fileID: 6509416945654007522, guid: adf3986b3003bab4aa2a459e6765ca21,
         type: 3}
       propertyPath: Reset_UI
@@ -42102,20 +42082,10 @@ PrefabInstance:
       propertyPath: circuit
       value: 
       objectReference: {fileID: 1624157681}
-    - target: {fileID: 1750229558696237488, guid: b666a8cb0c0d1a84fa415c2b5b4b8b46,
-        type: 3}
-      propertyPath: lookAheadForTargetOffset
-      value: 25
-      objectReference: {fileID: 0}
     - target: {fileID: 1750229558696237500, guid: b666a8cb0c0d1a84fa415c2b5b4b8b46,
         type: 3}
       propertyPath: m_Name
       value: Player Monster
-      objectReference: {fileID: 0}
-    - target: {fileID: 1750229558696237500, guid: b666a8cb0c0d1a84fa415c2b5b4b8b46,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1750229558696237502, guid: b666a8cb0c0d1a84fa415c2b5b4b8b46,
         type: 3}
@@ -42127,11 +42097,6 @@ PrefabInstance:
       propertyPath: FrontCam
       value: 
       objectReference: {fileID: 1311509846}
-    - target: {fileID: 1750229558696237502, guid: b666a8cb0c0d1a84fa415c2b5b4b8b46,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1750229558894716686, guid: b666a8cb0c0d1a84fa415c2b5b4b8b46,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -42192,11 +42157,6 @@ PrefabInstance:
       propertyPath: SpeedUI
       value: 
       objectReference: {fileID: 1615618470}
-    - target: {fileID: 6459577591543667017, guid: b666a8cb0c0d1a84fa415c2b5b4b8b46,
-        type: 3}
-      propertyPath: press_F_To_Reset_UI
-      value: 
-      objectReference: {fileID: 1872957947}
     - target: {fileID: 6459577591543667017, guid: b666a8cb0c0d1a84fa415c2b5b4b8b46,
         type: 3}
       propertyPath: Reset_UI
@@ -42304,11 +42264,6 @@ PrefabInstance:
       propertyPath: FrontCam
       value: 
       objectReference: {fileID: 1311509846}
-    - target: {fileID: 2156230631077516457, guid: 122f4211b23d53e49b68271bf45ccf95,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2156230631077516458, guid: 122f4211b23d53e49b68271bf45ccf95,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -42369,31 +42324,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player Taxi
       objectReference: {fileID: 0}
-    - target: {fileID: 2156230631077516459, guid: 122f4211b23d53e49b68271bf45ccf95,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2156230631077516463, guid: 122f4211b23d53e49b68271bf45ccf95,
         type: 3}
       propertyPath: circuit
       value: 
       objectReference: {fileID: 1624157681}
-    - target: {fileID: 2156230631077516463, guid: 122f4211b23d53e49b68271bf45ccf95,
-        type: 3}
-      propertyPath: lookAheadForTargetOffset
-      value: 25
-      objectReference: {fileID: 0}
     - target: {fileID: 5540424055118498599, guid: 122f4211b23d53e49b68271bf45ccf95,
         type: 3}
       propertyPath: SpeedUI
       value: 
       objectReference: {fileID: 1615618470}
-    - target: {fileID: 5540424055118498599, guid: 122f4211b23d53e49b68271bf45ccf95,
-        type: 3}
-      propertyPath: press_F_To_Reset_UI
-      value: 
-      objectReference: {fileID: 1872957947}
     - target: {fileID: 5540424055118498599, guid: 122f4211b23d53e49b68271bf45ccf95,
         type: 3}
       propertyPath: Reset_UI
@@ -42595,20 +42535,10 @@ PrefabInstance:
       propertyPath: circuit
       value: 
       objectReference: {fileID: 1624157681}
-    - target: {fileID: 2439327364812938145, guid: 60afed8723227be41b6c9f8c611c823b,
-        type: 3}
-      propertyPath: lookAheadForTargetOffset
-      value: 25
-      objectReference: {fileID: 0}
     - target: {fileID: 2439327364812938149, guid: 60afed8723227be41b6c9f8c611c823b,
         type: 3}
       propertyPath: m_Name
       value: Player RC Car
-      objectReference: {fileID: 0}
-    - target: {fileID: 2439327364812938149, guid: 60afed8723227be41b6c9f8c611c823b,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2439327364812938151, guid: 60afed8723227be41b6c9f8c611c823b,
         type: 3}
@@ -42620,11 +42550,6 @@ PrefabInstance:
       propertyPath: FrontCam
       value: 
       objectReference: {fileID: 1311509846}
-    - target: {fileID: 2439327364812938151, guid: 60afed8723227be41b6c9f8c611c823b,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7166823662535519594, guid: 60afed8723227be41b6c9f8c611c823b,
         type: 3}
       propertyPath: SpeedUI
@@ -42632,27 +42557,11 @@ PrefabInstance:
       objectReference: {fileID: 1615618470}
     - target: {fileID: 7166823662535519594, guid: 60afed8723227be41b6c9f8c611c823b,
         type: 3}
-      propertyPath: press_F_To_Reset_UI
-      value: 
-      objectReference: {fileID: 1872957947}
-    - target: {fileID: 7166823662535519594, guid: 60afed8723227be41b6c9f8c611c823b,
-        type: 3}
-      propertyPath: WaypointTargetObject
-      value: 
-      objectReference: {fileID: 2439327363356499421}
-    - target: {fileID: 7166823662535519594, guid: 60afed8723227be41b6c9f8c611c823b,
-        type: 3}
       propertyPath: Reset_UI
       value: 
       objectReference: {fileID: 1872957947}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60afed8723227be41b6c9f8c611c823b, type: 3}
---- !u!1 &2439327363356499421 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2439327364694755446, guid: 60afed8723227be41b6c9f8c611c823b,
-    type: 3}
-  m_PrefabInstance: {fileID: 2439327363356499420}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2798087236819259285
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42724,11 +42633,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player UFO
       objectReference: {fileID: 0}
-    - target: {fileID: 2798087236061509234, guid: 660d542a06d0c8b488f1e3eb24689997,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2798087236061509244, guid: 660d542a06d0c8b488f1e3eb24689997,
         type: 3}
       propertyPath: ReverseCam
@@ -42739,31 +42643,16 @@ PrefabInstance:
       propertyPath: FrontCam
       value: 
       objectReference: {fileID: 1311509846}
-    - target: {fileID: 2798087236061509244, guid: 660d542a06d0c8b488f1e3eb24689997,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2798087236061509246, guid: 660d542a06d0c8b488f1e3eb24689997,
         type: 3}
       propertyPath: circuit
       value: 
       objectReference: {fileID: 1624157681}
-    - target: {fileID: 2798087236061509246, guid: 660d542a06d0c8b488f1e3eb24689997,
-        type: 3}
-      propertyPath: lookAheadForTargetOffset
-      value: 25
-      objectReference: {fileID: 0}
     - target: {fileID: 3028190996418795355, guid: 660d542a06d0c8b488f1e3eb24689997,
         type: 3}
       propertyPath: SpeedUI
       value: 
       objectReference: {fileID: 1615618470}
-    - target: {fileID: 3028190996418795355, guid: 660d542a06d0c8b488f1e3eb24689997,
-        type: 3}
-      propertyPath: press_F_To_Reset_UI
-      value: 
-      objectReference: {fileID: 1872957947}
     - target: {fileID: 3028190996418795355, guid: 660d542a06d0c8b488f1e3eb24689997,
         type: 3}
       propertyPath: Reset_UI
@@ -43401,11 +43290,6 @@ PrefabInstance:
       objectReference: {fileID: 1615618470}
     - target: {fileID: 1746471991311731392, guid: ed8945417e66740448014d5afc30c638,
         type: 3}
-      propertyPath: press_F_To_Reset_UI
-      value: 
-      objectReference: {fileID: 1872957947}
-    - target: {fileID: 1746471991311731392, guid: ed8945417e66740448014d5afc30c638,
-        type: 3}
       propertyPath: Reset_UI
       value: 
       objectReference: {fileID: 1872957947}
@@ -43469,21 +43353,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player Tank
       objectReference: {fileID: 0}
-    - target: {fileID: 4964810367533218855, guid: ed8945417e66740448014d5afc30c638,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4964810367533218859, guid: ed8945417e66740448014d5afc30c638,
         type: 3}
       propertyPath: circuit
       value: 
       objectReference: {fileID: 1624157681}
-    - target: {fileID: 4964810367533218859, guid: ed8945417e66740448014d5afc30c638,
-        type: 3}
-      propertyPath: lookAheadForTargetOffset
-      value: 25
-      objectReference: {fileID: 0}
     - target: {fileID: 6281492564229721828, guid: ed8945417e66740448014d5afc30c638,
         type: 3}
       propertyPath: ReverseCam
@@ -43494,11 +43368,6 @@ PrefabInstance:
       propertyPath: FrontCam
       value: 
       objectReference: {fileID: 1311509846}
-    - target: {fileID: 6281492564229721828, guid: ed8945417e66740448014d5afc30c638,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed8945417e66740448014d5afc30c638, type: 3}
 --- !u!23 &5176696409591677004
@@ -47242,11 +47111,6 @@ PrefabInstance:
       propertyPath: circuit
       value: 
       objectReference: {fileID: 1624157681}
-    - target: {fileID: 6005278077463107459, guid: fc11541329c3a9e47986ace739caa388,
-        type: 3}
-      propertyPath: lookAheadForTargetOffset
-      value: 25
-      objectReference: {fileID: 0}
     - target: {fileID: 6005278077463107486, guid: fc11541329c3a9e47986ace739caa388,
         type: 3}
       propertyPath: ReverseCam
@@ -47261,11 +47125,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player SkyCar
-      objectReference: {fileID: 0}
-    - target: {fileID: 6005278077463107487, guid: fc11541329c3a9e47986ace739caa388,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6005278077463464895, guid: fc11541329c3a9e47986ace739caa388,
         type: 3}
@@ -47345,11 +47204,6 @@ PrefabInstance:
       propertyPath: SpeedUI
       value: 
       objectReference: {fileID: 1615618470}
-    - target: {fileID: 6184973158415136058, guid: fc11541329c3a9e47986ace739caa388,
-        type: 3}
-      propertyPath: press_F_To_Reset_UI
-      value: 
-      objectReference: {fileID: 1872957947}
     - target: {fileID: 6184973158415136058, guid: fc11541329c3a9e47986ace739caa388,
         type: 3}
       propertyPath: Reset_UI
@@ -48733,11 +48587,6 @@ PrefabInstance:
       objectReference: {fileID: 1615618470}
     - target: {fileID: 1517532843922160781, guid: cde1d96a9057fee44b6ee0ca9195d356,
         type: 3}
-      propertyPath: press_F_To_Reset_UI
-      value: 
-      objectReference: {fileID: 1872957947}
-    - target: {fileID: 1517532843922160781, guid: cde1d96a9057fee44b6ee0ca9195d356,
-        type: 3}
       propertyPath: Reset_UI
       value: 
       objectReference: {fileID: 1872957947}
@@ -48751,30 +48600,15 @@ PrefabInstance:
       propertyPath: FrontCam
       value: 
       objectReference: {fileID: 1311509846}
-    - target: {fileID: 8596983093493156128, guid: cde1d96a9057fee44b6ee0ca9195d356,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8596983093493156130, guid: cde1d96a9057fee44b6ee0ca9195d356,
         type: 3}
       propertyPath: circuit
       value: 
       objectReference: {fileID: 1624157681}
-    - target: {fileID: 8596983093493156130, guid: cde1d96a9057fee44b6ee0ca9195d356,
-        type: 3}
-      propertyPath: lookAheadForTargetOffset
-      value: 25
-      objectReference: {fileID: 0}
     - target: {fileID: 8596983093493156134, guid: cde1d96a9057fee44b6ee0ca9195d356,
         type: 3}
       propertyPath: m_Name
       value: Player Truck
-      objectReference: {fileID: 0}
-    - target: {fileID: 8596983093493156134, guid: cde1d96a9057fee44b6ee0ca9195d356,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8596983094992194505, guid: cde1d96a9057fee44b6ee0ca9195d356,
         type: 3}

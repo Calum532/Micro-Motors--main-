@@ -7097,7 +7097,7 @@ GameObject:
   - component: {fileID: 2868400398728754961}
   - component: {fileID: 5919110853217909683}
   - component: {fileID: 1746471991311731392}
-  - component: {fileID: 2223111623757786470}
+  - component: {fileID: 1479923869628650011}
   m_Layer: 0
   m_Name: Player Tank
   m_TagString: Player
@@ -7225,7 +7225,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   circuit: {fileID: 0}
-  lookAheadForTargetOffset: 15
+  lookAheadForTargetOffset: 25
   lookAheadForTargetFactor: 0.1
   lookAheadForSpeedOffset: 20
   lookAheadForSpeedFactor: 0.5
@@ -7327,7 +7327,7 @@ MonoBehaviour:
   SpeedUI: {fileID: 0}
   WaypointTargetObject: {fileID: 4964810366094705287}
   Reset_UI: {fileID: 0}
---- !u!114 &2223111623757786470
+--- !u!114 &1479923869628650011
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

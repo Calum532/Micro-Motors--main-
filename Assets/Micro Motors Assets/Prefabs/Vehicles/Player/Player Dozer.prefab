@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 882097192}
   - component: {fileID: 6509416945654007522}
   - component: {fileID: 4230805720622948111}
-  - component: {fileID: 3744692886205250017}
+  - component: {fileID: 6767605308032532387}
   m_Layer: 0
   m_Name: Player Dozer
   m_TagString: Player
@@ -257,7 +257,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   circuit: {fileID: 0}
-  lookAheadForTargetOffset: 15
+  lookAheadForTargetOffset: 25
   lookAheadForTargetFactor: 0.1
   lookAheadForSpeedOffset: 20
   lookAheadForSpeedFactor: 0.5
@@ -359,7 +359,7 @@ MonoBehaviour:
   collisionParticles: {fileID: 687623714209134970, guid: d555077a447462b4ebd7002fbe0cda82,
     type: 3}
   ForceRequired: 8
---- !u!114 &3744692886205250017
+--- !u!114 &6767605308032532387
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
