@@ -973,7 +973,7 @@ GameObject:
   - component: {fileID: 444352946}
   - component: {fileID: 4727071235080626253}
   - component: {fileID: 1517532843922160781}
-  - component: {fileID: 8603623843365510001}
+  - component: {fileID: 3736475618529834039}
   m_Layer: 0
   m_Name: Player Truck
   m_TagString: Player
@@ -1202,7 +1202,7 @@ MonoBehaviour:
   SpeedUI: {fileID: 0}
   WaypointTargetObject: {fileID: 8596983094657961588}
   Reset_UI: {fileID: 0}
---- !u!114 &8603623843365510001
+--- !u!114 &3736475618529834039
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1211,7 +1211,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8596983093493156134}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5abf202258012d4c8236499672d377b, type: 3}
+  m_Script: {fileID: 11500000, guid: ca692ebc0bad9734aa95b2ab13486b66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Arrow: {fileID: 2846661190532184688}

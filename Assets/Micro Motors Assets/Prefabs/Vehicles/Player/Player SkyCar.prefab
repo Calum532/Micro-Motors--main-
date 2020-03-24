@@ -271,7 +271,7 @@ GameObject:
   - component: {fileID: 1745519247}
   - component: {fileID: 852395032455647079}
   - component: {fileID: 6184973158415136058}
-  - component: {fileID: 9206830474209958439}
+  - component: {fileID: 3531166058804908919}
   m_Layer: 0
   m_Name: Player SkyCar
   m_TagString: Player
@@ -503,7 +503,7 @@ MonoBehaviour:
   SpeedUI: {fileID: 0}
   WaypointTargetObject: {fileID: 6005278077463107491}
   Reset_UI: {fileID: 0}
---- !u!114 &9206830474209958439
+--- !u!114 &3531166058804908919
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -512,7 +512,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6005278077463107487}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5abf202258012d4c8236499672d377b, type: 3}
+  m_Script: {fileID: 11500000, guid: ca692ebc0bad9734aa95b2ab13486b66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Arrow: {fileID: 3817327542840370118}

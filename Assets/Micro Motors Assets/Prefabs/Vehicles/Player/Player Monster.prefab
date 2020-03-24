@@ -939,7 +939,7 @@ GameObject:
   - component: {fileID: 1692428246}
   - component: {fileID: 6848728763176731575}
   - component: {fileID: 6459577591543667017}
-  - component: {fileID: 4790108218335796726}
+  - component: {fileID: 6342269056836683864}
   m_Layer: 0
   m_Name: Player Monster
   m_TagString: Player
@@ -1168,7 +1168,7 @@ MonoBehaviour:
   SpeedUI: {fileID: 0}
   WaypointTargetObject: {fileID: 1750229559891208675}
   Reset_UI: {fileID: 0}
---- !u!114 &4790108218335796726
+--- !u!114 &6342269056836683864
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1177,7 +1177,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1750229558696237500}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5abf202258012d4c8236499672d377b, type: 3}
+  m_Script: {fileID: 11500000, guid: ca692ebc0bad9734aa95b2ab13486b66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Arrow: {fileID: 334813051152806411}
