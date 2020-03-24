@@ -55,8 +55,9 @@ public class LapComplete : MonoBehaviour
                 RaceTimer.finished = true;
                 RaceCompleteCam.SetActive(true);
                 FrontCam.SetActive(false);
+                FindObjectOfType<AudioManager>().Play("You did it!");
 
-                if(PlayerPos.playerPosition == 1)
+                if (PlayerPos.playerPosition == 1)
                 {
                     GlobalCash.TotalCredits += firstPlaceWinnings;
                     winningsDisplay.GetComponent<TextMeshProUGUI>().text = "Winnings: $" + firstPlaceWinnings;

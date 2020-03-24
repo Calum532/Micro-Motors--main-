@@ -28,6 +28,11 @@ public class RaceTimer : MonoBehaviour
             Player = GameObject.FindGameObjectWithTag("Player");
             AICars = GameObject.FindGameObjectsWithTag("AICar");
 
+            foreach (GameObject car in AICars)
+            {
+                car.GetComponent<Rigidbody>().useGravity = true;
+            }
+
             //start 3 second race countdown
             if (raceTimer == false)
             {

@@ -447,7 +447,7 @@ GameObject:
   - component: {fileID: 1082426329489303153}
   - component: {fileID: 1082426329489303156}
   - component: {fileID: 1082426329489303155}
-  - component: {fileID: 1082426329489303154}
+  - component: {fileID: 6224723346291755954}
   m_Layer: 0
   m_Name: _Taxi_car
   m_TagString: Untagged
@@ -516,8 +516,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &1082426329489303154
-MeshCollider:
+--- !u!65 &6224723346291755954
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -526,10 +526,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 3782152175455807876, guid: 8ab686f42b8622a41990683c7655e904, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 1.7830992, y: 1.163932, z: 4.2759714}
+  m_Center: {x: 0, y: 0.0000004172325, z: 0.00019562244}
 --- !u!1 &1082426329505797107
 GameObject:
   m_ObjectHideFlags: 0
@@ -6779,7 +6778,7 @@ Rigidbody:
   m_Mass: 1000
   m_Drag: 0.1
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -6917,7 +6916,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1082426330097562472}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ac063265e4270cb4d8329d3ec8fa3a47, type: 3}
   m_Name: 
@@ -12454,7 +12453,7 @@ Rigidbody:
   m_Mass: 640
   m_Drag: 0.1
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -12592,7 +12591,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1082426330490208709}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ac063265e4270cb4d8329d3ec8fa3a47, type: 3}
   m_Name: 
