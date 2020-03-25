@@ -34,6 +34,11 @@ public class RaceTimer_AIRace : MonoBehaviour
             AICars = GameObject.FindGameObjectsWithTag("AICar");
             Player.GetComponent<CarAIControl>().enabled = false;
 
+            foreach (GameObject car in AICars)
+            {
+                car.GetComponent<Rigidbody>().useGravity = true;
+            }
+
             magnitudeSpeed = Player.GetComponent<Rigidbody>().velocity.magnitude;
             mphSpeed = magnitudeSpeed * 2.222;
             SpeedUI.GetComponent<TextMeshProUGUI>().text = mphSpeed.ToString("F0") + "mph";

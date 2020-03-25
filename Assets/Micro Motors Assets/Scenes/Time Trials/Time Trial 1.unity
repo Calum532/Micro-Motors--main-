@@ -3036,6 +3036,11 @@ MonoBehaviour:
   MinCount: 0
   SecCount: 0
   MilliCount: 0
+  RawTime: 0
+  CurrentBestMin: 0
+  CurrentBestSec: 0
+  CurrentBestMilli: 0
+  CurrentBestRawTime: 0
   BestMinDisplay: {fileID: 1602104539}
   BestSecDisplay: {fileID: 1349002407}
   BestMilliDisplay: {fileID: 1614610391}
@@ -29618,6 +29623,11 @@ MonoBehaviour:
   MinCount: 0
   SecCount: 0
   MilliCount: 0
+  RawTime: 0
+  CurrentBestMin: 0
+  CurrentBestSec: 0
+  CurrentBestMilli: 0
+  CurrentBestRawTime: 0
   BestMinDisplay: {fileID: 1645392448}
   BestSecDisplay: {fileID: 1983053990}
   BestMilliDisplay: {fileID: 732828150}

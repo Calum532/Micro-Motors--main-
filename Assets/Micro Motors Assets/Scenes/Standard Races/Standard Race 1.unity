@@ -44141,7 +44141,7 @@ PrefabInstance:
         type: 3}
       propertyPath: circuit
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1624157681}
     - target: {fileID: 5623252278156606340, guid: f01ce31683e6771488824983c5f1a46c,
         type: 3}
       propertyPath: m_Name
@@ -47226,6 +47226,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player SkyCar
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005278077463107487, guid: fc11541329c3a9e47986ace739caa388,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6005278077463464895, guid: fc11541329c3a9e47986ace739caa388,
         type: 3}

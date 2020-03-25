@@ -23416,7 +23416,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1342319226
 RectTransform:
   m_ObjectHideFlags: 0
@@ -45611,6 +45611,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1249272986677259321, guid: adf3986b3003bab4aa2a459e6765ca21,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1249272986677259327, guid: adf3986b3003bab4aa2a459e6765ca21,
         type: 3}
       propertyPath: circuit
@@ -45873,6 +45878,11 @@ PrefabInstance:
         type: 3}
       propertyPath: lookAheadForTargetOffset
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1750229558696237490, guid: b666a8cb0c0d1a84fa415c2b5b4b8b46,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1750229558696237491, guid: b666a8cb0c0d1a84fa415c2b5b4b8b46,
         type: 3}
@@ -46143,6 +46153,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2156230631077516461, guid: 122f4211b23d53e49b68271bf45ccf95,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2156230631077516463, guid: 122f4211b23d53e49b68271bf45ccf95,
         type: 3}
       propertyPath: circuit
@@ -46391,6 +46406,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2439327364812938147, guid: 60afed8723227be41b6c9f8c611c823b,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2439327364812938149, guid: 60afed8723227be41b6c9f8c611c823b,
         type: 3}
       propertyPath: m_Name
@@ -46505,6 +46525,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player UFO
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798087236061509240, guid: 660d542a06d0c8b488f1e3eb24689997,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2798087236061509241, guid: 660d542a06d0c8b488f1e3eb24689997,
         type: 3}
@@ -47296,6 +47321,11 @@ PrefabInstance:
         type: 3}
       propertyPath: lookAheadForTargetOffset
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4964810367533218861, guid: ed8945417e66740448014d5afc30c638,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6281492564229721828, guid: ed8945417e66740448014d5afc30c638,
         type: 3}
@@ -51174,6 +51204,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 13400000, guid: 67db31eead11e8d6d00011d98d76c639,
         type: 2}
+    - target: {fileID: 6005278077468472511, guid: fc11541329c3a9e47986ace739caa388,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6184973158415136058, guid: fc11541329c3a9e47986ace739caa388,
         type: 3}
       propertyPath: press_F_To_Reset_UI
@@ -52627,6 +52662,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player Truck
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596983093493156156, guid: cde1d96a9057fee44b6ee0ca9195d356,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8596983094992194505, guid: cde1d96a9057fee44b6ee0ca9195d356,
         type: 3}
