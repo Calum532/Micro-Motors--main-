@@ -30,7 +30,7 @@ public class HighlightGamemode : MonoBehaviour
         AIRImage.SetActive(false);
 
         FindObjectOfType<AudioManager>().Play("Click");
-        GamemodeText.GetComponent<TextMeshProUGUI>().text = "Standard Race: Race against seven other racers and be the first to complete 3 laps! \n \n 1st: $500 / 2nd: $300 / 3rd: $100";
+        GamemodeText.GetComponent<TextMeshProUGUI>().text = "Standard Race: Race against seven other racers and be the first to complete a lap! \n \n 1st: $500 / 2nd: $300 / 3rd: $100";
     }
 
     public void MouseOverTT()

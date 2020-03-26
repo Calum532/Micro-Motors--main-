@@ -12,6 +12,14 @@ public class LoadLapTime2 : MonoBehaviour
 
     void Start()
     {
+        if (PlayerPrefs.GetFloat("RawTime2") == 0)
+        {
+            PlayerPrefs.SetInt("BestMinSave2", 2);
+            PlayerPrefs.SetInt("BestSecSave2", 30);
+            PlayerPrefs.SetFloat("BestMilliSave2", 0);
+            PlayerPrefs.SetFloat("RawTime2", 150);
+        }
+
         MinCount = PlayerPrefs.GetInt("BestMinSave2");
         SecCount = PlayerPrefs.GetInt("BestSecSave2");
         MilliCount = PlayerPrefs.GetFloat("BestMilliSave2");

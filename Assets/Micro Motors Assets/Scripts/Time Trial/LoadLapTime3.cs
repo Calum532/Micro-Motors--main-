@@ -12,6 +12,14 @@ public class LoadLapTime3 : MonoBehaviour
 
     void Start()
     {
+        if (PlayerPrefs.GetFloat("RawTime3") == 0)
+        {
+            PlayerPrefs.SetInt("BestMinSave3", 4);
+            PlayerPrefs.SetInt("BestSecSave3", 0);
+            PlayerPrefs.SetFloat("BestMilliSave3", 0);
+            PlayerPrefs.SetFloat("RawTime3", 240);
+        }
+
         MinCount = PlayerPrefs.GetInt("BestMinSave3");
         SecCount = PlayerPrefs.GetInt("BestSecSave3");
         MilliCount = PlayerPrefs.GetFloat("BestMilliSave3");
