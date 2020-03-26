@@ -22426,9 +22426,9 @@ MonoBehaviour:
   m_Target: {fileID: 1745690286}
   m_AutoTargetPlayer: 1
   m_UpdateType: 0
-  m_MoveSpeed: 999
-  m_TurnSpeed: 999
-  m_RollSpeed: 999
+  m_MoveSpeed: 500
+  m_TurnSpeed: 500
+  m_RollSpeed: 500
   m_FollowVelocity: 0
   m_FollowTilt: 0
   m_SpinTurnLimit: 360
@@ -22772,8 +22772,8 @@ Transform:
   m_Father: {fileID: 1191319089}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &1325491677
-MeshCollider:
+--- !u!65 &1325491677
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -22782,10 +22782,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 5146257851628352157, guid: c7ecfcd20b509fc4498921a98887d9f8, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.2941, y: 1.5023999, z: 1.0131}
+  m_Center: {x: -0.19145, y: -0.05770001, z: 1.68325}
 --- !u!23 &1325491678
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25020,8 +25019,8 @@ Transform:
   m_Father: {fileID: 1191319089}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &1461986645
-MeshCollider:
+--- !u!65 &1461986645
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -25030,10 +25029,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: -5591690613760261703, guid: c7ecfcd20b509fc4498921a98887d9f8, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 1.4370999, y: 0.8908, z: 0.5660999}
+  m_Center: {x: -0.20264998, y: -0.2543, z: 2.33785}
 --- !u!23 &1461986646
 MeshRenderer:
   m_ObjectHideFlags: 0
