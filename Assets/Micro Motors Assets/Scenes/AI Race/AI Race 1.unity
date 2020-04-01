@@ -22426,9 +22426,9 @@ MonoBehaviour:
   m_Target: {fileID: 1745690286}
   m_AutoTargetPlayer: 1
   m_UpdateType: 0
-  m_MoveSpeed: 500
-  m_TurnSpeed: 500
-  m_RollSpeed: 500
+  m_MoveSpeed: 1
+  m_TurnSpeed: 1
+  m_RollSpeed: 1
   m_FollowVelocity: 0
   m_FollowTilt: 0
   m_SpinTurnLimit: 360
@@ -45694,6 +45694,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6117916428808054424, guid: adf3986b3003bab4aa2a459e6765ca21,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6509416945654007522, guid: adf3986b3003bab4aa2a459e6765ca21,
         type: 3}
       propertyPath: press_F_To_Reset_UI
@@ -45865,6 +45870,11 @@ PrefabInstance:
     - target: {fileID: 122384077025175974, guid: b666a8cb0c0d1a84fa415c2b5b4b8b46,
         type: 3}
       propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 334813051152806411, guid: b666a8cb0c0d1a84fa415c2b5b4b8b46,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1750229558696237488, guid: b666a8cb0c0d1a84fa415c2b5b4b8b46,
@@ -46166,6 +46176,11 @@ PrefabInstance:
       propertyPath: lookAheadForTargetOffset
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 3805273203260748822, guid: 122f4211b23d53e49b68271bf45ccf95,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4483640424090200776, guid: 122f4211b23d53e49b68271bf45ccf95,
         type: 3}
       propertyPath: m_Enabled
@@ -46424,6 +46439,11 @@ PrefabInstance:
       propertyPath: FrontCam
       value: 
       objectReference: {fileID: 1311509846}
+    - target: {fileID: 4971355573150523748, guid: 60afed8723227be41b6c9f8c611c823b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7166823662535519594, guid: 60afed8723227be41b6c9f8c611c823b,
         type: 3}
       propertyPath: press_F_To_Reset_UI
@@ -46575,6 +46595,11 @@ PrefabInstance:
       propertyPath: Reset_UI
       value: 
       objectReference: {fileID: 197546762}
+    - target: {fileID: 7078891723297170078, guid: 660d542a06d0c8b488f1e3eb24689997,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8289862681314217292, guid: 660d542a06d0c8b488f1e3eb24689997,
         type: 3}
       propertyPath: m_Enabled
@@ -47243,6 +47268,11 @@ PrefabInstance:
     - target: {fileID: 2223111623757786470, guid: ed8945417e66740448014d5afc30c638,
         type: 3}
       propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3102437845071278195, guid: ed8945417e66740448014d5afc30c638,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4964810365499456153, guid: ed8945417e66740448014d5afc30c638,
@@ -51099,6 +51129,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3817327542840370118, guid: fc11541329c3a9e47986ace739caa388,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6005278077463107456, guid: fc11541329c3a9e47986ace739caa388,
         type: 3}
       propertyPath: m_Enabled
@@ -52626,6 +52661,11 @@ PrefabInstance:
       propertyPath: Reset_UI
       value: 
       objectReference: {fileID: 197546762}
+    - target: {fileID: 2846661190532184688, guid: cde1d96a9057fee44b6ee0ca9195d356,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4160514783209891711, guid: cde1d96a9057fee44b6ee0ca9195d356,
         type: 3}
       propertyPath: m_IsActive

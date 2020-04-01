@@ -47,8 +47,9 @@ public class LapComplete_AIRace : MonoBehaviour
                 RaceTimer.finished = true;
                 RaceCompleteCam.SetActive(true);
                 FrontCam.SetActive(false);
+                FindObjectOfType<AudioManager>().Play("You did it!");
 
-                if(PlayerPos.playerPosition == 1)
+                if (PlayerPos.playerPosition == 1)
                 {
                     Winnings = PlaceBet.betAmount * 3f;
                     GlobalCash.TotalCredits += Winnings;
