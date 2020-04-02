@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 882097192}
   - component: {fileID: 6509416945654007522}
   - component: {fileID: 4230805720622948111}
-  - component: {fileID: 5298900680050409887}
+  - component: {fileID: 5785395537092894563}
   m_Layer: 0
   m_Name: Player Dozer
   m_TagString: Player
@@ -359,7 +359,7 @@ MonoBehaviour:
   collisionParticles: {fileID: 687623714209134970, guid: d555077a447462b4ebd7002fbe0cda82,
     type: 3}
   ForceRequired: 8
---- !u!114 &5298900680050409887
+--- !u!114 &5785395537092894563
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -368,7 +368,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1249272986677259315}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca692ebc0bad9734aa95b2ab13486b66, type: 3}
+  m_Script: {fileID: 11500000, guid: a5abf202258012d4c8236499672d377b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Arrow: {fileID: 6117916428808054424}

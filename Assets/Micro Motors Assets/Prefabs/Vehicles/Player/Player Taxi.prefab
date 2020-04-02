@@ -365,7 +365,7 @@ GameObject:
   - component: {fileID: 1466331450}
   - component: {fileID: 1343382413822971403}
   - component: {fileID: 5540424055118498599}
-  - component: {fileID: 3148414468667791521}
+  - component: {fileID: 2781743750296350164}
   m_Layer: 0
   m_Name: Player Taxi
   m_TagString: Player
@@ -594,7 +594,7 @@ MonoBehaviour:
   SpeedUI: {fileID: 0}
   WaypointTargetObject: {fileID: 2156230632318084592}
   Reset_UI: {fileID: 0}
---- !u!114 &3148414468667791521
+--- !u!114 &2781743750296350164
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -603,7 +603,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2156230631077516459}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca692ebc0bad9734aa95b2ab13486b66, type: 3}
+  m_Script: {fileID: 11500000, guid: a5abf202258012d4c8236499672d377b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Arrow: {fileID: 3805273203260748822}
