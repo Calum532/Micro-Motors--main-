@@ -219,10 +219,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63b75cfd5550a947bff23454dc1f155, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boostDuration: 3
-  isActive: 0
-  boostEffect: {fileID: 0}
-  speedDisplay: {fileID: 0}
+  speedboostParticle: {fileID: 1474047127279259739, guid: 9ef78a497c0dcfc45ab0cc47a2d2277e,
+    type: 3}
+  boostAmount: 450000
+  boostDuration: 2.5
 --- !u!1 &6184511067371496777
 GameObject:
   m_ObjectHideFlags: 0

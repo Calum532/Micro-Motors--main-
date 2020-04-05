@@ -1,83 +1,49 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityStandardAssets.Vehicles.Car;
-using TMPro;
 
 public class BoostPadScript : MonoBehaviour
 {
-    public static float magnitudeSpeed;
-    public static float currentSpeed;
-    public float boostDuration = 3f;
-    public bool isActive = false;
+    [Header("Particles")]
+    public GameObject speedboostParticle;
 
-    public GameObject boostEffect;
-    public GameObject speedDisplay;
+    [Header("Settings")]
+    public float boostAmount;
+    public float boostDuration;
 
-    GameObject Player;
-    GameObject AICar;
+    private GameObject instantiateCache;
+    private Rigidbody _rb;
 
-    private void Start()
+    void OnTriggerEnter(Collider other)
     {
-        Player = GameObject.FindGameObjectWithTag("Player");
-        //AICar = GameObject.FindGameObjectWithTag("AICar");
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") || other.CompareTag("AICar")) // if player or ai are deteced
         {
-            StartCoroutine( PlayerBoost(other));
+            // get rigidbody
+            _rb = other.GetComponent<Rigidbody>();
+
+            // particle stuff
+
+            // pickup particle
+            instantiateCache = Instantiate(speedboostParticle, other.transform.position, Quaternion.identity); 
+            Destroy(instantiateCache, 1f);
+
+            // afterburner effect
+            // _rb.GetComponentInChildren<ParticleSystem>().Play();
+
+            // speed boost
+            if (other.CompareTag("Player"))
+            {
+                FindObjectOfType<AudioManager>().Play("Boost");
+            }
+
+            // we goin fast
+            StartCoroutine(SpeedBoost());
         }
-        /*else if (other.CompareTag("AI Car"))
-        {
-            StartCoroutine( AIBoost(other));
-        }*/
     }
 
-    IEnumerator PlayerBoost(Collider racer)
+    public IEnumerator SpeedBoost()
     {
-        magnitudeSpeed = racer.GetComponent<Rigidbody>().velocity.magnitude;
-        magnitudeSpeed = 100;
-        currentSpeed = racer.GetComponent<CarController>().CurrentSpeed;
-        currentSpeed = 100;
-
-        //Player.GetComponent<CarController>().m_Topspeed = Player.GetComponent<CarController>().m_Topspeed * 2;
-        //Player.GetComponent<CarController>().m_FullTorqueOverAllWheels = Player.GetComponent<CarController>().m_FullTorqueOverAllWheels * 2;
-
-        FindObjectOfType<AudioManager>().Play("Boost");
-        //Instantiate(boostEffect, transform.position, transform.rotation);
-        isActive = true;
-        speedDisplay.GetComponent<TextMeshProUGUI>().color = new Color32(255, 255, 0, 255);
+        _rb.AddForce(_rb.transform.forward * boostAmount);
 
         yield return new WaitForSeconds(boostDuration);
-
-        speedDisplay.GetComponent<TextMeshProUGUI>().color = new Color32(255, 255, 255, 255);
-        isActive = false;
-
-        //Player.GetComponent<CarController>().m_Topspeed = Player.GetComponent<CarController>().m_Topspeed / 2;
-        //Player.GetComponent<CarController>().m_FullTorqueOverAllWheels = Player.GetComponent<CarController>().m_FullTorqueOverAllWheels / 2;
-
-        magnitudeSpeed = magnitudeSpeed / 2;
-        currentSpeed = currentSpeed / 2;
     }
-
-    /*IEnumerator AIBoost(Collider racer)
-    {
-        magnitudeSpeed = AICar.GetComponent<Rigidbody>().velocity.magnitude;
-        magnitudeSpeed = magnitudeSpeed * 2;
-
-        currentSpeed = AICar.GetComponent<CarController>().CurrentSpeed;
-        currentSpeed = currentSpeed * 2;
-
-        //CarController.m_Topspeed = CarController.m_Topspeed * 2;
-
-        //Instantiate(boostEffect, transform.position, transform.rotation);
-
-        yield return new WaitForSeconds(boostDuration);
-
-        //CarController.m_Topspeed = CarController.m_Topspeed / 2;
-        magnitudeSpeed = magnitudeSpeed / 2;
-        currentSpeed = currentSpeed / 2;
-    }*/
 }
