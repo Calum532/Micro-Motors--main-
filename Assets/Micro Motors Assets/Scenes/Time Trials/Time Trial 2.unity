@@ -2538,10 +2538,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63b75cfd5550a947bff23454dc1f155, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speedboostParticle: {fileID: 0}
+  boostAmount: 0
   boostDuration: 5
-  isActive: 0
-  boostEffect: {fileID: 0}
-  speedDisplay: {fileID: 0}
 --- !u!1 &81921181
 GameObject:
   m_ObjectHideFlags: 0
@@ -5668,10 +5667,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63b75cfd5550a947bff23454dc1f155, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speedboostParticle: {fileID: 0}
+  boostAmount: 0
   boostDuration: 5
-  isActive: 0
-  boostEffect: {fileID: 0}
-  speedDisplay: {fileID: 0}
 --- !u!1001 &200830288
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6170,10 +6168,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63b75cfd5550a947bff23454dc1f155, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speedboostParticle: {fileID: 0}
+  boostAmount: 0
   boostDuration: 5
-  isActive: 0
-  boostEffect: {fileID: 0}
-  speedDisplay: {fileID: 0}
 --- !u!1 &213511544
 GameObject:
   m_ObjectHideFlags: 0
@@ -18550,10 +18547,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63b75cfd5550a947bff23454dc1f155, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speedboostParticle: {fileID: 0}
+  boostAmount: 0
   boostDuration: 5
-  isActive: 0
-  boostEffect: {fileID: 0}
-  speedDisplay: {fileID: 0}
 --- !u!1 &583972607
 GameObject:
   m_ObjectHideFlags: 0
@@ -41390,10 +41386,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63b75cfd5550a947bff23454dc1f155, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speedboostParticle: {fileID: 0}
+  boostAmount: 0
   boostDuration: 5
-  isActive: 0
-  boostEffect: {fileID: 0}
-  speedDisplay: {fileID: 0}
 --- !u!1 &1373915071
 GameObject:
   m_ObjectHideFlags: 0
@@ -47018,10 +47013,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63b75cfd5550a947bff23454dc1f155, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speedboostParticle: {fileID: 0}
+  boostAmount: 0
   boostDuration: 5
-  isActive: 0
-  boostEffect: {fileID: 0}
-  speedDisplay: {fileID: 0}
 --- !u!1 &1592634806
 GameObject:
   m_ObjectHideFlags: 0
@@ -58354,10 +58348,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63b75cfd5550a947bff23454dc1f155, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speedboostParticle: {fileID: 0}
+  boostAmount: 0
   boostDuration: 5
-  isActive: 0
-  boostEffect: {fileID: 0}
-  speedDisplay: {fileID: 0}
 --- !u!1 &1982798864
 GameObject:
   m_ObjectHideFlags: 0
@@ -68936,7 +68929,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 7
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -73322,7 +73315,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 5
+          m_IntArgument: 8
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0

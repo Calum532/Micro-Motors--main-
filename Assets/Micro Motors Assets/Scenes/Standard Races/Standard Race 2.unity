@@ -3025,10 +3025,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63b75cfd5550a947bff23454dc1f155, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speedboostParticle: {fileID: 0}
+  boostAmount: 0
   boostDuration: 5
-  isActive: 0
-  boostEffect: {fileID: 0}
-  speedDisplay: {fileID: 1615618470}
 --- !u!1 &97373873
 GameObject:
   m_ObjectHideFlags: 0
@@ -16970,10 +16969,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63b75cfd5550a947bff23454dc1f155, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speedboostParticle: {fileID: 0}
+  boostAmount: 0
   boostDuration: 5
-  isActive: 0
-  boostEffect: {fileID: 0}
-  speedDisplay: {fileID: 1615618470}
 --- !u!1001 &619859833
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20071,10 +20069,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63b75cfd5550a947bff23454dc1f155, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speedboostParticle: {fileID: 0}
+  boostAmount: 0
   boostDuration: 5
-  isActive: 0
-  boostEffect: {fileID: 0}
-  speedDisplay: {fileID: 1615618470}
 --- !u!1 &676349149
 GameObject:
   m_ObjectHideFlags: 0
@@ -21587,7 +21584,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 7
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -25077,10 +25074,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63b75cfd5550a947bff23454dc1f155, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speedboostParticle: {fileID: 0}
+  boostAmount: 0
   boostDuration: 5
-  isActive: 0
-  boostEffect: {fileID: 0}
-  speedDisplay: {fileID: 1615618470}
 --- !u!1 &827857561
 GameObject:
   m_ObjectHideFlags: 0
@@ -39074,10 +39070,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63b75cfd5550a947bff23454dc1f155, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speedboostParticle: {fileID: 0}
+  boostAmount: 0
   boostDuration: 5
-  isActive: 0
-  boostEffect: {fileID: 0}
-  speedDisplay: {fileID: 1615618470}
 --- !u!1001 &1261694125
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46163,10 +46158,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63b75cfd5550a947bff23454dc1f155, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speedboostParticle: {fileID: 0}
+  boostAmount: 0
   boostDuration: 5
-  isActive: 0
-  boostEffect: {fileID: 0}
-  speedDisplay: {fileID: 1615618470}
 --- !u!1001 &1487393209
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48301,10 +48295,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e63b75cfd5550a947bff23454dc1f155, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speedboostParticle: {fileID: 0}
+  boostAmount: 0
   boostDuration: 5
-  isActive: 0
-  boostEffect: {fileID: 0}
-  speedDisplay: {fileID: 1615618470}
 --- !u!1 &1581530743
 GameObject:
   m_ObjectHideFlags: 0
@@ -60128,7 +60121,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0

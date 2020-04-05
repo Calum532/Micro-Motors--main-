@@ -20,55 +20,67 @@ public class LevelLoader : MonoBehaviour
 
     public void LoadLevel_RandomStandardTrack()
     {
-        RandomNum = UnityEngine.Random.Range(0, 2);
+        RandomNum = UnityEngine.Random.Range(0, 3);
 
         if (RandomNum == 0)
-        {
-            LoadLevel(1);
-        }
-        else if (RandomNum == 1)
-        {
-            LoadLevel(2);
-        }
-        else if (RandomNum == 2)
         {
             LoadLevel(3);
         }
-    }
-
-    public void LoadLevel_RandomTimeTrial()
-    {
-        RandomNum = UnityEngine.Random.Range(0, 2);
-
-        if (RandomNum == 0)
+        else if (RandomNum == 1)
         {
             LoadLevel(4);
         }
-        else if (RandomNum == 1)
+        else if (RandomNum == 2)
         {
             LoadLevel(5);
         }
-        else if (RandomNum == 2)
+        else if (RandomNum == 3)
         {
             LoadLevel(6);
         }
     }
 
-    public void LoadLevel_RandomAITrack()
+    public void LoadLevel_RandomTimeTrial()
     {
-        RandomNum = UnityEngine.Random.Range(0, 2);
+        RandomNum = UnityEngine.Random.Range(0, 3);
 
         if (RandomNum == 0)
         {
-            LoadLevel(9);
+            LoadLevel(7);
         }
         else if (RandomNum == 1)
         {
-            LoadLevel(10);
+            LoadLevel(8);
         }
         else if (RandomNum == 2)
         {
+            LoadLevel(9);
+        }
+        else if (RandomNum == 3)
+        {
+            LoadLevel(10);
+        }
+    }
+
+    public void LoadLevel_RandomAITrack()
+    {
+        RandomNum = UnityEngine.Random.Range(0, 3);
+
+        if (RandomNum == 0)
+        {
             LoadLevel(11);
+        }
+        else if (RandomNum == 1)
+        {
+            LoadLevel(12);
+        }
+        else if (RandomNum == 2)
+        {
+            LoadLevel(13);
+        }
+        else if (RandomNum == 3)
+        {
+            LoadLevel(14);
         }
     }
 
