@@ -11,7 +11,6 @@ public class VehicleCollisionSound : MonoBehaviour
     public float deleteAfter;
 
     private AudioSource _source;
-    private GameObject _this;
 
     void Awake()
     {
@@ -20,7 +19,6 @@ public class VehicleCollisionSound : MonoBehaviour
             deleteAfter = 1f;
         }
         _source = GetComponent<AudioSource>();
-        _this = gameObject;
     }
 
     void Start()
@@ -36,6 +34,6 @@ public class VehicleCollisionSound : MonoBehaviour
 
         // Code to execute after the delay
         _source.PlayOneShot(_source.clip);
-        Destroy(_this, deleteAfter);
+        Destroy(gameObject, deleteAfter);
     }
 }
