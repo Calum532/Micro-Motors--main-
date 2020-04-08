@@ -1,54 +1,47 @@
-﻿using System.Collections;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class VehicleFlip : MonoBehaviour
 {
-    [Header("Settings")] public int upForce;
-    public int rotAmount;
+    [Header("Settings")]
+    public float WaitTime = 3f;           // time to wait before self righting
+    public float VelocityThreshold = 1f;  // the velocity below which the car is considered stationary for self-righting
+    public float ShoveAmount = 99999f;    // amount to shove slightly forward to aid in resetting
 
-    private Vector3 _rot;
+    private float _LastOkTime; // the last time that the car was in an OK state
     private Rigidbody _rb;
 
-    void Awake()
+    private void Awake()
     {
-        _rb = GetComponentInParent<Rigidbody>(); // rigidbody component caching
+        _rb = GetComponent<Rigidbody>();
     }
 
-    void FixedUpdate()
+    private void Update()
     {
-        _rot = new Vector3(Random.Range(0, rotAmount), 0, 0); // random rotation amount between 0 and rotAmount
-    }
-
-    void OnTriggerEnter(Collider other)
-    {
-        // ui notice?
-    }
-
-    void OnTriggerStay(Collider other)
-    {
-        RequireInput();
-    }
-
-    private void RequireInput()
-    {
-        if (Input.GetKeyDown(KeyCode.F)) // if f pressed
+        // is the car is the right way up OR is going faster than the threshhold
+        if (transform.up.y > 0f || _rb.velocity.magnitude > VelocityThreshold)
         {
-            _rb.velocity += Vector3.up * upForce; // force player upwards
-            StartCoroutine(ExecuteAfterTime(1));
-            
+            _LastOkTime = Time.time; // we are ok :)
+        }
+        // if car is right way up, AND is slower than the threshhold AND we get input from player
+        if (transform.up.y > 0f && _rb.velocity.magnitude < VelocityThreshold && Input.GetKeyDown(KeyCode.F))
+        {
+            // display ui
+            RightVehicle(); // right the vehicle
+        }
+        // if we're not ok :( for longer than the wait time
+        if (Time.time > _LastOkTime + WaitTime)
+        {
+            // display ui
+            RightVehicle(); // right the vehicle
         }
     }
 
-    void OnTriggerExit(Collider other)
+    // put the vehicle back the right way up:
+    private void RightVehicle()
     {
-        // remove ui notice
-    }
-
-    IEnumerator ExecuteAfterTime(float time)
-    {
-        yield return new WaitForSeconds(time);
-
-        // Code to execute after the delay     
-        _rb.transform.eulerAngles = Vector3.Lerp(transform.rotation.eulerAngles, _rot, Time.deltaTime * 2f); // rotation
+        // set the correct orientation for the car, lift it off the ground a little and shove it slightly forward
+        transform.position += Vector3.up;
+        transform.rotation = Quaternion.LookRotation(transform.forward);
+        _rb.AddForce(_rb.transform.forward * ShoveAmount);
     }
 }
