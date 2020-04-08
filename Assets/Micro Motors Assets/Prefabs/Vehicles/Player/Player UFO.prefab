@@ -6815,6 +6815,7 @@ GameObject:
   - component: {fileID: 2798087237092073528}
   - component: {fileID: 2798087237092073509}
   - component: {fileID: 2798087237092073530}
+  - component: {fileID: 8732269674021708636}
   m_Layer: 0
   m_Name: UFO_cockpit
   m_TagString: Untagged
@@ -6883,6 +6884,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &8732269674021708636
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2798087237092073529}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 29.724459, y: 9.930624, z: 29.724459}
+  m_Center: {x: 1.3470831, y: 33.263348, z: 0.37303448}
 --- !u!1 &2798087237110738993
 GameObject:
   m_ObjectHideFlags: 0
