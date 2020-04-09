@@ -211,7 +211,6 @@ GameObject:
   m_Component:
   - component: {fileID: 27198030}
   - component: {fileID: 27198033}
-  - component: {fileID: 27198032}
   - component: {fileID: 27198031}
   m_Layer: 0
   m_Name: ReverseCarCameraRig
@@ -258,24 +257,6 @@ MonoBehaviour:
   m_SpinTurnLimit: 360
   m_TargetVelocityLowerLimit: 4
   m_SmoothTurnTime: 1
---- !u!114 &27198032
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 27198029}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94b04ec3bda6b7747aa53936ef3b0ae2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clipMoveTime: 0.05
-  returnTime: 0.4
-  sphereCastRadius: 0.1
-  visualiseInEditor: 1
-  closestDistance: 0.5
-  dontClipTag: Player
 --- !u!54 &27198033
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -893,14 +874,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 129974395}
-  m_LocalRotation: {x: 0.08126549, y: 0.00000007196103, z: -0.0000021411774, w: 0.9966925}
-  m_LocalPosition: {x: 0, y: 3.44, z: -1.81}
+  m_LocalRotation: {x: 0.06975647, y: 0, z: 0, w: 0.9975641}
+  m_LocalPosition: {x: 0, y: 3.4, z: -1.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 325526584}
   m_Father: {fileID: 1250663178}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 9.323001, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 8, y: 0, z: 0}
 --- !u!1 &136030194
 GameObject:
   m_ObjectHideFlags: 0
@@ -1847,7 +1828,7 @@ GameObject:
   - component: {fileID: 246040570}
   m_Layer: 0
   m_Name: Main Camera
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2526,14 +2507,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 325526583}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf513760a2d756a4da68e90dce598ad8, type: 3}
+  m_Script: {fileID: 11500000, guid: 94b04ec3bda6b7747aa53936ef3b0ae2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDistance: 0.3
-  maxDistance: 4
-  smooth: 10
-  distance: 0
-  dis_ray: 0
+  clipMoveTime: 0.05
+  returnTime: 0.4
+  sphereCastRadius: 1.25
+  visualiseInEditor: 0
+  closestDistance: 0.3
+  dontClipTag: Player
 --- !u!20 &325526590
 Camera:
   m_ObjectHideFlags: 0
@@ -2650,14 +2632,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 338176751}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf513760a2d756a4da68e90dce598ad8, type: 3}
+  m_Script: {fileID: 11500000, guid: 94b04ec3bda6b7747aa53936ef3b0ae2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDistance: 0.3
-  maxDistance: 4
-  smooth: 10
-  distance: 0
-  dis_ray: 0
+  clipMoveTime: 0.05
+  returnTime: 0.4
+  sphereCastRadius: 1.25
+  visualiseInEditor: 0
+  closestDistance: 0.3
+  dontClipTag: Player
 --- !u!20 &338176757
 Camera:
   m_ObjectHideFlags: 0
@@ -5881,14 +5864,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 656849021}
-  m_LocalRotation: {x: 0, y: 0.99669224, z: -0.08126884, w: 0}
-  m_LocalPosition: {x: 0, y: 3.31, z: 2.16}
+  m_LocalRotation: {x: 0, y: 0.9975641, z: -0.06975647, w: 0}
+  m_LocalPosition: {x: 0, y: 3.4, z: 1.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 338176752}
   m_Father: {fileID: 27198030}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 9.323001, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 8, y: 180, z: 0}
 --- !u!1 &657013410
 GameObject:
   m_ObjectHideFlags: 0
@@ -7271,7 +7254,6 @@ GameObject:
   - component: {fileID: 828216352}
   - component: {fileID: 828216351}
   - component: {fileID: 828216350}
-  - component: {fileID: 828216349}
   m_Layer: 0
   m_Name: Free Look Camera Rig
   m_TagString: Untagged
@@ -7279,24 +7261,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &828216349
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 828216348}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94b04ec3bda6b7747aa53936ef3b0ae2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clipMoveTime: 0.05
-  returnTime: 0.4
-  sphereCastRadius: 0.1
-  visualiseInEditor: 1
-  closestDistance: 0.5
-  dontClipTag: Player
 --- !u!114 &828216350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14485,7 +14449,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1250663178}
   - component: {fileID: 1250663177}
-  - component: {fileID: 1250663176}
   - component: {fileID: 1250663175}
   m_Layer: 0
   m_Name: CarCameraRig
@@ -14509,32 +14472,14 @@ MonoBehaviour:
   m_Target: {fileID: 0}
   m_AutoTargetPlayer: 1
   m_UpdateType: 0
-  m_MoveSpeed: 999
-  m_TurnSpeed: 999
-  m_RollSpeed: 999
-  m_FollowVelocity: 0
-  m_FollowTilt: 1
-  m_SpinTurnLimit: 360
-  m_TargetVelocityLowerLimit: 4
+  m_MoveSpeed: 30
+  m_TurnSpeed: 20
+  m_RollSpeed: 0
+  m_FollowVelocity: 1
+  m_FollowTilt: 0
+  m_SpinTurnLimit: 45
+  m_TargetVelocityLowerLimit: 20
   m_SmoothTurnTime: 1
---- !u!114 &1250663176
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1250663174}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94b04ec3bda6b7747aa53936ef3b0ae2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clipMoveTime: 0.05
-  returnTime: 0.4
-  sphereCastRadius: 0.1
-  visualiseInEditor: 1
-  closestDistance: 0.5
-  dontClipTag: Player
 --- !u!54 &1250663177
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16920,7 +16865,7 @@ GameObject:
   - component: {fileID: 1639845398}
   m_Layer: 0
   m_Name: Mini Map Camera
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18204,7 +18149,7 @@ GameObject:
   - component: {fileID: 1829303233}
   m_Layer: 0
   m_Name: CCTV Camera
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
