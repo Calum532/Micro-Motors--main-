@@ -114,7 +114,15 @@ namespace UnityStandardAssets.Vehicles.Car
                     // for 1 channel engine sound, it's oh so simple:
                     m_HighAccel.pitch = pitch*pitchMultiplier*highPitchMultiplier;
                     m_HighAccel.dopplerLevel = useDoppler ? dopplerLevel : 0;
-                    m_HighAccel.volume = 0.17f;
+
+                    if (gameObject.CompareTag("Player"))
+                    {
+                        m_HighAccel.volume = 0.17f;
+                    }
+                    else if (gameObject.CompareTag("AICar"))
+                    {
+                        m_HighAccel.volume = 0.6f;
+                    }
                 }
                 else
                 {
@@ -161,6 +169,7 @@ namespace UnityStandardAssets.Vehicles.Car
         {
             // create the new audio source component on the game object and set up its properties
             AudioSource source = gameObject.AddComponent<AudioSource>();
+
             source.clip = clip;
             source.volume = 0;
             source.loop = true;
@@ -171,6 +180,15 @@ namespace UnityStandardAssets.Vehicles.Car
             source.minDistance = 5;
             source.maxDistance = maxRolloffDistance;
             source.dopplerLevel = 0;
+
+            if (source.gameObject.CompareTag("Player"))
+            {
+                source.spatialBlend = 0;
+            }
+            else if (source.gameObject.CompareTag("AICar"))
+            {
+                source.spatialBlend = 1;
+            }
             return source;
         }
 
