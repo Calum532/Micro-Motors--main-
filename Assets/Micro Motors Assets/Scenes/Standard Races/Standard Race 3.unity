@@ -3879,7 +3879,7 @@ GameObject:
   - component: {fileID: 351701151}
   m_Layer: 0
   m_Name: CCTV Camera
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5870,14 +5870,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 556184192}
-  m_LocalRotation: {x: 0.08126549, y: 0.00000007196103, z: -0.0000021411774, w: 0.9966925}
-  m_LocalPosition: {x: 0, y: 3.44, z: -1.81}
+  m_LocalRotation: {x: 0.06975647, y: 0, z: 0, w: 0.9975641}
+  m_LocalPosition: {x: 0, y: 3.4, z: -1.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1245756821}
   m_Father: {fileID: 1311509850}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 9.323001, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 8, y: 0, z: 0}
 --- !u!1 &581337819
 GameObject:
   m_ObjectHideFlags: 0
@@ -6509,7 +6509,6 @@ GameObject:
   - component: {fileID: 649539447}
   - component: {fileID: 649539446}
   - component: {fileID: 649539445}
-  - component: {fileID: 649539444}
   m_Layer: 0
   m_Name: Free Look Camera Rig
   m_TagString: Untagged
@@ -6517,24 +6516,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &649539444
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 649539443}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94b04ec3bda6b7747aa53936ef3b0ae2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clipMoveTime: 0.05
-  returnTime: 0.4
-  sphereCastRadius: 0.1
-  visualiseInEditor: 1
-  closestDistance: 0.5
-  dontClipTag: Player
 --- !u!114 &649539445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7759,7 +7740,7 @@ GameObject:
   - component: {fileID: 788816537}
   m_Layer: 0
   m_Name: Main Camera
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12596,14 +12577,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1245756820}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf513760a2d756a4da68e90dce598ad8, type: 3}
+  m_Script: {fileID: 11500000, guid: 94b04ec3bda6b7747aa53936ef3b0ae2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDistance: 0.3
-  maxDistance: 4
-  smooth: 10
-  distance: 0
-  dis_ray: 0
+  clipMoveTime: 0.05
+  returnTime: 0.4
+  sphereCastRadius: 1.25
+  visualiseInEditor: 0
+  closestDistance: 0.3
+  dontClipTag: Player
 --- !u!20 &1245756825
 Camera:
   m_ObjectHideFlags: 0
@@ -13474,7 +13456,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1311509850}
   - component: {fileID: 1311509849}
-  - component: {fileID: 1311509848}
   - component: {fileID: 1311509847}
   m_Layer: 0
   m_Name: CarCameraRig
@@ -13498,32 +13479,14 @@ MonoBehaviour:
   m_Target: {fileID: 1745690286}
   m_AutoTargetPlayer: 1
   m_UpdateType: 0
-  m_MoveSpeed: 999
-  m_TurnSpeed: 999
-  m_RollSpeed: 999
-  m_FollowVelocity: 0
-  m_FollowTilt: 1
-  m_SpinTurnLimit: 360
-  m_TargetVelocityLowerLimit: 4
+  m_MoveSpeed: 30
+  m_TurnSpeed: 20
+  m_RollSpeed: 0
+  m_FollowVelocity: 1
+  m_FollowTilt: 0
+  m_SpinTurnLimit: 45
+  m_TargetVelocityLowerLimit: 20
   m_SmoothTurnTime: 1
---- !u!114 &1311509848
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1311509846}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94b04ec3bda6b7747aa53936ef3b0ae2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clipMoveTime: 0.05
-  returnTime: 0.4
-  sphereCastRadius: 0.1
-  visualiseInEditor: 1
-  closestDistance: 0.5
-  dontClipTag: Player
 --- !u!54 &1311509849
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -25074,14 +25037,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 3059052027733906380}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf513760a2d756a4da68e90dce598ad8, type: 3}
+  m_Script: {fileID: 11500000, guid: 94b04ec3bda6b7747aa53936ef3b0ae2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDistance: 0.3
-  maxDistance: 4
-  smooth: 10
-  distance: 0
-  dis_ray: 0
+  clipMoveTime: 0.05
+  returnTime: 0.4
+  sphereCastRadius: 1.25
+  visualiseInEditor: 0
+  closestDistance: 0.3
+  dontClipTag: Player
 --- !u!4 &3059052028229417092
 Transform:
   m_ObjectHideFlags: 0
@@ -25120,24 +25084,6 @@ MonoBehaviour:
   m_SpinTurnLimit: 360
   m_TargetVelocityLowerLimit: 4
   m_SmoothTurnTime: 1
---- !u!114 &3059052028229417094
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3059052028229417099}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94b04ec3bda6b7747aa53936ef3b0ae2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clipMoveTime: 0.05
-  returnTime: 0.4
-  sphereCastRadius: 0.1
-  visualiseInEditor: 1
-  closestDistance: 0.5
-  dontClipTag: Player
 --- !u!54 &3059052028229417095
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -25164,7 +25110,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3059052028229417092}
   - component: {fileID: 3059052028229417095}
-  - component: {fileID: 3059052028229417094}
   - component: {fileID: 3059052028229417093}
   m_Layer: 0
   m_Name: ReverseCarCameraRig
@@ -25196,14 +25141,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3059052028325592611}
-  m_LocalRotation: {x: 0, y: 0.99669224, z: -0.08126884, w: 0}
-  m_LocalPosition: {x: 0, y: 3.31, z: 2.16}
+  m_LocalRotation: {x: 0, y: 0.9975641, z: -0.06975647, w: 0}
+  m_LocalPosition: {x: 0, y: 3.4, z: 1.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3059052027733906381}
   m_Father: {fileID: 3059052028229417092}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 9.323001, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 8, y: 180, z: 0}
 --- !u!1 &3059052028400100616
 GameObject:
   m_ObjectHideFlags: 0

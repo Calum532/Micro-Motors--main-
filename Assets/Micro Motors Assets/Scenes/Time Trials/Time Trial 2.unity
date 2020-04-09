@@ -529,7 +529,6 @@ GameObject:
   - component: {fileID: 13048028}
   - component: {fileID: 13048031}
   - component: {fileID: 13048030}
-  - component: {fileID: 13048029}
   m_Layer: 0
   m_Name: Free Look Camera Rig
   m_TagString: Untagged
@@ -552,24 +551,6 @@ Transform:
   m_Father: {fileID: 1151581129}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &13048029
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 13048027}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94b04ec3bda6b7747aa53936ef3b0ae2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clipMoveTime: 0.05
-  returnTime: 0.4
-  sphereCastRadius: 0.1
-  visualiseInEditor: 1
-  closestDistance: 0.5
-  dontClipTag: Player
 --- !u!114 &13048030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1631,14 +1612,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 41065570}
-  m_LocalRotation: {x: 0, y: 0.99669224, z: -0.08126884, w: 0}
-  m_LocalPosition: {x: 0, y: 3.31, z: 2.16}
+  m_LocalRotation: {x: 0, y: 0.9975641, z: -0.06975647, w: 0}
+  m_LocalPosition: {x: 0, y: 3.4, z: 1.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 300947590}
   m_Father: {fileID: 1469259696}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 9.323001, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 8, y: 180, z: 0}
 --- !u!1 &41221411
 GameObject:
   m_ObjectHideFlags: 0
@@ -2511,8 +2492,7 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 6574631630838731354, guid: 4180b63e2c17ef24fbbe0928dd5db54b, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4180b63e2c17ef24fbbe0928dd5db54b, type: 3}
 --- !u!4 &80137432 stripped
 Transform:
@@ -2520,27 +2500,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 80137431}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &80137433 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3659591019483675150, guid: 4180b63e2c17ef24fbbe0928dd5db54b,
-    type: 3}
-  m_PrefabInstance: {fileID: 80137431}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &80137434
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 80137433}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e63b75cfd5550a947bff23454dc1f155, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speedboostParticle: {fileID: 0}
-  boostAmount: 0
-  boostDuration: 5
 --- !u!1 &81921181
 GameObject:
   m_ObjectHideFlags: 0
@@ -4942,7 +4901,6 @@ GameObject:
   m_Component:
   - component: {fileID: 184686081}
   - component: {fileID: 184686080}
-  - component: {fileID: 184686079}
   - component: {fileID: 184686078}
   m_Layer: 0
   m_Name: CarCameraRig
@@ -4966,32 +4924,14 @@ MonoBehaviour:
   m_Target: {fileID: 584608058}
   m_AutoTargetPlayer: 1
   m_UpdateType: 0
-  m_MoveSpeed: 999
-  m_TurnSpeed: 999
-  m_RollSpeed: 999
-  m_FollowVelocity: 0
-  m_FollowTilt: 1
-  m_SpinTurnLimit: 360
-  m_TargetVelocityLowerLimit: 4
+  m_MoveSpeed: 30
+  m_TurnSpeed: 20
+  m_RollSpeed: 0
+  m_FollowVelocity: 1
+  m_FollowTilt: 0
+  m_SpinTurnLimit: 45
+  m_TargetVelocityLowerLimit: 20
   m_SmoothTurnTime: 1
---- !u!114 &184686079
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 184686077}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94b04ec3bda6b7747aa53936ef3b0ae2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clipMoveTime: 0.05
-  returnTime: 0.4
-  sphereCastRadius: 0.1
-  visualiseInEditor: 1
-  closestDistance: 0.5
-  dontClipTag: Player
 --- !u!54 &184686080
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5640,8 +5580,7 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 6574631630838731354, guid: 4180b63e2c17ef24fbbe0928dd5db54b, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4180b63e2c17ef24fbbe0928dd5db54b, type: 3}
 --- !u!4 &199642833 stripped
 Transform:
@@ -5649,27 +5588,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 199642832}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &199642834 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3659591019483675150, guid: 4180b63e2c17ef24fbbe0928dd5db54b,
-    type: 3}
-  m_PrefabInstance: {fileID: 199642832}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &199642835
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 199642834}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e63b75cfd5550a947bff23454dc1f155, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speedboostParticle: {fileID: 0}
-  boostAmount: 0
-  boostDuration: 5
 --- !u!1001 &200830288
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6141,8 +6059,7 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 6574631630838731354, guid: 4180b63e2c17ef24fbbe0928dd5db54b, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4180b63e2c17ef24fbbe0928dd5db54b, type: 3}
 --- !u!4 &212011950 stripped
 Transform:
@@ -6150,27 +6067,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 212011949}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &212011951 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3659591019483675150, guid: 4180b63e2c17ef24fbbe0928dd5db54b,
-    type: 3}
-  m_PrefabInstance: {fileID: 212011949}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &212011952
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 212011951}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e63b75cfd5550a947bff23454dc1f155, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speedboostParticle: {fileID: 0}
-  boostAmount: 0
-  boostDuration: 5
 --- !u!1 &213511544
 GameObject:
   m_ObjectHideFlags: 0
@@ -8726,14 +8622,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 300947589}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf513760a2d756a4da68e90dce598ad8, type: 3}
+  m_Script: {fileID: 11500000, guid: 94b04ec3bda6b7747aa53936ef3b0ae2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDistance: 0.3
-  maxDistance: 4
-  smooth: 10
-  distance: 0
-  dis_ray: 0
+  clipMoveTime: 0.05
+  returnTime: 0.4
+  sphereCastRadius: 1.25
+  visualiseInEditor: 0
+  closestDistance: 0.3
+  dontClipTag: Player
 --- !u!1001 &301068597
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9176,7 +9073,7 @@ GameObject:
   - component: {fileID: 317262468}
   m_Layer: 0
   m_Name: Main Camera
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18520,8 +18417,7 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 6574631630838731354, guid: 4180b63e2c17ef24fbbe0928dd5db54b, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4180b63e2c17ef24fbbe0928dd5db54b, type: 3}
 --- !u!4 &581629196 stripped
 Transform:
@@ -18529,27 +18425,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 581629195}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &581629197 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3659591019483675150, guid: 4180b63e2c17ef24fbbe0928dd5db54b,
-    type: 3}
-  m_PrefabInstance: {fileID: 581629195}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &581629198
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 581629197}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e63b75cfd5550a947bff23454dc1f155, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speedboostParticle: {fileID: 0}
-  boostAmount: 0
-  boostDuration: 5
 --- !u!1 &583972607
 GameObject:
   m_ObjectHideFlags: 0
@@ -22697,14 +22572,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 730075985}
-  m_LocalRotation: {x: 0.08126549, y: 0.00000007196103, z: -0.0000021411774, w: 0.9966925}
-  m_LocalPosition: {x: 0, y: 3.44, z: -1.81}
+  m_LocalRotation: {x: 0.06975647, y: 0, z: 0, w: 0.9975641}
+  m_LocalPosition: {x: 0, y: 3.4, z: -1.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1170482556}
   m_Father: {fileID: 184686081}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 9.323001, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 8, y: 0, z: 0}
 --- !u!1 &732828150
 GameObject:
   m_ObjectHideFlags: 0
@@ -30376,7 +30251,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1039084280}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.5, z: 0}
   m_LocalScale: {x: 69.281715, y: -0.26334897, z: 69.281715}
   m_Children: []
   m_Father: {fileID: 105283252}
@@ -30403,7 +30278,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1039084280}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -35281,14 +35156,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1170482555}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf513760a2d756a4da68e90dce598ad8, type: 3}
+  m_Script: {fileID: 11500000, guid: 94b04ec3bda6b7747aa53936ef3b0ae2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDistance: 0.3
-  maxDistance: 4
-  smooth: 10
-  distance: 0
-  dis_ray: 0
+  clipMoveTime: 0.05
+  returnTime: 0.4
+  sphereCastRadius: 1.25
+  visualiseInEditor: 0
+  closestDistance: 0.3
+  dontClipTag: Player
 --- !u!1 &1180690494
 GameObject:
   m_ObjectHideFlags: 0
@@ -38825,7 +38701,7 @@ GameObject:
   - component: {fileID: 1274472599}
   m_Layer: 0
   m_Name: CCTV Camera
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41435,8 +41311,7 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 6574631630838731354, guid: 4180b63e2c17ef24fbbe0928dd5db54b, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4180b63e2c17ef24fbbe0928dd5db54b, type: 3}
 --- !u!4 &1372327495 stripped
 Transform:
@@ -41444,27 +41319,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1372327494}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1372327496 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3659591019483675150, guid: 4180b63e2c17ef24fbbe0928dd5db54b,
-    type: 3}
-  m_PrefabInstance: {fileID: 1372327494}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1372327497
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1372327496}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e63b75cfd5550a947bff23454dc1f155, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speedboostParticle: {fileID: 0}
-  boostAmount: 0
-  boostDuration: 5
 --- !u!1 &1373915071
 GameObject:
   m_ObjectHideFlags: 0
@@ -44513,7 +44367,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1469259696}
   - component: {fileID: 1469259695}
-  - component: {fileID: 1469259694}
   - component: {fileID: 1469259693}
   m_Layer: 0
   m_Name: ReverseCarCameraRig
@@ -44545,24 +44398,6 @@ MonoBehaviour:
   m_SpinTurnLimit: 360
   m_TargetVelocityLowerLimit: 4
   m_SmoothTurnTime: 1
---- !u!114 &1469259694
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1469259692}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94b04ec3bda6b7747aa53936ef3b0ae2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clipMoveTime: 0.05
-  returnTime: 0.4
-  sphereCastRadius: 0.1
-  visualiseInEditor: 1
-  closestDistance: 0.5
-  dontClipTag: Player
 --- !u!54 &1469259695
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -47062,8 +46897,7 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 6574631630838731354, guid: 4180b63e2c17ef24fbbe0928dd5db54b, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4180b63e2c17ef24fbbe0928dd5db54b, type: 3}
 --- !u!4 &1589553133 stripped
 Transform:
@@ -47071,27 +46905,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1589553132}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1589553134 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3659591019483675150, guid: 4180b63e2c17ef24fbbe0928dd5db54b,
-    type: 3}
-  m_PrefabInstance: {fileID: 1589553132}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1589553135
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1589553134}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e63b75cfd5550a947bff23454dc1f155, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speedboostParticle: {fileID: 0}
-  boostAmount: 0
-  boostDuration: 5
 --- !u!1 &1592634806
 GameObject:
   m_ObjectHideFlags: 0
@@ -56207,7 +56020,7 @@ GameObject:
   - component: {fileID: 1908427545}
   m_Layer: 0
   m_Name: Mini Map Camera
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58397,8 +58210,7 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 6574631630838731354, guid: 4180b63e2c17ef24fbbe0928dd5db54b, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4180b63e2c17ef24fbbe0928dd5db54b, type: 3}
 --- !u!4 &1977707201 stripped
 Transform:
@@ -58406,27 +58218,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1977707200}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1977707202 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3659591019483675150, guid: 4180b63e2c17ef24fbbe0928dd5db54b,
-    type: 3}
-  m_PrefabInstance: {fileID: 1977707200}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1977707203
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1977707202}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e63b75cfd5550a947bff23454dc1f155, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speedboostParticle: {fileID: 0}
-  boostAmount: 0
-  boostDuration: 5
 --- !u!1 &1982798864
 GameObject:
   m_ObjectHideFlags: 0

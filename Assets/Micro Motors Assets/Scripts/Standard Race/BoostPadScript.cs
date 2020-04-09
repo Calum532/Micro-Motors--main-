@@ -7,8 +7,8 @@ public class BoostPadScript : MonoBehaviour
     public GameObject speedboostParticle;
 
     [Header("Settings")]
-    public float boostAmount;
-    public float boostDuration;
+    public float boostAmount = 450000f;
+    public float boostDuration = 2.5f;
 
     private GameObject instantiateCache;
     private Rigidbody _rb;
