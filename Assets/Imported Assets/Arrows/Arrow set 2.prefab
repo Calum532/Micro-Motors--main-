@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1298707994164100057}
   m_Layer: 0
-  m_Name: 'Arrow set2.prefab - '
+  m_Name: Arrow set 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -91,7 +91,7 @@ PrefabInstance:
     - target: {fileID: 2300000, guid: 5c2c1b9118d9f4435a56aef7816e405e, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: faa7b792532914d4b95fcafca244c4aa, type: 2}
+      objectReference: {fileID: 2100000, guid: 63cb326e8af0bab409e086229126cf4a, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c2c1b9118d9f4435a56aef7816e405e, type: 3}
 --- !u!4 &399800257552517708 stripped
@@ -158,7 +158,7 @@ PrefabInstance:
     - target: {fileID: 2300000, guid: 5c2c1b9118d9f4435a56aef7816e405e, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: faa7b792532914d4b95fcafca244c4aa, type: 2}
+      objectReference: {fileID: 2100000, guid: 63cb326e8af0bab409e086229126cf4a, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c2c1b9118d9f4435a56aef7816e405e, type: 3}
 --- !u!4 &2950216884695041468 stripped
@@ -225,7 +225,7 @@ PrefabInstance:
     - target: {fileID: 2300000, guid: 5c2c1b9118d9f4435a56aef7816e405e, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: faa7b792532914d4b95fcafca244c4aa, type: 2}
+      objectReference: {fileID: 2100000, guid: 63cb326e8af0bab409e086229126cf4a, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c2c1b9118d9f4435a56aef7816e405e, type: 3}
 --- !u!4 &5221588417094331186 stripped
