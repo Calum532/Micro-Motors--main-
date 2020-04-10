@@ -12,10 +12,13 @@ public class VehicleCollision : MonoBehaviour
     private ParticleSystem _cachedParticles;
 
     void OnCollisionEnter(Collision collision)
-    {       
+    {
         if (collision.relativeVelocity.magnitude > ForceRequired)
         {
-            _cachedParticles = Instantiate(collisionParticles, transform.position, collision.transform.rotation);
+            foreach (var contact in collision.contacts)
+            {
+                _cachedParticles = Instantiate(collisionParticles, contact.point, Quaternion.identity);
+            }        
         }
     }
 }
