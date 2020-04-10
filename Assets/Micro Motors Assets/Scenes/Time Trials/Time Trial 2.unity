@@ -1855,7 +1855,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &104006713
 Transform:
   m_ObjectHideFlags: 0
@@ -2258,7 +2258,6 @@ GameObject:
   - component: {fileID: 146090735}
   - component: {fileID: 146090738}
   - component: {fileID: 146090737}
-  - component: {fileID: 146090736}
   m_Layer: 10
   m_Name: ModularTrackStraight (6)
   m_TagString: Untagged
@@ -2280,18 +2279,6 @@ Transform:
   m_Father: {fileID: 1339550203}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &146090736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 146090734}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca4c92f9d8625e04b85d2ad57bf3ecbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &146090737
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3136,7 +3123,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &206705484
 Transform:
   m_ObjectHideFlags: 0
@@ -4673,7 +4660,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &335023535
 Transform:
   m_ObjectHideFlags: 0
@@ -6428,7 +6415,6 @@ GameObject:
   - component: {fileID: 353985965}
   - component: {fileID: 353985968}
   - component: {fileID: 353985967}
-  - component: {fileID: 353985966}
   m_Layer: 10
   m_Name: object3 (3)
   m_TagString: Untagged
@@ -6450,20 +6436,6 @@ Transform:
   m_Father: {fileID: 204725000}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!64 &353985966
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 353985964}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 3892469651134686861, guid: cdea22787d277fc4bb613562a87cddb7, type: 3}
 --- !u!23 &353985967
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7318,7 +7290,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &406033634
 Transform:
   m_ObjectHideFlags: 0
@@ -8401,7 +8373,6 @@ GameObject:
   - component: {fileID: 494344331}
   - component: {fileID: 494344334}
   - component: {fileID: 494344333}
-  - component: {fileID: 494344332}
   m_Layer: 10
   m_Name: ModularTrackRampCurveLeft (7)
   m_TagString: Untagged
@@ -8423,18 +8394,6 @@ Transform:
   m_Father: {fileID: 1339550203}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &494344332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 494344330}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca4c92f9d8625e04b85d2ad57bf3ecbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &494344333
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11478,7 +11437,6 @@ GameObject:
   - component: {fileID: 701514387}
   - component: {fileID: 701514390}
   - component: {fileID: 701514389}
-  - component: {fileID: 701514388}
   m_Layer: 10
   m_Name: ModularTrackRampCurveRight (5)
   m_TagString: Untagged
@@ -11500,18 +11458,6 @@ Transform:
   m_Father: {fileID: 1339550203}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &701514388
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 701514386}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca4c92f9d8625e04b85d2ad57bf3ecbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &701514389
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14087,7 +14033,6 @@ GameObject:
   - component: {fileID: 820519190}
   - component: {fileID: 820519193}
   - component: {fileID: 820519192}
-  - component: {fileID: 820519191}
   m_Layer: 10
   m_Name: ModularTrackRamp (4)
   m_TagString: Untagged
@@ -14109,18 +14054,6 @@ Transform:
   m_Father: {fileID: 1339550203}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &820519191
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 820519189}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca4c92f9d8625e04b85d2ad57bf3ecbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &820519192
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14480,7 +14413,6 @@ GameObject:
   - component: {fileID: 835885860}
   - component: {fileID: 835885863}
   - component: {fileID: 835885862}
-  - component: {fileID: 835885861}
   m_Layer: 10
   m_Name: ModularTrackStraight (7)
   m_TagString: Untagged
@@ -14502,18 +14434,6 @@ Transform:
   m_Father: {fileID: 1339550203}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &835885861
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 835885859}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca4c92f9d8625e04b85d2ad57bf3ecbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &835885862
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14824,7 +14744,6 @@ GameObject:
   - component: {fileID: 848377345}
   - component: {fileID: 848377348}
   - component: {fileID: 848377347}
-  - component: {fileID: 848377346}
   m_Layer: 10
   m_Name: ModularTrackRamp (5)
   m_TagString: Untagged
@@ -14846,18 +14765,6 @@ Transform:
   m_Father: {fileID: 1339550203}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!114 &848377346
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 848377344}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca4c92f9d8625e04b85d2ad57bf3ecbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &848377347
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14928,7 +14835,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &866410982
 Transform:
   m_ObjectHideFlags: 0
@@ -15699,7 +15606,6 @@ GameObject:
   - component: {fileID: 931269813}
   - component: {fileID: 931269816}
   - component: {fileID: 931269815}
-  - component: {fileID: 931269814}
   m_Layer: 10
   m_Name: object2
   m_TagString: Untagged
@@ -15721,20 +15627,6 @@ Transform:
   m_Father: {fileID: 204725000}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &931269814
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 931269812}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4111032784520247101, guid: cdea22787d277fc4bb613562a87cddb7, type: 3}
 --- !u!23 &931269815
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16002,7 +15894,6 @@ GameObject:
   - component: {fileID: 952548499}
   - component: {fileID: 952548502}
   - component: {fileID: 952548501}
-  - component: {fileID: 952548500}
   m_Layer: 10
   m_Name: object3
   m_TagString: Untagged
@@ -16024,20 +15915,6 @@ Transform:
   m_Father: {fileID: 204725000}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &952548500
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 952548498}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 3892469651134686861, guid: cdea22787d277fc4bb613562a87cddb7, type: 3}
 --- !u!23 &952548501
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16216,7 +16093,6 @@ GameObject:
   - component: {fileID: 956446909}
   - component: {fileID: 956446912}
   - component: {fileID: 956446911}
-  - component: {fileID: 956446910}
   m_Layer: 10
   m_Name: ModularTrackStraight (9)
   m_TagString: Untagged
@@ -16238,18 +16114,6 @@ Transform:
   m_Father: {fileID: 1339550203}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &956446910
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 956446908}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca4c92f9d8625e04b85d2ad57bf3ecbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &956446911
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16642,7 +16506,6 @@ GameObject:
   - component: {fileID: 991328768}
   - component: {fileID: 991328771}
   - component: {fileID: 991328770}
-  - component: {fileID: 991328769}
   m_Layer: 10
   m_Name: ModularTrackStraight (8)
   m_TagString: Untagged
@@ -16664,18 +16527,6 @@ Transform:
   m_Father: {fileID: 1339550203}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &991328769
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 991328767}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca4c92f9d8625e04b85d2ad57bf3ecbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &991328770
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16921,7 +16772,6 @@ GameObject:
   - component: {fileID: 1008628522}
   - component: {fileID: 1008628525}
   - component: {fileID: 1008628524}
-  - component: {fileID: 1008628523}
   m_Layer: 10
   m_Name: ModularTrackRampCurveRight (6)
   m_TagString: Untagged
@@ -16943,18 +16793,6 @@ Transform:
   m_Father: {fileID: 1339550203}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!114 &1008628523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1008628521}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca4c92f9d8625e04b85d2ad57bf3ecbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &1008628524
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17099,7 +16937,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1010905622
 Transform:
   m_ObjectHideFlags: 0
@@ -19626,7 +19464,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1126541698
 Transform:
   m_ObjectHideFlags: 0
@@ -20507,7 +20345,6 @@ GameObject:
   - component: {fileID: 1167891988}
   - component: {fileID: 1167891991}
   - component: {fileID: 1167891990}
-  - component: {fileID: 1167891989}
   m_Layer: 10
   m_Name: ModularTrackRamp (3)
   m_TagString: Untagged
@@ -20529,18 +20366,6 @@ Transform:
   m_Father: {fileID: 1339550203}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1167891989
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1167891987}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca4c92f9d8625e04b85d2ad57bf3ecbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &1167891990
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -21328,15 +21153,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010227208682, guid: 8edb62778d3ea1e489bc191b81b2fc46, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -198.1
+      value: -240.5
       objectReference: {fileID: 0}
     - target: {fileID: 4000010227208682, guid: 8edb62778d3ea1e489bc191b81b2fc46, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -30.5
+      value: -29.6
       objectReference: {fileID: 0}
     - target: {fileID: 4000010227208682, guid: 8edb62778d3ea1e489bc191b81b2fc46, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -255.8
+      value: -160.55
       objectReference: {fileID: 0}
     - target: {fileID: 4000010227208682, guid: 8edb62778d3ea1e489bc191b81b2fc46, type: 3}
       propertyPath: m_LocalRotation.x
@@ -24297,7 +24122,6 @@ GameObject:
   - component: {fileID: 1342638347}
   - component: {fileID: 1342638350}
   - component: {fileID: 1342638349}
-  - component: {fileID: 1342638348}
   m_Layer: 10
   m_Name: object3 (2)
   m_TagString: Untagged
@@ -24319,20 +24143,6 @@ Transform:
   m_Father: {fileID: 204725000}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: -45, z: 0}
---- !u!64 &1342638348
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1342638346}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 3892469651134686861, guid: cdea22787d277fc4bb613562a87cddb7, type: 3}
 --- !u!23 &1342638349
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25988,7 +25798,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!114 &1428960732
 MonoBehaviour:
@@ -26014,7 +25824,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1428960731}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
@@ -29556,7 +29366,6 @@ GameObject:
   - component: {fileID: 1631974071}
   - component: {fileID: 1631974074}
   - component: {fileID: 1631974073}
-  - component: {fileID: 1631974072}
   m_Layer: 10
   m_Name: ModularTrackCurveLarge (1)
   m_TagString: Untagged
@@ -29578,18 +29387,6 @@ Transform:
   m_Father: {fileID: 1339550203}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1631974072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1631974070}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca4c92f9d8625e04b85d2ad57bf3ecbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &1631974073
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -29742,7 +29539,6 @@ GameObject:
   - component: {fileID: 1636123390}
   - component: {fileID: 1636123393}
   - component: {fileID: 1636123392}
-  - component: {fileID: 1636123391}
   m_Layer: 10
   m_Name: ModularTrackRampCurveLeft (6)
   m_TagString: Untagged
@@ -29764,18 +29560,6 @@ Transform:
   m_Father: {fileID: 1339550203}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &1636123391
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1636123389}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca4c92f9d8625e04b85d2ad57bf3ecbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &1636123392
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -30744,7 +30528,6 @@ GameObject:
   - component: {fileID: 1671902039}
   - component: {fileID: 1671902042}
   - component: {fileID: 1671902041}
-  - component: {fileID: 1671902040}
   m_Layer: 10
   m_Name: ModularTrackRampCurveLeft (5)
   m_TagString: Untagged
@@ -30766,18 +30549,6 @@ Transform:
   m_Father: {fileID: 1339550203}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!114 &1671902040
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1671902038}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca4c92f9d8625e04b85d2ad57bf3ecbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &1671902041
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -31555,7 +31326,6 @@ GameObject:
   - component: {fileID: 1737958969}
   - component: {fileID: 1737958972}
   - component: {fileID: 1737958971}
-  - component: {fileID: 1737958970}
   m_Layer: 10
   m_Name: object1
   m_TagString: Untagged
@@ -31577,19 +31347,6 @@ Transform:
   m_Father: {fileID: 204725000}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1737958970
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1737958968}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 25.00001, y: 1.25, z: 25.000006}
-  m_Center: {x: 0, y: 0.625, z: 0.000015258789}
 --- !u!23 &1737958971
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -34876,7 +34633,6 @@ GameObject:
   - component: {fileID: 1921010310}
   - component: {fileID: 1921010313}
   - component: {fileID: 1921010312}
-  - component: {fileID: 1921010311}
   m_Layer: 10
   m_Name: ModularTrackRampCurveRight (4)
   m_TagString: Untagged
@@ -34898,18 +34654,6 @@ Transform:
   m_Father: {fileID: 1339550203}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1921010311
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1921010309}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca4c92f9d8625e04b85d2ad57bf3ecbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &1921010312
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -35041,7 +34785,6 @@ GameObject:
   - component: {fileID: 1927303275}
   - component: {fileID: 1927303278}
   - component: {fileID: 1927303277}
-  - component: {fileID: 1927303276}
   m_Layer: 10
   m_Name: object3 (1)
   m_TagString: Untagged
@@ -35063,20 +34806,6 @@ Transform:
   m_Father: {fileID: 204725000}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
---- !u!64 &1927303276
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1927303274}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 3892469651134686861, guid: cdea22787d277fc4bb613562a87cddb7, type: 3}
 --- !u!23 &1927303277
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -35293,7 +35022,6 @@ GameObject:
   - component: {fileID: 1933655259}
   - component: {fileID: 1933655262}
   - component: {fileID: 1933655261}
-  - component: {fileID: 1933655260}
   m_Layer: 10
   m_Name: ModularTrackRampCurveRight (7)
   m_TagString: Untagged
@@ -35315,18 +35043,6 @@ Transform:
   m_Father: {fileID: 1339550203}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!114 &1933655260
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1933655258}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca4c92f9d8625e04b85d2ad57bf3ecbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &1933655261
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -35915,15 +35631,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010227208682, guid: 8edb62778d3ea1e489bc191b81b2fc46, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -213.2
+      value: -294.1
       objectReference: {fileID: 0}
     - target: {fileID: 4000010227208682, guid: 8edb62778d3ea1e489bc191b81b2fc46, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -30.5
+      value: -29.6
       objectReference: {fileID: 0}
     - target: {fileID: 4000010227208682, guid: 8edb62778d3ea1e489bc191b81b2fc46, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -254
+      value: -160.55
       objectReference: {fileID: 0}
     - target: {fileID: 4000010227208682, guid: 8edb62778d3ea1e489bc191b81b2fc46, type: 3}
       propertyPath: m_LocalRotation.x
@@ -38423,7 +38139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2084048003
 Transform:
   m_ObjectHideFlags: 0
@@ -38928,7 +38644,6 @@ GameObject:
   - component: {fileID: 2112973738}
   - component: {fileID: 2112973741}
   - component: {fileID: 2112973740}
-  - component: {fileID: 2112973739}
   m_Layer: 10
   m_Name: ModularTrackRampCurveLeft (4)
   m_TagString: Untagged
@@ -38950,18 +38665,6 @@ Transform:
   m_Father: {fileID: 1339550203}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2112973739
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2112973737}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca4c92f9d8625e04b85d2ad57bf3ecbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &2112973740
 MeshRenderer:
   m_ObjectHideFlags: 0
