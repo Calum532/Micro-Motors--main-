@@ -55,7 +55,7 @@ MonoBehaviour:
     mixerGroup: {fileID: 0}
     source: {fileID: 0}
   - name: Boost
-    clip: {fileID: 8300000, guid: 3a2af7026f741c449b65e7c4259f2b92, type: 3}
+    clip: {fileID: 8300000, guid: 8b77431d83795bd4fbdc4dd5e0ebb961, type: 3}
     volume: 0.25
     volumeVariance: 0
     pitch: 1
