@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ResetAICar : MonoBehaviour
 {
@@ -9,10 +7,17 @@ public class ResetAICar : MonoBehaviour
     private float resetCountdown = 5;
     public GameObject aiWaypointTargetObject;
 
+    private Rigidbody _rb;
+
+    void Awake()
+    {
+        _rb = GetComponent<Rigidbody>();
+    }
+
     // Update is called once per frame
     void Update()
     {
-        aiMagnitudeSpeed = GetComponent<Rigidbody>().velocity.magnitude;
+        aiMagnitudeSpeed = _rb.velocity.magnitude;
         aiMphSpeed = aiMagnitudeSpeed * 2.222;
 
         if (aiMphSpeed < 5)
@@ -20,9 +25,7 @@ public class ResetAICar : MonoBehaviour
             resetCountdown -= Time.deltaTime;
             if(resetCountdown <= 0)
             {
-                Debug.Log("reseting racer");
-                transform.position = aiWaypointTargetObject.transform.position;
-                transform.rotation = aiWaypointTargetObject.transform.rotation;
+                Reset();
                 resetCountdown = 5;
             }
         }
@@ -30,5 +33,12 @@ public class ResetAICar : MonoBehaviour
         {
             resetCountdown = 5;
         }
+    }
+
+    public void Reset()
+    {
+        Debug.Log($"<color=yellow>{transform.name}: Resetting</color>");
+        transform.position = aiWaypointTargetObject.transform.position;
+        transform.rotation = aiWaypointTargetObject.transform.rotation;
     }
 }

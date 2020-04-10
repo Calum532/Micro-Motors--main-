@@ -1281,14 +1281,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 41065570}
-  m_LocalRotation: {x: 0, y: 0.99669224, z: -0.08126884, w: 0}
-  m_LocalPosition: {x: 0, y: 3.31, z: 2.16}
+  m_LocalRotation: {x: 0, y: 0.9975641, z: -0.06975647, w: 0}
+  m_LocalPosition: {x: 0, y: 3.4, z: 1.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 300947590}
   m_Father: {fileID: 1469259696}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 9.323001, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 8, y: 180, z: 0}
 --- !u!4 &45119520 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7609577426192830089, guid: 89547b15363d64495b3ff832130f0a8e,
@@ -3271,7 +3271,6 @@ GameObject:
   m_Component:
   - component: {fileID: 184686081}
   - component: {fileID: 184686080}
-  - component: {fileID: 184686079}
   - component: {fileID: 184686078}
   m_Layer: 0
   m_Name: CarCameraRig
@@ -3295,32 +3294,14 @@ MonoBehaviour:
   m_Target: {fileID: 0}
   m_AutoTargetPlayer: 1
   m_UpdateType: 0
-  m_MoveSpeed: 999
-  m_TurnSpeed: 999
-  m_RollSpeed: 999
-  m_FollowVelocity: 0
-  m_FollowTilt: 1
-  m_SpinTurnLimit: 360
-  m_TargetVelocityLowerLimit: 4
+  m_MoveSpeed: 30
+  m_TurnSpeed: 20
+  m_RollSpeed: 0
+  m_FollowVelocity: 1
+  m_FollowTilt: 0
+  m_SpinTurnLimit: 45
+  m_TargetVelocityLowerLimit: 20
   m_SmoothTurnTime: 1
---- !u!114 &184686079
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 184686077}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94b04ec3bda6b7747aa53936ef3b0ae2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clipMoveTime: 0.05
-  returnTime: 0.4
-  sphereCastRadius: 0.1
-  visualiseInEditor: 1
-  closestDistance: 0.5
-  dontClipTag: Player
 --- !u!54 &184686080
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4184,7 +4165,6 @@ GameObject:
   m_Component:
   - component: {fileID: 298557099}
   - component: {fileID: 298557102}
-  - component: {fileID: 298557101}
   - component: {fileID: 298557100}
   m_Layer: 0
   m_Name: RaceFinishCameraRig
@@ -4231,24 +4211,6 @@ MonoBehaviour:
   m_SpinTurnLimit: 360
   m_TargetVelocityLowerLimit: 4
   m_SmoothTurnTime: 1
---- !u!114 &298557101
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 298557098}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94b04ec3bda6b7747aa53936ef3b0ae2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clipMoveTime: 0.05
-  returnTime: 0.4
-  sphereCastRadius: 0.1
-  visualiseInEditor: 1
-  closestDistance: 0.5
-  dontClipTag: Player
 --- !u!54 &298557102
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4381,14 +4343,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 300947589}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf513760a2d756a4da68e90dce598ad8, type: 3}
+  m_Script: {fileID: 11500000, guid: 94b04ec3bda6b7747aa53936ef3b0ae2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDistance: 0.3
-  maxDistance: 4
-  smooth: 10
-  distance: 0
-  dis_ray: 0
+  clipMoveTime: 0.05
+  returnTime: 0.4
+  sphereCastRadius: 1.25
+  visualiseInEditor: 0
+  closestDistance: 0.3
+  dontClipTag: Player
 --- !u!1 &305283846
 GameObject:
   m_ObjectHideFlags: 0
@@ -4524,7 +4487,7 @@ GameObject:
   - component: {fileID: 317262468}
   m_Layer: 0
   m_Name: Main Camera
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11354,11 +11317,6 @@ PrefabInstance:
       propertyPath: PositionDisplayChild
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 574531175407674576, guid: 660d542a06d0c8b488f1e3eb24689997,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1405874511246190510, guid: 660d542a06d0c8b488f1e3eb24689997,
         type: 3}
       propertyPath: PositionDisplayChild
@@ -11498,26 +11456,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 683057804}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &683057806 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2798087235892865634, guid: 660d542a06d0c8b488f1e3eb24689997,
-    type: 3}
-  m_PrefabInstance: {fileID: 683057804}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &683057807
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 683057806}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 8683626548517001181, guid: 05c08dec32d3b8a46a1a27e2a42b483d, type: 3}
 --- !u!1001 &683924408
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12559,14 +12497,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 730075985}
-  m_LocalRotation: {x: 0.08126549, y: 0.00000007196103, z: -0.0000021411774, w: 0.9966925}
-  m_LocalPosition: {x: 0, y: 3.44, z: -1.81}
+  m_LocalRotation: {x: 0.06975647, y: 0, z: 0, w: 0.9975641}
+  m_LocalPosition: {x: 0, y: 3.4, z: -1.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1170482556}
   m_Father: {fileID: 184686081}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 9.323001, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 8, y: 0, z: 0}
 --- !u!1 &732828150
 GameObject:
   m_ObjectHideFlags: 0
@@ -19334,14 +19272,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1170482555}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf513760a2d756a4da68e90dce598ad8, type: 3}
+  m_Script: {fileID: 11500000, guid: 94b04ec3bda6b7747aa53936ef3b0ae2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDistance: 0.3
-  maxDistance: 4
-  smooth: 10
-  distance: 0
-  dis_ray: 0
+  clipMoveTime: 0.05
+  returnTime: 0.4
+  sphereCastRadius: 1.25
+  visualiseInEditor: 0
+  closestDistance: 0.3
+  dontClipTag: Player
 --- !u!1 &1175308510
 GameObject:
   m_ObjectHideFlags: 0
@@ -21288,7 +21227,7 @@ GameObject:
   - component: {fileID: 1274472599}
   m_Layer: 0
   m_Name: CCTV Camera
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25238,7 +25177,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1469259696}
   - component: {fileID: 1469259695}
-  - component: {fileID: 1469259694}
   - component: {fileID: 1469259693}
   m_Layer: 0
   m_Name: ReverseCarCameraRig
@@ -25270,24 +25208,6 @@ MonoBehaviour:
   m_SpinTurnLimit: 360
   m_TargetVelocityLowerLimit: 4
   m_SmoothTurnTime: 1
---- !u!114 &1469259694
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1469259692}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94b04ec3bda6b7747aa53936ef3b0ae2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clipMoveTime: 0.05
-  returnTime: 0.4
-  sphereCastRadius: 0.1
-  visualiseInEditor: 1
-  closestDistance: 0.5
-  dontClipTag: Player
 --- !u!54 &1469259695
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -33122,7 +33042,7 @@ GameObject:
   - component: {fileID: 1908427545}
   m_Layer: 0
   m_Name: Mini Map Camera
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
