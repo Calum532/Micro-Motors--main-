@@ -15067,6 +15067,7 @@ GameObject:
   - component: {fileID: 6853456035437722670}
   - component: {fileID: 6633718708253807014}
   - component: {fileID: 8872518644348159760}
+  - component: {fileID: 4383475015450020443}
   m_Layer: 0
   m_Name: AI Monster
   m_TagString: AICar
@@ -15254,6 +15255,21 @@ MonoBehaviour:
   aiMagnitudeSpeed: 0
   aiMphSpeed: 0
   aiWaypointTargetObject: {fileID: 6853456033708084309}
+--- !u!114 &4383475015450020443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6853456035437722668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 205a0bd4dff143742a250027315ba719, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionParticles: {fileID: 687623714209134970, guid: d555077a447462b4ebd7002fbe0cda82,
+    type: 3}
+  ForceRequired: 7
 --- !u!1 &6853456035439311780
 GameObject:
   m_ObjectHideFlags: 0

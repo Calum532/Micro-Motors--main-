@@ -13684,6 +13684,7 @@ GameObject:
   - component: {fileID: 2869086355814918064}
   - component: {fileID: 5521984565418213978}
   - component: {fileID: 3372617081353121858}
+  - component: {fileID: 8321873152048156819}
   m_Layer: 0
   m_Name: AI Tank
   m_TagString: AICar
@@ -13870,6 +13871,21 @@ MonoBehaviour:
   aiMagnitudeSpeed: 0
   aiMphSpeed: 0
   aiWaypointTargetObject: {fileID: 2869086354771284959}
+--- !u!114 &8321873152048156819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2869086355814918066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 205a0bd4dff143742a250027315ba719, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionParticles: {fileID: 687623714209134970, guid: d555077a447462b4ebd7002fbe0cda82,
+    type: 3}
+  ForceRequired: 7
 --- !u!1 &2869086355824324200
 GameObject:
   m_ObjectHideFlags: 0

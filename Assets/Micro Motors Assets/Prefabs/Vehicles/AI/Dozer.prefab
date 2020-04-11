@@ -8724,6 +8724,7 @@ GameObject:
   - component: {fileID: 5623252278124973991}
   - component: {fileID: 4058678589405273947}
   - component: {fileID: 5542114139282453728}
+  - component: {fileID: 7782525213525280670}
   m_Layer: 0
   m_Name: AI Dozer
   m_TagString: AICar
@@ -8910,6 +8911,21 @@ MonoBehaviour:
   aiMagnitudeSpeed: 0
   aiMphSpeed: 0
   aiWaypointTargetObject: {fileID: 5623252277260437762}
+--- !u!114 &7782525213525280670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5623252278124973985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 205a0bd4dff143742a250027315ba719, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionParticles: {fileID: 687623714209134970, guid: d555077a447462b4ebd7002fbe0cda82,
+    type: 3}
+  ForceRequired: 7
 --- !u!1 &5623252278156606340
 GameObject:
   m_ObjectHideFlags: 0

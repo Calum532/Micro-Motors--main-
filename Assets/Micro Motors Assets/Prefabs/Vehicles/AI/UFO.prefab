@@ -14255,6 +14255,7 @@ GameObject:
   - component: {fileID: 1695059721233248035}
   - component: {fileID: 8199999504199522912}
   - component: {fileID: 8768411448659514905}
+  - component: {fileID: 4508929601603126465}
   m_Layer: 0
   m_Name: AI UFO
   m_TagString: AICar
@@ -14441,6 +14442,21 @@ MonoBehaviour:
   aiMagnitudeSpeed: 0
   aiMphSpeed: 0
   aiWaypointTargetObject: {fileID: 1695059721520414158}
+--- !u!114 &4508929601603126465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695059721233248033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 205a0bd4dff143742a250027315ba719, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionParticles: {fileID: 687623714209134970, guid: d555077a447462b4ebd7002fbe0cda82,
+    type: 3}
+  ForceRequired: 7
 --- !u!1 &1695059721288327781
 GameObject:
   m_ObjectHideFlags: 0

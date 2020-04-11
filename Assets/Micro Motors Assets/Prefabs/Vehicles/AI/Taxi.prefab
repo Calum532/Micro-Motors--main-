@@ -12413,6 +12413,7 @@ GameObject:
   - component: {fileID: 1082426330490208711}
   - component: {fileID: 7336582107641940721}
   - component: {fileID: 1875646567003005881}
+  - component: {fileID: 1705554491738638903}
   m_Layer: 0
   m_Name: AI Taxi
   m_TagString: AICar
@@ -12599,6 +12600,21 @@ MonoBehaviour:
   aiMagnitudeSpeed: 0
   aiMphSpeed: 0
   aiWaypointTargetObject: {fileID: 1082426331036265443}
+--- !u!114 &1705554491738638903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082426330490208709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 205a0bd4dff143742a250027315ba719, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionParticles: {fileID: 687623714209134970, guid: d555077a447462b4ebd7002fbe0cda82,
+    type: 3}
+  ForceRequired: 7
 --- !u!1 &1082426330518542562
 GameObject:
   m_ObjectHideFlags: 0

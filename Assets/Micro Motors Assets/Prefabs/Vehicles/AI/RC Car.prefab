@@ -1986,6 +1986,7 @@ GameObject:
   - component: {fileID: 789499334430254712}
   - component: {fileID: 7864566288744483513}
   - component: {fileID: 4494533464791145492}
+  - component: {fileID: 8034179533436942983}
   m_Layer: 0
   m_Name: AI RC Car
   m_TagString: AICar
@@ -2172,6 +2173,21 @@ MonoBehaviour:
   aiMagnitudeSpeed: 0
   aiMphSpeed: 0
   aiWaypointTargetObject: {fileID: 789499334291408431}
+--- !u!114 &8034179533436942983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789499334430254714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 205a0bd4dff143742a250027315ba719, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionParticles: {fileID: 687623714209134970, guid: d555077a447462b4ebd7002fbe0cda82,
+    type: 3}
+  ForceRequired: 7
 --- !u!1 &789499334463339614
 GameObject:
   m_ObjectHideFlags: 0

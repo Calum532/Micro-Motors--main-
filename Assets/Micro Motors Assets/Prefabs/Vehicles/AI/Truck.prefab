@@ -11914,6 +11914,7 @@ GameObject:
   - component: {fileID: 2167274675474232061}
   - component: {fileID: 8316778460948813568}
   - component: {fileID: 2694221494633871043}
+  - component: {fileID: 7697617974515760925}
   m_Layer: 0
   m_Name: AI Truck
   m_TagString: AICar
@@ -12100,6 +12101,21 @@ MonoBehaviour:
   aiMagnitudeSpeed: 0
   aiMphSpeed: 0
   aiWaypointTargetObject: {fileID: 2167274676743986507}
+--- !u!114 &7697617974515760925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2167274675474232051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 205a0bd4dff143742a250027315ba719, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionParticles: {fileID: 687623714209134970, guid: d555077a447462b4ebd7002fbe0cda82,
+    type: 3}
+  ForceRequired: 7
 --- !u!1 &2167274675476430651
 GameObject:
   m_ObjectHideFlags: 0
