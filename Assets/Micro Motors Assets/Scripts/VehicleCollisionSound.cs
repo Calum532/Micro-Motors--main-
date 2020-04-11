@@ -23,7 +23,7 @@ public class VehicleCollisionSound : MonoBehaviour
 
     void Start()
     {
-        _source.pitch = (Random.Range(0.95f, 1.05f));
+        _source.pitch = (Random.Range(0.85f, 0.95f));
         _source.clip = collisionImpacts[Random.Range(0, collisionImpacts.Length)];
         StartCoroutine(ExecuteAfterTime(playAfter));
     }
