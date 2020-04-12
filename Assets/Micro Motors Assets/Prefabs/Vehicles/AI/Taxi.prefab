@@ -28,8 +28,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 54415165}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.29, z: -0.43999863}
-  m_LocalScale: {x: 70, y: 5, z: 0.25}
+  m_LocalPosition: {x: 0, y: 12.81, z: -0.43999863}
+  m_LocalScale: {x: 70, y: 25.996395, z: 0.25}
   m_Children: []
   m_Father: {fileID: 1082426329574865018}
   m_RootOrder: 7
@@ -137,8 +137,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 472964100}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.29, z: -0.19}
-  m_LocalScale: {x: 70, y: 5, z: 0.25}
+  m_LocalPosition: {x: 0, y: 12.81, z: -0.19}
+  m_LocalScale: {x: 70, y: 25.996395, z: 0.25}
   m_Children: []
   m_Father: {fileID: 1082426329574865018}
   m_RootOrder: 6
@@ -246,8 +246,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 936827251}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.4099998, z: -0.53999853}
-  m_LocalScale: {x: 70, y: 5, z: 0.25}
+  m_LocalPosition: {x: 0, y: 12.93, z: -0.53999853}
+  m_LocalScale: {x: 70, y: 25.996395, z: 0.25}
   m_Children: []
   m_Father: {fileID: 1082426330097562473}
   m_RootOrder: 9
@@ -355,8 +355,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1044052226}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.4099998, z: -0.28999949}
-  m_LocalScale: {x: 70, y: 5, z: 0.25}
+  m_LocalPosition: {x: 0, y: 12.93, z: -0.28999949}
+  m_LocalScale: {x: 70, y: 25.996395, z: 0.25}
   m_Children: []
   m_Father: {fileID: 1082426330097562473}
   m_RootOrder: 8
@@ -6835,7 +6835,7 @@ MonoBehaviour:
   m_MaxHandbrakeTorque: 100000000
   m_Downforce: 100
   m_SpeedType: 0
-  m_Topspeed: 120
+  m_Topspeed: 100
   m_RevRangeBoundary: 1
   m_SlipLimit: 0.4
   m_BrakeTorque: 20000
@@ -6876,19 +6876,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_CautiousSpeedFactor: 0.3
-  m_CautiousMaxAngle: 45
+  m_CautiousMaxAngle: 90
   m_CautiousMaxDistance: 200
   m_CautiousAngularVelocityFactor: 30
   m_SteerSensitivity: 0.01
   m_AccelSensitivity: 1
   m_BrakeSensitivity: 1
-  m_LateralWanderDistance: 1
+  m_LateralWanderDistance: 3
   m_LateralWanderSpeed: 0.2
   m_AccelWanderAmount: 0.2
   m_AccelWanderSpeed: 0.1
   m_BrakeCondition: 1
   m_Driving: 1
-  m_Target: {fileID: 1082426331274544592}
+  m_Target: {fileID: 0}
   m_StopWhenTargetReached: 0
   m_ReachTargetThreshold: 2
 --- !u!114 &1082426330097562475
@@ -6939,8 +6939,10 @@ MonoBehaviour:
   aiMagnitudeSpeed: 0
   aiMphSpeed: 0
   aiWaypointTargetObject: {fileID: 1082426331274544607}
-  explosionParticle: {fileID: 0}
-  resetAudio: {fileID: 0}
+  explosionParticle: {fileID: 8168052083600971571, guid: bc71d80d1bfc4c94baa35813368a56d9,
+    type: 3}
+  resetAudio: {fileID: 8970216590266420027, guid: 73629b4505fae2d4bafab8dc6fda0b1b,
+    type: 3}
 --- !u!1 &1082426330100507343
 GameObject:
   m_ObjectHideFlags: 0
@@ -12498,7 +12500,7 @@ MonoBehaviour:
   m_MaxHandbrakeTorque: 100000000
   m_Downforce: 100
   m_SpeedType: 0
-  m_Topspeed: 120
+  m_Topspeed: 100
   m_RevRangeBoundary: 1
   m_SlipLimit: 0.4
   m_BrakeTorque: 20000
@@ -12515,19 +12517,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_CautiousSpeedFactor: 0.3
-  m_CautiousMaxAngle: 45
+  m_CautiousMaxAngle: 90
   m_CautiousMaxDistance: 200
   m_CautiousAngularVelocityFactor: 30
   m_SteerSensitivity: 0.01
   m_AccelSensitivity: 1
   m_BrakeSensitivity: 1
-  m_LateralWanderDistance: 1
+  m_LateralWanderDistance: 3
   m_LateralWanderSpeed: 0.2
   m_AccelWanderAmount: 0.2
   m_AccelWanderSpeed: 0.1
   m_BrakeCondition: 1
   m_Driving: 1
-  m_Target: {fileID: 1082426331036265444}
+  m_Target: {fileID: 0}
   m_StopWhenTargetReached: 0
   m_ReachTargetThreshold: 2
 --- !u!114 &1082426330490208568

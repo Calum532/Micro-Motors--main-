@@ -81,9 +81,9 @@ public class HighlightTrack : MonoBehaviour
         FindObjectOfType<AudioManager>().Play("Click");
         TrackName.GetComponent<TextMeshProUGUI>().text = "Slip 'n Slide";
         TrackName.GetComponent<TextMeshProUGUI>().color = new Color32(255, 255, 0, 255);
-        DifficultySlider.value = 5;
+        DifficultySlider.value = 4;
         DifficultyFill.color = new Color32(255, 255, 0, 255);
-        DifficultyText.GetComponent<TextMeshProUGUI>().text = "5/10";
+        DifficultyText.GetComponent<TextMeshProUGUI>().text = "4/10";
     }
 
     public void MouseOverTrack3()
@@ -109,9 +109,9 @@ public class HighlightTrack : MonoBehaviour
         FindObjectOfType<AudioManager>().Play("Click");
         TrackName.GetComponent<TextMeshProUGUI>().text = "Birthday Bonza";
         TrackName.GetComponent<TextMeshProUGUI>().color = new Color32(255, 0, 0, 255);
-        DifficultySlider.value = 8;
-        DifficultyFill.color = new Color32(255, 0, 0, 255);
-        DifficultyText.GetComponent<TextMeshProUGUI>().text = "8/10";
+        DifficultySlider.value = 6;
+        DifficultyFill.color = new Color32(255, 128, 0, 255);
+        DifficultyText.GetComponent<TextMeshProUGUI>().text = "6/10";
     }
 
     public void MouseOverTrack4()
@@ -136,7 +136,7 @@ public class HighlightTrack : MonoBehaviour
 
         FindObjectOfType<AudioManager>().Play("Click");
         TrackName.GetComponent<TextMeshProUGUI>().text = "Out of Order";
-        TrackName.GetComponent<TextMeshProUGUI>().color = new Color32(255, 0, 0, 255);
+        TrackName.GetComponent<TextMeshProUGUI>().color = new Color32(125, 0, 255, 255);
         DifficultySlider.value = 8;
         DifficultyFill.color = new Color32(255, 0, 0, 255);
         DifficultyText.GetComponent<TextMeshProUGUI>().text = "8/10";

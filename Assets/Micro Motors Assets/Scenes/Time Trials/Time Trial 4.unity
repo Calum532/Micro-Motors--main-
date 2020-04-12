@@ -598,7 +598,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e44af8091779fcb40801d5b284353dbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Target: {fileID: 0}
+  m_Target: {fileID: 435716273}
   m_AutoTargetPlayer: 0
   m_UpdateType: 1
   m_MoveSpeed: 999
@@ -2318,7 +2318,7 @@ GameObject:
   m_Component:
   - component: {fileID: 105283252}
   m_Layer: 12
-  m_Name: Racers Preview (1)
+  m_Name: Racers Preview
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12499,7 +12499,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 730075985}
   m_LocalRotation: {x: 0.06975647, y: 0, z: 0, w: 0.9975641}
-  m_LocalPosition: {x: 0, y: 3.4, z: -1.8}
+  m_LocalPosition: {x: 0, y: 5, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1170482556}
@@ -13197,7 +13197,7 @@ GameObject:
   - component: {fileID: 782547627}
   - component: {fileID: 782547626}
   m_Layer: 0
-  m_Name: Music Holder (1)
+  m_Name: Music Holder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18880,7 +18880,7 @@ GameObject:
   - component: {fileID: 1151581129}
   - component: {fileID: 1151581128}
   m_Layer: 0
-  m_Name: Cameras (1)
+  m_Name: Cameras
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19738,7 +19738,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1202725133}
   m_Layer: 0
-  m_Name: Lights (1)
+  m_Name: Lights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24603,7 +24603,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1460005118}
   m_LocalRotation: {x: 0.13904434, y: 0.28861427, z: -0.042407658, w: 0.9463457}
-  m_LocalPosition: {x: -30.5, y: 125.5, z: -168.6}
+  m_LocalPosition: {x: -445.4, y: 335.9, z: -429.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1151581129}

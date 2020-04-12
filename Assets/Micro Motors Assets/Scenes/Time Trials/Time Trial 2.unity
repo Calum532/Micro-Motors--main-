@@ -356,14 +356,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 13048027}
-  m_LocalRotation: {x: 0.124429986, y: -0.22353938, z: 0.051313523, w: 0.965357}
-  m_LocalPosition: {x: 28, y: 165, z: -552}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -391, y: 150, z: -528}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1016213772}
   m_Father: {fileID: 1151581129}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 15.259001, y: -25.730001, z: 2.581}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &13048030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2036,7 +2036,7 @@ GameObject:
   m_Component:
   - component: {fileID: 105283252}
   m_Layer: 12
-  m_Name: Racers Preview (1)
+  m_Name: Racers Preview
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3303,7 +3303,7 @@ GameObject:
   m_Component:
   - component: {fileID: 230561009}
   m_Layer: 0
-  m_Name: Particles (1)
+  m_Name: Particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7438,7 +7438,7 @@ PrefabInstance:
     - target: {fileID: 3659591019483675151, guid: 4180b63e2c17ef24fbbe0928dd5db54b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -113.74333
+      value: -113.89
       objectReference: {fileID: 0}
     - target: {fileID: 3659591019483675151, guid: 4180b63e2c17ef24fbbe0928dd5db54b,
         type: 3}
@@ -8516,9 +8516,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5000001
-  m_Height: 9.717535
+  m_Height: 8.946014
   m_Direction: 1
-  m_Center: {x: 0.00000004521054, y: -0.036541376, z: -0.000000090421125}
+  m_Center: {x: 0.000000060280726, y: -0.42230028, z: -0.000000090421125}
 --- !u!23 &494801055
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12310,7 +12310,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 730075985}
   m_LocalRotation: {x: 0.06975647, y: 0, z: 0, w: 0.9975641}
-  m_LocalPosition: {x: 0, y: 3.4, z: -1.8}
+  m_LocalPosition: {x: 0, y: 5, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1170482556}
@@ -13111,7 +13111,7 @@ GameObject:
   - component: {fileID: 782547627}
   - component: {fileID: 782547626}
   m_Layer: 0
-  m_Name: Music Holder (1)
+  m_Name: Music Holder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19791,7 +19791,7 @@ GameObject:
   - component: {fileID: 1151581129}
   - component: {fileID: 1151581128}
   m_Layer: 0
-  m_Name: Cameras (1)
+  m_Name: Cameras
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20962,7 +20962,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1202725133}
   m_Layer: 0
-  m_Name: Lights (1)
+  m_Name: Lights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34291,7 +34291,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1905710062}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -270.73, y: -54.9, z: -69.3}
+  m_LocalPosition: {x: -276.43, y: -54.9, z: -69.3}
   m_LocalScale: {x: 100.73761, y: 42.341087, z: 4.7}
   m_Children: []
   m_Father: {fileID: 1810394737}

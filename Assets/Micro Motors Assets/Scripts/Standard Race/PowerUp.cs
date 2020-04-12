@@ -9,8 +9,6 @@ public class PowerUp : MonoBehaviour
     public GameObject child2;
     public GameObject child3;
     public GameObject child4;
-    //public GameObject FrontCam;
-    //public GameObject ZoomedOutCam;
 
     [Header("3D audio")]
     public GameObject Swoosh;
@@ -63,6 +61,10 @@ public class PowerUp : MonoBehaviour
             {
                 StartCoroutine(PickupSlamDunk(other));
             }
+            else if (randomNum == 3)
+            {
+                StartCoroutine(PickupGrow(other));
+            }
         }
     }
 
@@ -97,15 +99,11 @@ public class PowerUp : MonoBehaviour
         }      
 
         FindObjectOfType<AudioManager>().Play("Buff");
-        //ZoomedOutCam.SetActive(true);
-        //FrontCam.SetActive(false);
         racer.transform.localScale *= grow;
 
         yield return new WaitForSeconds(effectDuration);
 
         racer.transform.localScale /= grow;
-        //FrontCam.SetActive(true);
-        //ZoomedOutCam.SetActive(false);
         FindObjectOfType<AudioManager>().Play("Debuff");
     }
 

@@ -5792,7 +5792,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 0, g: 1, b: 0, a: 1}
   m_enableVertexGradient: 1
   m_colorMode: 0
   m_fontColorGradient:
@@ -10847,7 +10847,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &610707762
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15589,8 +15589,8 @@ MonoBehaviour:
   menuUI: {fileID: 1091115543}
   raceTypeUI: {fileID: 416850936}
   SR_raceTrackUI: {fileID: 1827694536}
-  AI_raceTrackUI: {fileID: 0}
-  TimeTrial_TrackUI: {fileID: 0}
+  AI_raceTrackUI: {fileID: 2007628160}
+  TimeTrial_TrackUI: {fileID: 2074055091}
   settingsUI: {fileID: 2140400151}
 --- !u!222 &1091115545
 CanvasRenderer:

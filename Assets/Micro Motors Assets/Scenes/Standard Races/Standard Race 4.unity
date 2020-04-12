@@ -3224,11 +3224,11 @@ PrefabInstance:
     - target: {fileID: 544322573, guid: f01ce31683e6771488824983c5f1a46c, type: 3}
       propertyPath: positionDisplay
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1206962716}
     - target: {fileID: 755889472, guid: f01ce31683e6771488824983c5f1a46c, type: 3}
       propertyPath: positionDisplay
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1206962716}
     - target: {fileID: 1230568644, guid: f01ce31683e6771488824983c5f1a46c, type: 3}
       propertyPath: positionDisplay
       value: 
@@ -13131,7 +13131,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 730075985}
   m_LocalRotation: {x: 0.06975647, y: 0, z: 0, w: 0.9975641}
-  m_LocalPosition: {x: 0, y: 3.4, z: -1.8}
+  m_LocalPosition: {x: 0, y: 5, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1170482556}
@@ -20468,7 +20468,7 @@ GameObject:
   - component: {fileID: 1151581129}
   - component: {fileID: 1151581128}
   m_Layer: 0
-  m_Name: Cameras (1)
+  m_Name: Cameras
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21364,7 +21364,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1202725133}
   m_Layer: 0
-  m_Name: Lights (1)
+  m_Name: Lights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

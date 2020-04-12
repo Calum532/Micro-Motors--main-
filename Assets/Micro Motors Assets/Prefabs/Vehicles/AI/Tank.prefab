@@ -28,8 +28,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 508135052}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.4099998, z: -0.23999977}
-  m_LocalScale: {x: 60, y: 5, z: 0.25}
+  m_LocalPosition: {x: 0, y: 12.93, z: -0.23999977}
+  m_LocalScale: {x: 60, y: 25.996395, z: 0.25}
   m_Children: []
   m_Father: {fileID: 2869086356143238098}
   m_RootOrder: 8
@@ -49,7 +49,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 508135052}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -137,8 +137,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 808363795}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.2999997, z: -0.1}
-  m_LocalScale: {x: 70, y: 5, z: 0.25}
+  m_LocalPosition: {x: 0, y: 12.82, z: -0.1}
+  m_LocalScale: {x: 70, y: 25.996395, z: 0.25}
   m_Children: []
   m_Father: {fileID: 2869086355018426423}
   m_RootOrder: 6
@@ -246,8 +246,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1474480540}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.4099998, z: -0.48999977}
-  m_LocalScale: {x: 60, y: 5, z: 0.25}
+  m_LocalPosition: {x: 0, y: 12.93, z: -0.48999977}
+  m_LocalScale: {x: 60, y: 25.996395, z: 0.25}
   m_Children: []
   m_Father: {fileID: 2869086356143238098}
   m_RootOrder: 9
@@ -267,7 +267,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1474480540}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -355,8 +355,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1584274282}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.2999997, z: -0.34999847}
-  m_LocalScale: {x: 70, y: 5, z: 0.25}
+  m_LocalPosition: {x: 0, y: 12.82, z: -0.34999847}
+  m_LocalScale: {x: 70, y: 25.996395, z: 0.25}
   m_Children: []
   m_Father: {fileID: 2869086355018426423}
   m_RootOrder: 7
@@ -13759,7 +13759,7 @@ MonoBehaviour:
   - {fileID: 2869086355562437383}
   - {fileID: 2869086355335161205}
   m_CentreOfMassOffset: {x: 0, y: 0, z: 0}
-  m_MaximumSteerAngle: 10
+  m_MaximumSteerAngle: 30
   m_SteerHelper: 0.7
   m_TractionControl: 0.7
   m_FullTorqueOverAllWheels: 5000
@@ -15068,7 +15068,7 @@ MonoBehaviour:
   - {fileID: 2869086355141050082}
   - {fileID: 2869086354726068655}
   m_CentreOfMassOffset: {x: 0, y: 0, z: 0}
-  m_MaximumSteerAngle: 10
+  m_MaximumSteerAngle: 30
   m_SteerHelper: 0.7
   m_TractionControl: 0.7
   m_FullTorqueOverAllWheels: 2000
@@ -15180,5 +15180,7 @@ MonoBehaviour:
   aiMagnitudeSpeed: 0
   aiMphSpeed: 0
   aiWaypointTargetObject: {fileID: 2869086355549007419}
-  explosionParticle: {fileID: 0}
-  resetAudio: {fileID: 0}
+  explosionParticle: {fileID: 8168052083600971571, guid: bc71d80d1bfc4c94baa35813368a56d9,
+    type: 3}
+  resetAudio: {fileID: 8970216590266420027, guid: 73629b4505fae2d4bafab8dc6fda0b1b,
+    type: 3}

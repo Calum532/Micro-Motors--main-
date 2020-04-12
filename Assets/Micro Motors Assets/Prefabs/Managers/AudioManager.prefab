@@ -99,15 +99,6 @@ MonoBehaviour:
     loop: 0
     mixerGroup: {fileID: 0}
     source: {fileID: 0}
-  - name: Nope
-    clip: {fileID: 8300000, guid: a288c85e9a295fb459e18e08a4ec9bb0, type: 3}
-    volume: 0.7
-    volumeVariance: 0
-    pitch: 1
-    pitchVariance: 0
-    loop: 0
-    mixerGroup: {fileID: 0}
-    source: {fileID: 0}
   - name: Reset
     clip: {fileID: 8300000, guid: 1ed275582c6fdbb4485c006700b2c0da, type: 3}
     volume: 0.4

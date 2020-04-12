@@ -28,8 +28,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 50565188}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.4099998, z: -0.22999954}
-  m_LocalScale: {x: 70, y: 5, z: 0.25}
+  m_LocalPosition: {x: 0, y: 12.93, z: -0.22999954}
+  m_LocalScale: {x: 70, y: 25.996395, z: 0.25}
   m_Children: []
   m_Father: {fileID: 2167274676636182435}
   m_RootOrder: 6
@@ -137,8 +137,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 581318027}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.4099998, z: -0.519999}
-  m_LocalScale: {x: 70, y: 5, z: 0.25}
+  m_LocalPosition: {x: 0, y: 12.93, z: -0.519999}
+  m_LocalScale: {x: 70, y: 25.996395, z: 0.25}
   m_Children: []
   m_Father: {fileID: 2167274675562779947}
   m_RootOrder: 9
@@ -246,8 +246,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1161125320}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.4099998, z: -0.26999903}
-  m_LocalScale: {x: 70, y: 5, z: 0.25}
+  m_LocalPosition: {x: 0, y: 12.93, z: -0.26999903}
+  m_LocalScale: {x: 70, y: 25.996395, z: 0.25}
   m_Children: []
   m_Father: {fileID: 2167274675562779947}
   m_RootOrder: 8
@@ -355,8 +355,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1875192469}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.4099998, z: -0.48}
-  m_LocalScale: {x: 70, y: 5, z: 0.25}
+  m_LocalPosition: {x: 0, y: 12.93, z: -0.48}
+  m_LocalScale: {x: 70, y: 25.996395, z: 0.25}
   m_Children: []
   m_Father: {fileID: 2167274676636182435}
   m_RootOrder: 7
@@ -12014,13 +12014,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_CautiousSpeedFactor: 0.3
-  m_CautiousMaxAngle: 45
+  m_CautiousMaxAngle: 90
   m_CautiousMaxDistance: 200
   m_CautiousAngularVelocityFactor: 30
   m_SteerSensitivity: 0.01
   m_AccelSensitivity: 1
   m_BrakeSensitivity: 1
-  m_LateralWanderDistance: 1
+  m_LateralWanderDistance: 3
   m_LateralWanderSpeed: 0.2
   m_AccelWanderAmount: 0.2
   m_AccelWanderSpeed: 0.1
@@ -12639,13 +12639,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_CautiousSpeedFactor: 0.3
-  m_CautiousMaxAngle: 45
+  m_CautiousMaxAngle: 90
   m_CautiousMaxDistance: 200
   m_CautiousAngularVelocityFactor: 30
   m_SteerSensitivity: 0.01
   m_AccelSensitivity: 1
   m_BrakeSensitivity: 1
-  m_LateralWanderDistance: 1
+  m_LateralWanderDistance: 3
   m_LateralWanderSpeed: 0.2
   m_AccelWanderAmount: 0.2
   m_AccelWanderSpeed: 0.1
@@ -12702,8 +12702,10 @@ MonoBehaviour:
   aiMagnitudeSpeed: 0
   aiMphSpeed: 0
   aiWaypointTargetObject: {fileID: 2167274674887135677}
-  explosionParticle: {fileID: 0}
-  resetAudio: {fileID: 0}
+  explosionParticle: {fileID: 8168052083600971571, guid: bc71d80d1bfc4c94baa35813368a56d9,
+    type: 3}
+  resetAudio: {fileID: 8970216590266420027, guid: 73629b4505fae2d4bafab8dc6fda0b1b,
+    type: 3}
 --- !u!1 &2167274675649771035
 GameObject:
   m_ObjectHideFlags: 0

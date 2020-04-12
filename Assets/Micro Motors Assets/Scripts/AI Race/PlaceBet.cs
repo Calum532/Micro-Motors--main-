@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class PlaceBet : MonoBehaviour
 {
-    //public GameObject inputField;
-    //private string textBoxInput;
     public static float betAmount = 0;
     public GameObject BetUI;
     public GameObject ChooseRacerUI;
@@ -78,15 +76,4 @@ public class PlaceBet : MonoBehaviour
             FindObjectOfType<AudioManager>().Play("Nope");
         }
     }
-
-    /*public void Click_Confirm_Bet()
-    {
-        textBoxInput = inputField.GetComponent<TextMeshProUGUI>().text;
-
-        //betAmount = int.Parse(inputField.GetComponent<TextMeshProUGUI>().text);
-
-        betAmount = int.Parse(textBoxInput);
-
-        Debug.Log(betAmount);
-    }*/
 }
