@@ -50,7 +50,8 @@ public class ResetAICar : MonoBehaviour
         
         transform.position = aiWaypointTargetObject.transform.position;
         transform.rotation = aiWaypointTargetObject.transform.rotation;
-        //audio somehow
+
+        // 3d audio
         _Cache = Instantiate(resetAudio, transform.position, Quaternion.identity);
         _Cache.transform.parent = transform;
         Destroy(_Cache, 1f);
