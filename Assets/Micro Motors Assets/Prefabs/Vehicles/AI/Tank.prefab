@@ -13871,6 +13871,10 @@ MonoBehaviour:
   aiMagnitudeSpeed: 0
   aiMphSpeed: 0
   aiWaypointTargetObject: {fileID: 2869086354771284959}
+  explosionParticle: {fileID: 8168052083600971571, guid: bc71d80d1bfc4c94baa35813368a56d9,
+    type: 3}
+  resetAudio: {fileID: 8970216590266420027, guid: 73629b4505fae2d4bafab8dc6fda0b1b,
+    type: 3}
 --- !u!114 &8321873152048156819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15176,3 +15180,5 @@ MonoBehaviour:
   aiMagnitudeSpeed: 0
   aiMphSpeed: 0
   aiWaypointTargetObject: {fileID: 2869086355549007419}
+  explosionParticle: {fileID: 0}
+  resetAudio: {fileID: 0}

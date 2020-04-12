@@ -6993,6 +6993,8 @@ MonoBehaviour:
   SpeedUI: {fileID: 0}
   WaypointTargetObject: {fileID: 2439327364694755446}
   Reset_UI: {fileID: 0}
+  explosionParticle: {fileID: 8168052083600971571, guid: bc71d80d1bfc4c94baa35813368a56d9,
+    type: 3}
 --- !u!114 &5728005078114859674
 MonoBehaviour:
   m_ObjectHideFlags: 0

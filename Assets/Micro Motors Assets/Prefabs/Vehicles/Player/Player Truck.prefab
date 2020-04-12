@@ -1211,6 +1211,8 @@ MonoBehaviour:
   SpeedUI: {fileID: 0}
   WaypointTargetObject: {fileID: 8596983094657961588}
   Reset_UI: {fileID: 0}
+  explosionParticle: {fileID: 8168052083600971571, guid: bc71d80d1bfc4c94baa35813368a56d9,
+    type: 3}
 --- !u!114 &5822658998445916599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1225,6 +1227,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Arrow: {fileID: 2846661190532184688}
   WaypointTargetObject: {fileID: 8596983094657961588}
+  lerpSpeed: 0
 --- !u!1 &8596983093560051031
 GameObject:
   m_ObjectHideFlags: 0
