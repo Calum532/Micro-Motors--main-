@@ -6020,6 +6020,7 @@ GameObject:
   - component: {fileID: 2439327364261641388}
   - component: {fileID: 2439327364261641395}
   - component: {fileID: 5192448114464359198}
+  - component: {fileID: 915728720908393476}
   m_Layer: 0
   m_Name: RC Car Model
   m_TagString: Untagged
@@ -6037,7 +6038,8 @@ Transform:
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.01999998, y: 0.039, z: 0}
   m_LocalScale: {x: 0.07, y: 0.07, z: 0.07}
-  m_Children: []
+  m_Children:
+  - {fileID: 7131901853715368912}
   m_Father: {fileID: 2439327363224191081}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6099,8 +6101,21 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 23, y: 30, z: 7}
-  m_Center: {x: 0, y: -3.3, z: 9}
+  m_Size: {x: 7.91, y: 6.85, z: 6.8}
+  m_Center: {x: -0.1711002, y: 0.54, z: 8.41}
+--- !u!65 &915728720908393476
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2439327364261641392}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 26.75, y: 29, z: 4.09}
+  m_Center: {x: -0.1711002, y: -3.01, z: 6.83}
 --- !u!1 &2439327364303274343
 GameObject:
   m_ObjectHideFlags: 0
@@ -6992,6 +7007,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Arrow: {fileID: 4971355573150523748}
   WaypointTargetObject: {fileID: 2439327364694755446}
+  lerpSpeed: 0
 --- !u!1 &2439327364887340573
 GameObject:
   m_ObjectHideFlags: 0
@@ -7071,6 +7087,50 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1 &2650871276934576407
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7131901853715368912}
+  - component: {fileID: 134824894201945943}
+  m_Layer: 0
+  m_Name: Spoiler collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7131901853715368912
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2650871276934576407}
+  m_LocalRotation: {x: 0.10400776, y: 0, z: 0, w: 0.9945765}
+  m_LocalPosition: {x: 0, y: 2.99, z: -1.59}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2439327364261641393}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 11.94, y: 0, z: 0}
+--- !u!65 &134824894201945943
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2650871276934576407}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 18.21, y: 6.75, z: 2.1}
+  m_Center: {x: -0.27, y: 12.49, z: 12.31}
 --- !u!1 &3862606491482386865
 GameObject:
   m_ObjectHideFlags: 0

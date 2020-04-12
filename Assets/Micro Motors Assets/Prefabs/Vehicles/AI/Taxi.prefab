@@ -531,8 +531,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.65, y: 0.92, z: 1.2}
-  m_Center: {x: 0, y: -0.06, z: -0.29}
+  m_Size: {x: 1.65, y: 0.8, z: 1.2}
+  m_Center: {x: 0, y: 0, z: -0.29}
 --- !u!65 &1656051036732430928
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -544,8 +544,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.65, y: 0.61, z: 1.8}
-  m_Center: {x: 0, y: -0.24, z: 1.21}
+  m_Size: {x: 1.65, y: 0.43, z: 1.8}
+  m_Center: {x: 0, y: -0.19, z: 1.21}
 --- !u!65 &7498330451059741783
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -557,8 +557,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.65, y: 0.65, z: 1.1}
-  m_Center: {x: 0, y: -0.18, z: -1.44}
+  m_Size: {x: 1.65, y: 0.5, z: 1.1}
+  m_Center: {x: 0, y: -0.15, z: -1.44}
 --- !u!1 &1082426329505797107
 GameObject:
   m_ObjectHideFlags: 0
@@ -15457,7 +15457,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6942415198229751571}
   m_LocalRotation: {x: -0.30070576, y: 0, z: 0, w: 0.953717}
-  m_LocalPosition: {x: -2.698302e-16, y: -0.028, z: -1.144}
+  m_LocalPosition: {x: -2.698302e-16, y: 0.061, z: -1.031}
   m_LocalScale: {x: 0.8, y: 0.4, z: 1}
   m_Children: []
   m_Father: {fileID: 1082426329489303153}
@@ -15474,7 +15474,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.3, y: 1, z: 1}
+  m_Size: {x: 1.3, y: 1, z: 0.59}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8831308912384719248
 GameObject:
@@ -15501,7 +15501,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8831308912384719248}
   m_LocalRotation: {x: 0.2588191, y: 0, z: 0, w: 0.9659258}
-  m_LocalPosition: {x: -2.698302e-16, y: -0.087, z: 0.591}
+  m_LocalPosition: {x: -2.698302e-16, y: -0.026, z: 0.527}
   m_LocalScale: {x: 0.8, y: 0.55, z: 1}
   m_Children: []
   m_Father: {fileID: 1082426329489303153}
@@ -15518,5 +15518,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.4, y: 1, z: 1}
+  m_Size: {x: 1.4, y: 0.9, z: 0.72}
   m_Center: {x: 0, y: 0, z: 0}

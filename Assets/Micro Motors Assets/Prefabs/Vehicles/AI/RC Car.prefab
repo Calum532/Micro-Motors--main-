@@ -9552,7 +9552,8 @@ GameObject:
   - component: {fileID: 789499335352701814}
   - component: {fileID: 789499335352701813}
   - component: {fileID: 789499335352701812}
-  - component: {fileID: 6824722974945330896}
+  - component: {fileID: 8176163577019560782}
+  - component: {fileID: 3530788141338254024}
   m_Layer: 0
   m_Name: RC Car Model
   m_TagString: Untagged
@@ -9570,7 +9571,8 @@ Transform:
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.01999998, y: 0.039, z: 0}
   m_LocalScale: {x: 0.07, y: 0.07, z: 0.07}
-  m_Children: []
+  m_Children:
+  - {fileID: 401114766591310064}
   m_Father: {fileID: 1550219785635628149}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9621,7 +9623,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &6824722974945330896
+--- !u!65 &8176163577019560782
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9632,8 +9634,21 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 27.770603, y: 35.903614, z: 14.043205}
-  m_Center: {x: -0.17110015, y: -1.802797, z: 7.1225023}
+  m_Size: {x: 7.91, y: 6.85, z: 6.8}
+  m_Center: {x: -0.17110015, y: 0.54, z: 8.41}
+--- !u!65 &3530788141338254024
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789499335352701809}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 26.75, y: 29, z: 4.09}
+  m_Center: {x: -0.17110015, y: -3.01, z: 6.83}
 --- !u!1 &789499335488434232
 GameObject:
   m_ObjectHideFlags: 0
@@ -14971,3 +14986,47 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SkidTrailPrefab: {fileID: 400000, guid: 4b6aa99de5d21424eab6ae279f31475b, type: 3}
   skidParticles: {fileID: 0}
+--- !u!1 &6234518269758857012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 401114766591310064}
+  - component: {fileID: 1187113458817193091}
+  m_Layer: 0
+  m_Name: Spoiler collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &401114766591310064
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6234518269758857012}
+  m_LocalRotation: {x: 0.10400776, y: 0, z: 0, w: 0.9945765}
+  m_LocalPosition: {x: 0, y: 2.99, z: -1.59}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 789499335352701814}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 11.94, y: 0, z: 0}
+--- !u!65 &1187113458817193091
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6234518269758857012}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 18.21, y: 6.75, z: 2.1}
+  m_Center: {x: -0.27, y: 12.49, z: 12.31}
