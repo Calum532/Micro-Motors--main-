@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8916302757920421473}
   - component: {fileID: 4298968758058416531}
   m_Layer: 0
-  m_Name: AIResetAudio
+  m_Name: 3DDunkAudio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41,7 +41,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 1ed275582c6fdbb4485c006700b2c0da, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 34fe9aa5feb1e2c4aaba52c8038b2bad, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -51,7 +51,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 3
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0

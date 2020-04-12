@@ -54,6 +54,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -132,6 +133,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -210,6 +212,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -288,6 +291,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -372,6 +376,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -427,8 +432,12 @@ MonoBehaviour:
   child2: {fileID: 4197796796095630170}
   child3: {fileID: 4197796794591574121}
   child4: {fileID: 4197796795305952759}
+  Swoosh: {fileID: 8970216590266420027, guid: 08d92f1df415d7249a5529cb1f71e849, type: 3}
+  SuperBoost: {fileID: 8970216590266420027, guid: e064797ecff7ad54f9b0de8740cd1762,
+    type: 3}
+  Dunk: {fileID: 8970216590266420027, guid: 961ea24c313a080439248802947ae37c, type: 3}
+  rainbow: {fileID: 2100000, guid: a88b1b58141df6a4d8cae86d1ea24b6e, type: 2}
   respawnDuration: 7
   effectDuration: 10
   grow: 1.5
-  shrink: 0.5
   rotateSpeed: 75
