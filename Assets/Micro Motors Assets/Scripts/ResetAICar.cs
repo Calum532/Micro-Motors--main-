@@ -7,6 +7,12 @@ public class ResetAICar : MonoBehaviour
     private float resetCountdown = 5;
     public GameObject aiWaypointTargetObject;
 
+    [Header("Particles/World Objects:")]
+    public GameObject explosionParticle;
+    public GameObject resetAudio;
+
+    // caching
+    private GameObject _Cache;
     private Rigidbody _rb;
 
     void Awake()
@@ -25,6 +31,9 @@ public class ResetAICar : MonoBehaviour
             resetCountdown -= Time.deltaTime;
             if(resetCountdown <= 0)
             {
+                //explosion wow.
+                _Cache = Instantiate(explosionParticle, transform.position, Quaternion.identity);
+                Destroy(_Cache, 3f);
                 Reset();
                 resetCountdown = 5;
             }
@@ -38,7 +47,12 @@ public class ResetAICar : MonoBehaviour
     public void Reset()
     {
         Debug.Log($"<color=yellow>{transform.name}: Resetting</color>");
+        
         transform.position = aiWaypointTargetObject.transform.position;
         transform.rotation = aiWaypointTargetObject.transform.rotation;
+        //audio somehow
+        _Cache = Instantiate(resetAudio, transform.position, Quaternion.identity);
+        _Cache.transform.parent = transform;
+        Destroy(_Cache, 1f);
     }
 }

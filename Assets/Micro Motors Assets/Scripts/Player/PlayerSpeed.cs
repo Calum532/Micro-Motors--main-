@@ -12,6 +12,11 @@ public class PlayerSpeed : MonoBehaviour
     public GameObject WaypointTargetObject;
     public GameObject Reset_UI;
 
+    [Header("Explosion particle:")]
+    public GameObject explosionParticle;
+
+    // caching
+    private GameObject _explosionCache;
     private Rigidbody _rb;
     private TextMeshProUGUI _TMP_speed;
     private TextMeshProUGUI _TMP_reset;
@@ -43,6 +48,9 @@ public class PlayerSpeed : MonoBehaviour
                 validReset = true;
                 if (Input.GetKeyDown(KeyCode.E) && validReset == true)
                 {
+                    //explosion wow.
+                    _explosionCache = Instantiate(explosionParticle, transform.position, Quaternion.identity);
+                    Destroy(_explosionCache, 3f);
                     Reset();
                     _TMP_reset.text = "";
                     resetCountdown = 4;
@@ -61,6 +69,10 @@ public class PlayerSpeed : MonoBehaviour
     public void Reset()
     {
         Debug.Log($"<color=cyan>{transform.name}: Resetting</color>");
+
+        // play audio
+        FindObjectOfType<AudioManager>().Play("Reset");
+
         transform.position = WaypointTargetObject.transform.position;
         transform.rotation = WaypointTargetObject.transform.rotation;
     }
