@@ -40,7 +40,7 @@ public class SettingsMenu : MonoBehaviour
 
     public void SetSfxVolume(float sfx_volume)
     {
-        sfxAudioMixer.SetFloat("music_volume", sfx_volume);
+        sfxAudioMixer.SetFloat("sfx_volume", sfx_volume);
     }
 
     public void SetCarVolume(float car_volume)
