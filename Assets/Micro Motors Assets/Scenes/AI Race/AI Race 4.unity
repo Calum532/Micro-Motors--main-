@@ -4496,24 +4496,19 @@ PrefabInstance:
     - target: {fileID: 533220212, guid: f01ce31683e6771488824983c5f1a46c, type: 3}
       propertyPath: positionDisplay
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1206962716}
     - target: {fileID: 544322573, guid: f01ce31683e6771488824983c5f1a46c, type: 3}
       propertyPath: positionDisplay
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1206962716}
     - target: {fileID: 755889472, guid: f01ce31683e6771488824983c5f1a46c, type: 3}
       propertyPath: positionDisplay
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1206962716}
     - target: {fileID: 1230568644, guid: f01ce31683e6771488824983c5f1a46c, type: 3}
       propertyPath: positionDisplay
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5542114139282453728, guid: f01ce31683e6771488824983c5f1a46c,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1206962716}
     - target: {fileID: 5623252277590671217, guid: f01ce31683e6771488824983c5f1a46c,
         type: 3}
       propertyPath: m_Material
@@ -4526,51 +4521,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 13400000, guid: 67db31eead11e8d6d00011d98d76c639,
         type: 2}
-    - target: {fileID: 5623252278124973984, guid: f01ce31683e6771488824983c5f1a46c,
-        type: 3}
-      propertyPath: m_MaximumSteerAngle
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 5623252278124973984, guid: f01ce31683e6771488824983c5f1a46c,
-        type: 3}
-      propertyPath: m_SteerHelper
-      value: 0.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 5623252278124973984, guid: f01ce31683e6771488824983c5f1a46c,
-        type: 3}
-      propertyPath: m_TractionControl
-      value: 0.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 5623252278124973984, guid: f01ce31683e6771488824983c5f1a46c,
-        type: 3}
-      propertyPath: m_Topspeed
-      value: 120
-      objectReference: {fileID: 0}
-    - target: {fileID: 5623252278124973984, guid: f01ce31683e6771488824983c5f1a46c,
-        type: 3}
-      propertyPath: m_FullTorqueOverAllWheels
-      value: 5000
-      objectReference: {fileID: 0}
-    - target: {fileID: 5623252278124973989, guid: f01ce31683e6771488824983c5f1a46c,
-        type: 3}
-      propertyPath: m_CautiousMaxDistance
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 5623252278124973989, guid: f01ce31683e6771488824983c5f1a46c,
-        type: 3}
-      propertyPath: m_AccelWanderAmount
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5623252278124973989, guid: f01ce31683e6771488824983c5f1a46c,
-        type: 3}
-      propertyPath: m_CautiousMaxAngle
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 5623252278124973989, guid: f01ce31683e6771488824983c5f1a46c,
-        type: 3}
-      propertyPath: m_LateralWanderDistance
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 5623252278124973990, guid: f01ce31683e6771488824983c5f1a46c,
         type: 3}
       propertyPath: circuit
@@ -4641,50 +4591,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5623252278454410404, guid: f01ce31683e6771488824983c5f1a46c,
-        type: 3}
-      propertyPath: m_MaximumSteerAngle
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 5623252278454410404, guid: f01ce31683e6771488824983c5f1a46c,
-        type: 3}
-      propertyPath: m_SteerHelper
-      value: 0.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 5623252278454410404, guid: f01ce31683e6771488824983c5f1a46c,
-        type: 3}
-      propertyPath: m_TractionControl
-      value: 0.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 5623252278454410404, guid: f01ce31683e6771488824983c5f1a46c,
-        type: 3}
-      propertyPath: m_Topspeed
-      value: 120
-      objectReference: {fileID: 0}
     - target: {fileID: 5623252278454410406, guid: f01ce31683e6771488824983c5f1a46c,
         type: 3}
       propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5623252278454410410, guid: f01ce31683e6771488824983c5f1a46c,
-        type: 3}
-      propertyPath: m_CautiousMaxDistance
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 5623252278454410410, guid: f01ce31683e6771488824983c5f1a46c,
-        type: 3}
-      propertyPath: m_AccelWanderAmount
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5623252278454410410, guid: f01ce31683e6771488824983c5f1a46c,
-        type: 3}
-      propertyPath: m_CautiousMaxAngle
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 5623252278454410410, guid: f01ce31683e6771488824983c5f1a46c,
-        type: 3}
-      propertyPath: m_LateralWanderDistance
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5623252278454410411, guid: f01ce31683e6771488824983c5f1a46c,
         type: 3}
@@ -4697,23 +4607,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 13400000, guid: 67db31eead11e8d6d00011d98d76c639,
         type: 2}
-    - target: {fileID: 5773132771157363977, guid: f01ce31683e6771488824983c5f1a46c,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5773132771157363977, guid: f01ce31683e6771488824983c5f1a46c,
-        type: 3}
-      propertyPath: resetAudio
-      value: 
-      objectReference: {fileID: 8970216590266420027, guid: 73629b4505fae2d4bafab8dc6fda0b1b,
-        type: 3}
-    - target: {fileID: 5773132771157363977, guid: f01ce31683e6771488824983c5f1a46c,
-        type: 3}
-      propertyPath: explosionParticle
-      value: 
-      objectReference: {fileID: 8168052083600971571, guid: bc71d80d1bfc4c94baa35813368a56d9,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f01ce31683e6771488824983c5f1a46c, type: 3}
 --- !u!4 &167677909 stripped
@@ -12743,19 +12636,19 @@ PrefabInstance:
     - target: {fileID: 61035371, guid: 5f11ce9d658d52745beedb296bf3a62d, type: 3}
       propertyPath: positionDisplay
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1206962716}
     - target: {fileID: 756352420, guid: 5f11ce9d658d52745beedb296bf3a62d, type: 3}
       propertyPath: positionDisplay
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1206962716}
     - target: {fileID: 823763388, guid: 5f11ce9d658d52745beedb296bf3a62d, type: 3}
       propertyPath: positionDisplay
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1206962716}
     - target: {fileID: 1837549636, guid: 5f11ce9d658d52745beedb296bf3a62d, type: 3}
       propertyPath: positionDisplay
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1206962716}
     - target: {fileID: 1695059719459691783, guid: 5f11ce9d658d52745beedb296bf3a62d,
         type: 3}
       propertyPath: circuit
@@ -14551,19 +14444,19 @@ PrefabInstance:
     - target: {fileID: 54415167, guid: f691e7b22336b7d47ada0905ed012bc2, type: 3}
       propertyPath: positionDisplay
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1206962716}
     - target: {fileID: 472964102, guid: f691e7b22336b7d47ada0905ed012bc2, type: 3}
       propertyPath: positionDisplay
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1206962716}
     - target: {fileID: 936827253, guid: f691e7b22336b7d47ada0905ed012bc2, type: 3}
       propertyPath: positionDisplay
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1206962716}
     - target: {fileID: 1044052228, guid: f691e7b22336b7d47ada0905ed012bc2, type: 3}
       propertyPath: positionDisplay
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1206962716}
     - target: {fileID: 1082426329645363800, guid: f691e7b22336b7d47ada0905ed012bc2,
         type: 3}
       propertyPath: m_Name
@@ -14659,31 +14552,6 @@ PrefabInstance:
         type: 3}
       propertyPath: lookAheadForSpeedFactor
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1082426330097562476, guid: f691e7b22336b7d47ada0905ed012bc2,
-        type: 3}
-      propertyPath: m_CautiousMaxDistance
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 1082426330097562476, guid: f691e7b22336b7d47ada0905ed012bc2,
-        type: 3}
-      propertyPath: m_AccelWanderAmount
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1082426330097562476, guid: f691e7b22336b7d47ada0905ed012bc2,
-        type: 3}
-      propertyPath: m_CautiousMaxAngle
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 1082426330097562476, guid: f691e7b22336b7d47ada0905ed012bc2,
-        type: 3}
-      propertyPath: m_LateralWanderDistance
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1082426330097562476, guid: f691e7b22336b7d47ada0905ed012bc2,
-        type: 3}
-      propertyPath: m_CautiousSpeedFactor
-      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 1082426330097562476, guid: f691e7b22336b7d47ada0905ed012bc2,
         type: 3}
@@ -15945,7 +15813,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77252cf44a471cd4f845912b2aaa53ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioMixer: {fileID: 24100000, guid: bb14ac742b84e36428f03a77db45c456, type: 2}
+  musicAudioMixer: {fileID: 24100000, guid: bb14ac742b84e36428f03a77db45c456, type: 2}
+  sfxAudioMixer: {fileID: 24100000, guid: 9b82e67760f495e4b8b7395b89d8d216, type: 2}
+  carAudioMixer: {fileID: 24100000, guid: cc0bf72c5763743468b1ee3d764d3d04, type: 2}
   resolutionDropdown: {fileID: 110183626}
 --- !u!1001 &714413633
 PrefabInstance:
@@ -21461,19 +21331,19 @@ PrefabInstance:
     - target: {fileID: 50565190, guid: b3dfee7073c5d4e438e216d73606c029, type: 3}
       propertyPath: positionDisplay
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1206962716}
     - target: {fileID: 581318029, guid: b3dfee7073c5d4e438e216d73606c029, type: 3}
       propertyPath: positionDisplay
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1206962716}
     - target: {fileID: 1161125322, guid: b3dfee7073c5d4e438e216d73606c029, type: 3}
       propertyPath: positionDisplay
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1206962716}
     - target: {fileID: 1875192471, guid: b3dfee7073c5d4e438e216d73606c029, type: 3}
       propertyPath: positionDisplay
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1206962716}
     - target: {fileID: 2167274674966759839, guid: b3dfee7073c5d4e438e216d73606c029,
         type: 3}
       propertyPath: m_Material
@@ -21551,71 +21421,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 13400000, guid: 67db31eead11e8d6d00011d98d76c639,
         type: 2}
-    - target: {fileID: 2167274675474232050, guid: b3dfee7073c5d4e438e216d73606c029,
-        type: 3}
-      propertyPath: m_MaximumSteerAngle
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 2167274675474232050, guid: b3dfee7073c5d4e438e216d73606c029,
-        type: 3}
-      propertyPath: m_SteerHelper
-      value: 0.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 2167274675474232050, guid: b3dfee7073c5d4e438e216d73606c029,
-        type: 3}
-      propertyPath: m_TractionControl
-      value: 0.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 2167274675474232050, guid: b3dfee7073c5d4e438e216d73606c029,
-        type: 3}
-      propertyPath: m_Topspeed
-      value: 120
-      objectReference: {fileID: 0}
     - target: {fileID: 2167274675474232060, guid: b3dfee7073c5d4e438e216d73606c029,
         type: 3}
       propertyPath: circuit
       value: 
       objectReference: {fileID: 1747612138}
-    - target: {fileID: 2167274675474232063, guid: b3dfee7073c5d4e438e216d73606c029,
-        type: 3}
-      propertyPath: m_CautiousMaxDistance
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 2167274675474232063, guid: b3dfee7073c5d4e438e216d73606c029,
-        type: 3}
-      propertyPath: m_AccelWanderAmount
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2167274675474232063, guid: b3dfee7073c5d4e438e216d73606c029,
-        type: 3}
-      propertyPath: m_CautiousMaxAngle
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 2167274675474232063, guid: b3dfee7073c5d4e438e216d73606c029,
-        type: 3}
-      propertyPath: m_LateralWanderDistance
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2167274675562779924, guid: b3dfee7073c5d4e438e216d73606c029,
-        type: 3}
-      propertyPath: m_CautiousMaxDistance
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 2167274675562779924, guid: b3dfee7073c5d4e438e216d73606c029,
-        type: 3}
-      propertyPath: m_AccelWanderAmount
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2167274675562779924, guid: b3dfee7073c5d4e438e216d73606c029,
-        type: 3}
-      propertyPath: m_CautiousMaxAngle
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 2167274675562779924, guid: b3dfee7073c5d4e438e216d73606c029,
-        type: 3}
-      propertyPath: m_LateralWanderDistance
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 2167274675562779925, guid: b3dfee7073c5d4e438e216d73606c029,
         type: 3}
       propertyPath: circuit
@@ -21626,54 +21436,12 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2167274675562779946, guid: b3dfee7073c5d4e438e216d73606c029,
-        type: 3}
-      propertyPath: m_MaximumSteerAngle
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 2167274675562779946, guid: b3dfee7073c5d4e438e216d73606c029,
-        type: 3}
-      propertyPath: m_SteerHelper
-      value: 0.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 2167274675562779946, guid: b3dfee7073c5d4e438e216d73606c029,
-        type: 3}
-      propertyPath: m_TractionControl
-      value: 0.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 2167274675562779946, guid: b3dfee7073c5d4e438e216d73606c029,
-        type: 3}
-      propertyPath: m_Topspeed
-      value: 120
-      objectReference: {fileID: 0}
     - target: {fileID: 2167274675888482416, guid: b3dfee7073c5d4e438e216d73606c029,
         type: 3}
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 13400000, guid: 67db31eead11e8d6d00011d98d76c639,
         type: 2}
-    - target: {fileID: 2694221494633871043, guid: b3dfee7073c5d4e438e216d73606c029,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9017736230547560288, guid: b3dfee7073c5d4e438e216d73606c029,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9017736230547560288, guid: b3dfee7073c5d4e438e216d73606c029,
-        type: 3}
-      propertyPath: resetAudio
-      value: 
-      objectReference: {fileID: 8970216590266420027, guid: 73629b4505fae2d4bafab8dc6fda0b1b,
-        type: 3}
-    - target: {fileID: 9017736230547560288, guid: b3dfee7073c5d4e438e216d73606c029,
-        type: 3}
-      propertyPath: explosionParticle
-      value: 
-      objectReference: {fileID: 8168052083600971571, guid: bc71d80d1bfc4c94baa35813368a56d9,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3dfee7073c5d4e438e216d73606c029, type: 3}
 --- !u!4 &935677797 stripped
@@ -26197,19 +25965,19 @@ PrefabInstance:
     - target: {fileID: 1010611782, guid: 7e68a5239a7ff4945829105f405d77da, type: 3}
       propertyPath: positionDisplay
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1206962716}
     - target: {fileID: 1317605862, guid: 7e68a5239a7ff4945829105f405d77da, type: 3}
       propertyPath: positionDisplay
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1206962716}
     - target: {fileID: 2012290973, guid: 7e68a5239a7ff4945829105f405d77da, type: 3}
       propertyPath: positionDisplay
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1206962716}
     - target: {fileID: 2134430814, guid: 7e68a5239a7ff4945829105f405d77da, type: 3}
       propertyPath: positionDisplay
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1206962716}
     - target: {fileID: 789499333923509944, guid: 7e68a5239a7ff4945829105f405d77da,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -39658,89 +39426,24 @@ PrefabInstance:
     - target: {fileID: 72588749, guid: 64a3e2c4f7a47dd4e861dda6b896ef2c, type: 3}
       propertyPath: positionDisplay
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 267858647, guid: 64a3e2c4f7a47dd4e861dda6b896ef2c, type: 3}
-      propertyPath: m_RootOrder
-      value: 8
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1206962716}
     - target: {fileID: 267858648, guid: 64a3e2c4f7a47dd4e861dda6b896ef2c, type: 3}
       propertyPath: positionDisplay
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1206962716}
     - target: {fileID: 538818886, guid: 64a3e2c4f7a47dd4e861dda6b896ef2c, type: 3}
       propertyPath: positionDisplay
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2020106284, guid: 64a3e2c4f7a47dd4e861dda6b896ef2c, type: 3}
-      propertyPath: m_RootOrder
-      value: 9
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1206962716}
     - target: {fileID: 2020106285, guid: 64a3e2c4f7a47dd4e861dda6b896ef2c, type: 3}
       propertyPath: positionDisplay
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4372821041491922360, guid: 64a3e2c4f7a47dd4e861dda6b896ef2c,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4372821041491922360, guid: 64a3e2c4f7a47dd4e861dda6b896ef2c,
-        type: 3}
-      propertyPath: resetAudio
-      value: 
-      objectReference: {fileID: 8970216590266420027, guid: 73629b4505fae2d4bafab8dc6fda0b1b,
-        type: 3}
-    - target: {fileID: 4372821041491922360, guid: 64a3e2c4f7a47dd4e861dda6b896ef2c,
-        type: 3}
-      propertyPath: explosionParticle
-      value: 
-      objectReference: {fileID: 8168052083600971571, guid: bc71d80d1bfc4c94baa35813368a56d9,
-        type: 3}
+      objectReference: {fileID: 1206962716}
     - target: {fileID: 6853456033847291760, guid: 64a3e2c4f7a47dd4e861dda6b896ef2c,
         type: 3}
       propertyPath: circuit
       value: 
       objectReference: {fileID: 1747612138}
-    - target: {fileID: 6853456033847291761, guid: 64a3e2c4f7a47dd4e861dda6b896ef2c,
-        type: 3}
-      propertyPath: m_MaximumSteerAngle
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 6853456033847291761, guid: 64a3e2c4f7a47dd4e861dda6b896ef2c,
-        type: 3}
-      propertyPath: m_SteerHelper
-      value: 0.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 6853456033847291761, guid: 64a3e2c4f7a47dd4e861dda6b896ef2c,
-        type: 3}
-      propertyPath: m_TractionControl
-      value: 0.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 6853456033847291761, guid: 64a3e2c4f7a47dd4e861dda6b896ef2c,
-        type: 3}
-      propertyPath: m_Topspeed
-      value: 120
-      objectReference: {fileID: 0}
-    - target: {fileID: 6853456033847291763, guid: 64a3e2c4f7a47dd4e861dda6b896ef2c,
-        type: 3}
-      propertyPath: m_CautiousMaxDistance
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 6853456033847291763, guid: 64a3e2c4f7a47dd4e861dda6b896ef2c,
-        type: 3}
-      propertyPath: m_AccelWanderAmount
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6853456033847291763, guid: 64a3e2c4f7a47dd4e861dda6b896ef2c,
-        type: 3}
-      propertyPath: m_CautiousMaxAngle
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 6853456033847291763, guid: 64a3e2c4f7a47dd4e861dda6b896ef2c,
-        type: 3}
-      propertyPath: m_LateralWanderDistance
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 6853456033847291775, guid: 64a3e2c4f7a47dd4e861dda6b896ef2c,
         type: 3}
       propertyPath: m_IsActive
@@ -39829,56 +39532,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 13400000, guid: 67db31eead11e8d6d00011d98d76c639,
         type: 2}
-    - target: {fileID: 6853456035437722656, guid: 64a3e2c4f7a47dd4e861dda6b896ef2c,
-        type: 3}
-      propertyPath: m_CautiousMaxDistance
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 6853456035437722656, guid: 64a3e2c4f7a47dd4e861dda6b896ef2c,
-        type: 3}
-      propertyPath: m_AccelWanderAmount
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6853456035437722656, guid: 64a3e2c4f7a47dd4e861dda6b896ef2c,
-        type: 3}
-      propertyPath: m_CautiousMaxAngle
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 6853456035437722656, guid: 64a3e2c4f7a47dd4e861dda6b896ef2c,
-        type: 3}
-      propertyPath: m_LateralWanderDistance
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 6853456035437722657, guid: 64a3e2c4f7a47dd4e861dda6b896ef2c,
         type: 3}
       propertyPath: circuit
       value: 
       objectReference: {fileID: 1747612138}
-    - target: {fileID: 6853456035437722671, guid: 64a3e2c4f7a47dd4e861dda6b896ef2c,
-        type: 3}
-      propertyPath: m_MaximumSteerAngle
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 6853456035437722671, guid: 64a3e2c4f7a47dd4e861dda6b896ef2c,
-        type: 3}
-      propertyPath: m_SteerHelper
-      value: 0.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 6853456035437722671, guid: 64a3e2c4f7a47dd4e861dda6b896ef2c,
-        type: 3}
-      propertyPath: m_TractionControl
-      value: 0.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 6853456035437722671, guid: 64a3e2c4f7a47dd4e861dda6b896ef2c,
-        type: 3}
-      propertyPath: m_Topspeed
-      value: 120
-      objectReference: {fileID: 0}
-    - target: {fileID: 8872518644348159760, guid: 64a3e2c4f7a47dd4e861dda6b896ef2c,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64a3e2c4f7a47dd4e861dda6b896ef2c, type: 3}
 --- !u!4 &1623781099 stripped
@@ -51282,39 +50940,19 @@ PrefabInstance:
     - target: {fileID: 508135054, guid: 10004953179ac2a4fa1aeb39124a125c, type: 3}
       propertyPath: positionDisplay
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 508135056, guid: 10004953179ac2a4fa1aeb39124a125c, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1206962716}
     - target: {fileID: 808363797, guid: 10004953179ac2a4fa1aeb39124a125c, type: 3}
       propertyPath: positionDisplay
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1206962716}
     - target: {fileID: 1474480542, guid: 10004953179ac2a4fa1aeb39124a125c, type: 3}
       propertyPath: positionDisplay
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1474480544, guid: 10004953179ac2a4fa1aeb39124a125c, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1206962716}
     - target: {fileID: 1584274284, guid: 10004953179ac2a4fa1aeb39124a125c, type: 3}
       propertyPath: positionDisplay
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1183144541448111112, guid: 10004953179ac2a4fa1aeb39124a125c,
-        type: 3}
-      propertyPath: resetAudio
-      value: 
-      objectReference: {fileID: 8970216590266420027, guid: 73629b4505fae2d4bafab8dc6fda0b1b,
-        type: 3}
-    - target: {fileID: 1183144541448111112, guid: 10004953179ac2a4fa1aeb39124a125c,
-        type: 3}
-      propertyPath: explosionParticle
-      value: 
-      objectReference: {fileID: 8168052083600971571, guid: bc71d80d1bfc4c94baa35813368a56d9,
-        type: 3}
+      objectReference: {fileID: 1206962716}
     - target: {fileID: 2869086354161573584, guid: 10004953179ac2a4fa1aeb39124a125c,
         type: 3}
       propertyPath: m_Material
@@ -51398,21 +51036,11 @@ PrefabInstance:
       propertyPath: circuit
       value: 
       objectReference: {fileID: 1747612138}
-    - target: {fileID: 2869086355814918067, guid: 10004953179ac2a4fa1aeb39124a125c,
-        type: 3}
-      propertyPath: m_MaximumSteerAngle
-      value: 30
-      objectReference: {fileID: 0}
     - target: {fileID: 2869086356143238096, guid: 10004953179ac2a4fa1aeb39124a125c,
         type: 3}
       propertyPath: circuit
       value: 
       objectReference: {fileID: 1747612138}
-    - target: {fileID: 2869086356143238099, guid: 10004953179ac2a4fa1aeb39124a125c,
-        type: 3}
-      propertyPath: m_MaximumSteerAngle
-      value: 30
-      objectReference: {fileID: 0}
     - target: {fileID: 2869086356143238109, guid: 10004953179ac2a4fa1aeb39124a125c,
         type: 3}
       propertyPath: m_IsActive
@@ -53050,7 +52678,7 @@ PrefabInstance:
     - target: {fileID: 656656591770597637, guid: 78e8eb45956bfb949846431a1f8758ec,
         type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetVolume
+      value: SetSfxVolume
       objectReference: {fileID: 0}
     - target: {fileID: 656656591841577584, guid: 78e8eb45956bfb949846431a1f8758ec,
         type: 3}
@@ -53141,6 +52769,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 3103239248139772855, guid: 78e8eb45956bfb949846431a1f8758ec,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 712736435}
+    - target: {fileID: 3103239248139772855, guid: 78e8eb45956bfb949846431a1f8758ec,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetMusicVolume
+      objectReference: {fileID: 0}
+    - target: {fileID: 7094580741546818991, guid: 78e8eb45956bfb949846431a1f8758ec,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 712736435}
+    - target: {fileID: 7094580741546818991, guid: 78e8eb45956bfb949846431a1f8758ec,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetCarVolume
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78e8eb45956bfb949846431a1f8758ec, type: 3}

@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75ce261a6b3d8ab4eba1bd17593cacf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mixerGroup: {fileID: 24300002, guid: bb14ac742b84e36428f03a77db45c456, type: 2}
+  mixerGroup: {fileID: 24300002, guid: 9b82e67760f495e4b8b7395b89d8d216, type: 2}
   sounds:
   - name: PickUp
     clip: {fileID: 8300000, guid: 7ced09c52b7835848a7fa0a559ad7f6f, type: 3}

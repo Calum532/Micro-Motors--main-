@@ -41,4 +41,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Micro Motors Assets/Scenes/AI Race/AI Race 1.unity
     guid: bf64c30850de3864c97dad746b22ef09
+  - enabled: 1
+    path: Assets/Micro Motors Assets/Scenes/AI Race/AI Race 2.unity
+    guid: 00c558f35d1b94645956b01b138e532d
+  - enabled: 1
+    path: Assets/Micro Motors Assets/Scenes/AI Race/AI Race 3.unity
+    guid: c15d4912d8064d945b1f54e4f7379b60
+  - enabled: 1
+    path: Assets/Micro Motors Assets/Scenes/AI Race/AI Race 4.unity
+    guid: 7eaee7f9790d4384286d94565cda8a42
   m_configObjects: {}

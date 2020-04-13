@@ -6,7 +6,9 @@ using TMPro;
 
 public class SettingsMenu : MonoBehaviour
 {
-    public AudioMixer audioMixer;
+    public AudioMixer musicAudioMixer;
+    public AudioMixer sfxAudioMixer;
+    public AudioMixer carAudioMixer;
     public TMP_Dropdown resolutionDropdown;
     Resolution[] resolutions;
 
@@ -36,9 +38,19 @@ public class SettingsMenu : MonoBehaviour
         Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen, resolution.refreshRate);
     }
 
-    public void SetVolume(float volume)
+    public void SetSfxVolume(float sfx_volume)
     {
-        audioMixer.SetFloat("volume", volume);
+        sfxAudioMixer.SetFloat("music_volume", sfx_volume);
+    }
+
+    public void SetCarVolume(float car_volume)
+    {
+        carAudioMixer.SetFloat("car_volume", car_volume);
+    }
+
+    public void SetMusicVolume(float music_volume)
+    {
+        musicAudioMixer.SetFloat("music_volume", music_volume);
     }
 
     public void SetQuality(int qualityIndex)

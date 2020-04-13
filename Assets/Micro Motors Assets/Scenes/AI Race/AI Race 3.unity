@@ -2326,7 +2326,7 @@ PrefabInstance:
     - target: {fileID: 5586807323362992746, guid: e90790423c99b694d9b242338ffbb503,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5586807323362992746, guid: e90790423c99b694d9b242338ffbb503,
         type: 3}
@@ -7832,7 +7832,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77252cf44a471cd4f845912b2aaa53ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioMixer: {fileID: 24100000, guid: bb14ac742b84e36428f03a77db45c456, type: 2}
+  musicAudioMixer: {fileID: 24100000, guid: bb14ac742b84e36428f03a77db45c456, type: 2}
+  sfxAudioMixer: {fileID: 24100000, guid: 9b82e67760f495e4b8b7395b89d8d216, type: 2}
+  carAudioMixer: {fileID: 24100000, guid: cc0bf72c5763743468b1ee3d764d3d04, type: 2}
   resolutionDropdown: {fileID: 110183626}
 --- !u!1 &721549169
 GameObject:
@@ -26039,7 +26041,7 @@ PrefabInstance:
     - target: {fileID: 656656591770597637, guid: 78e8eb45956bfb949846431a1f8758ec,
         type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetVolume
+      value: SetSfxVolume
       objectReference: {fileID: 0}
     - target: {fileID: 656656591841577584, guid: 78e8eb45956bfb949846431a1f8758ec,
         type: 3}
@@ -26130,6 +26132,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 3103239248139772855, guid: 78e8eb45956bfb949846431a1f8758ec,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 712736435}
+    - target: {fileID: 3103239248139772855, guid: 78e8eb45956bfb949846431a1f8758ec,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetMusicVolume
+      objectReference: {fileID: 0}
+    - target: {fileID: 7094580741546818991, guid: 78e8eb45956bfb949846431a1f8758ec,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 712736435}
+    - target: {fileID: 7094580741546818991, guid: 78e8eb45956bfb949846431a1f8758ec,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetCarVolume
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78e8eb45956bfb949846431a1f8758ec, type: 3}
