@@ -12073,6 +12073,7 @@ MonoBehaviour:
   maxRolloffDistance: 800
   dopplerLevel: 0
   useDoppler: 1
+  AM: {fileID: 24300001, guid: cc0bf72c5763743468b1ee3d764d3d04, type: 2}
 --- !u!65 &8316778460948813568
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12626,6 +12627,7 @@ MonoBehaviour:
   maxRolloffDistance: 800
   dopplerLevel: 0
   useDoppler: 1
+  AM: {fileID: 0}
 --- !u!114 &2167274675562779924
 MonoBehaviour:
   m_ObjectHideFlags: 0

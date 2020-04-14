@@ -288,6 +288,7 @@ MonoBehaviour:
   maxRolloffDistance: 800
   dopplerLevel: 0
   useDoppler: 1
+  AM: {fileID: 24300001, guid: cc0bf72c5763743468b1ee3d764d3d04, type: 2}
 --- !u!114 &3126617746116573842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -345,8 +346,6 @@ MonoBehaviour:
   WaypointTargetObject: {fileID: 1249272986743121025}
   Reset_UI: {fileID: 0}
   explosionParticle: {fileID: 8168052083600971571, guid: bc71d80d1bfc4c94baa35813368a56d9,
-    type: 3}
-  resetAudio: {fileID: 8970216590266420027, guid: 73629b4505fae2d4bafab8dc6fda0b1b,
     type: 3}
 --- !u!114 &4230805720622948111
 MonoBehaviour:

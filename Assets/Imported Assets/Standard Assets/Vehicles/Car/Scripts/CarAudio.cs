@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.Audio;
 using Random = UnityEngine.Random;
 
 namespace UnityStandardAssets.Vehicles.Car
@@ -48,6 +49,9 @@ namespace UnityStandardAssets.Vehicles.Car
         private AudioSource m_HighDecel; // Source for the high deceleration sounds
         private bool m_StartedSound; // flag for knowing if we have started sounds
         private CarController m_CarController; // Reference to car we are controlling
+
+        [Header("Audio Mixer:")]
+        public AudioMixerGroup AM;
 
 
         private void StartSound()
@@ -114,15 +118,6 @@ namespace UnityStandardAssets.Vehicles.Car
                     // for 1 channel engine sound, it's oh so simple:
                     m_HighAccel.pitch = pitch*pitchMultiplier*highPitchMultiplier;
                     m_HighAccel.dopplerLevel = useDoppler ? dopplerLevel : 0;
-
-                    if (gameObject.CompareTag("Player"))
-                    {
-                        m_HighAccel.volume = 0.17f;
-                    }
-                    else if (gameObject.CompareTag("AICar"))
-                    {
-                        m_HighAccel.volume = 0.6f;
-                    }
                 }
                 else
                 {
@@ -151,7 +146,7 @@ namespace UnityStandardAssets.Vehicles.Car
                     // adjust the source volumes based on the fade values
                     m_LowAccel.volume = lowFade*accFade;
                     m_LowDecel.volume = lowFade*decFade;
-                    m_HighAccel.volume = highFade*accFade;
+                    // m_HighAccel.volume = highFade*accFade;
                     m_HighDecel.volume = highFade*decFade;
 
                     // adjust the doppler levels
@@ -171,8 +166,10 @@ namespace UnityStandardAssets.Vehicles.Car
             AudioSource source = gameObject.AddComponent<AudioSource>();
 
             source.clip = clip;
-            source.volume = 0;
             source.loop = true;
+
+            // mixer
+            source.outputAudioMixerGroup = AM;
 
             // start the clip from a random point
             source.time = Random.Range(0f, clip.length);
