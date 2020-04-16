@@ -6828,7 +6828,7 @@ MonoBehaviour:
   - {fileID: 1082426329899217815}
   m_CentreOfMassOffset: {x: 0, y: 0, z: 0}
   m_MaximumSteerAngle: 30
-  m_SteerHelper: 0.7
+  m_SteerHelper: 1
   m_TractionControl: 0.7
   m_FullTorqueOverAllWheels: 2000
   m_ReverseTorque: 1000
@@ -6883,13 +6883,13 @@ MonoBehaviour:
   m_SteerSensitivity: 0.01
   m_AccelSensitivity: 1
   m_BrakeSensitivity: 1
-  m_LateralWanderDistance: 3
+  m_LateralWanderDistance: 0
   m_LateralWanderSpeed: 0.2
   m_AccelWanderAmount: 0.2
   m_AccelWanderSpeed: 0.1
   m_BrakeCondition: 1
   m_Driving: 1
-  m_Target: {fileID: 0}
+  m_Target: {fileID: 1082426331274544592}
   m_StopWhenTargetReached: 0
   m_ReachTargetThreshold: 2
 --- !u!114 &1082426330097562475
@@ -12494,7 +12494,7 @@ MonoBehaviour:
   - {fileID: 1082426331153544611}
   m_CentreOfMassOffset: {x: 0, y: 0, z: 0}
   m_MaximumSteerAngle: 30
-  m_SteerHelper: 0.7
+  m_SteerHelper: 1
   m_TractionControl: 0.7
   m_FullTorqueOverAllWheels: 2000
   m_ReverseTorque: 1000
@@ -12524,13 +12524,13 @@ MonoBehaviour:
   m_SteerSensitivity: 0.01
   m_AccelSensitivity: 1
   m_BrakeSensitivity: 1
-  m_LateralWanderDistance: 3
+  m_LateralWanderDistance: 0
   m_LateralWanderSpeed: 0.2
   m_AccelWanderAmount: 0.2
   m_AccelWanderSpeed: 0.1
   m_BrakeCondition: 1
   m_Driving: 1
-  m_Target: {fileID: 0}
+  m_Target: {fileID: 1082426331036265444}
   m_StopWhenTargetReached: 0
   m_ReachTargetThreshold: 2
 --- !u!114 &1082426330490208568

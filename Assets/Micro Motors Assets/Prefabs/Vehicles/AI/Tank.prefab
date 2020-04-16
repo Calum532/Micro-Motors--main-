@@ -13764,7 +13764,7 @@ MonoBehaviour:
   - {fileID: 2869086355335161205}
   m_CentreOfMassOffset: {x: 0, y: 0, z: 0}
   m_MaximumSteerAngle: 30
-  m_SteerHelper: 0.7
+  m_SteerHelper: 1
   m_TractionControl: 0.7
   m_FullTorqueOverAllWheels: 5000
   m_ReverseTorque: 1000
@@ -15074,7 +15074,7 @@ MonoBehaviour:
   - {fileID: 2869086354726068655}
   m_CentreOfMassOffset: {x: 0, y: 0, z: 0}
   m_MaximumSteerAngle: 30
-  m_SteerHelper: 0.7
+  m_SteerHelper: 1
   m_TractionControl: 0.7
   m_FullTorqueOverAllWheels: 2000
   m_ReverseTorque: 1000
