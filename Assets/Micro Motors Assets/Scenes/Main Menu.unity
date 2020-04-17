@@ -3881,7 +3881,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 248446997}
   m_LocalRotation: {x: 0.08715579, y: -0, z: -0, w: 0.9961947}
-  m_LocalPosition: {x: -0.354, y: 0.59547997, z: 1.597}
+  m_LocalPosition: {x: -0.354, y: 0.329, z: 1.597}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5552506536797840072}
@@ -9539,6 +9539,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SetCarVolume
+      objectReference: {fileID: 0}
+    - target: {fileID: 7094580741546818991, guid: 78e8eb45956bfb949846431a1f8758ec,
+        type: 3}
+      propertyPath: m_Value
+      value: -15
       objectReference: {fileID: 0}
     - target: {fileID: 7430416038837675052, guid: 78e8eb45956bfb949846431a1f8758ec,
         type: 3}
@@ -23630,7 +23635,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1608871490}
   m_LocalRotation: {x: 0.08715579, y: -0, z: -0, w: 0.9961947}
-  m_LocalPosition: {x: 0.347, y: 0.59547997, z: 1.597}
+  m_LocalPosition: {x: 0.347, y: 0.329, z: 1.597}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5552506536797840072}

@@ -46412,6 +46412,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2037669838}
     m_Modifications:
+    - target: {fileID: 54415167, guid: f691e7b22336b7d47ada0905ed012bc2, type: 3}
+      propertyPath: positionDisplay
+      value: 
+      objectReference: {fileID: 1206962716}
+    - target: {fileID: 472964102, guid: f691e7b22336b7d47ada0905ed012bc2, type: 3}
+      propertyPath: positionDisplay
+      value: 
+      objectReference: {fileID: 1206962716}
+    - target: {fileID: 936827253, guid: f691e7b22336b7d47ada0905ed012bc2, type: 3}
+      propertyPath: positionDisplay
+      value: 
+      objectReference: {fileID: 1206962716}
+    - target: {fileID: 1044052228, guid: f691e7b22336b7d47ada0905ed012bc2, type: 3}
+      propertyPath: positionDisplay
+      value: 
+      objectReference: {fileID: 1206962716}
     - target: {fileID: 1082426329645363800, guid: f691e7b22336b7d47ada0905ed012bc2,
         type: 3}
       propertyPath: m_Name
