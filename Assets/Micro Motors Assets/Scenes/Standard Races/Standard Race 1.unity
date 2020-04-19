@@ -223,6 +223,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 21981577}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &21981579 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1082426330097562472, guid: f691e7b22336b7d47ada0905ed012bc2,
+    type: 3}
+  m_PrefabInstance: {fileID: 21981577}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &21981580 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1082426330490208709, guid: f691e7b22336b7d47ada0905ed012bc2,
+    type: 3}
+  m_PrefabInstance: {fileID: 21981577}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &25336189
 GameObject:
   m_ObjectHideFlags: 0
@@ -4080,15 +4092,15 @@ MonoBehaviour:
   PlayerSkyCar: {fileID: 1745519246}
   AIRC: {fileID: 790274712}
   AIUFO: {fileID: 1684429801}
-  AITaxi: {fileID: 0}
-  AITank: {fileID: 0}
+  AITaxi: {fileID: 21981580}
+  AITank: {fileID: 690264083}
   AIMonster: {fileID: 1424821957}
   AITruck: {fileID: 1063939526}
   AIDozer: {fileID: 1715574610}
   SkyCarRC: {fileID: 1148557914}
   SkyCarUFO: {fileID: 171944396}
-  SkyCarTaxi: {fileID: 0}
-  SkyCarTank: {fileID: 0}
+  SkyCarTaxi: {fileID: 21981579}
+  SkyCarTank: {fileID: 690264082}
   SkyCarMonster: {fileID: 902897046}
   SkyCarTruck: {fileID: 983796253}
   SkyCarDozer: {fileID: 1441023061}
@@ -5915,6 +5927,18 @@ PrefabInstance:
 --- !u!4 &690264081 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2869086355075690078, guid: 10004953179ac2a4fa1aeb39124a125c,
+    type: 3}
+  m_PrefabInstance: {fileID: 690264080}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &690264082 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2869086356143238109, guid: 10004953179ac2a4fa1aeb39124a125c,
+    type: 3}
+  m_PrefabInstance: {fileID: 690264080}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &690264083 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2869086355814918066, guid: 10004953179ac2a4fa1aeb39124a125c,
     type: 3}
   m_PrefabInstance: {fileID: 690264080}
   m_PrefabAsset: {fileID: 0}

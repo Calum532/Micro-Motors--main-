@@ -45248,7 +45248,7 @@ GameObject:
   - component: {fileID: 7905897093341117594}
   - component: {fileID: 7905897093341117593}
   - component: {fileID: 7905897093341117592}
-  - component: {fileID: 7905897093341117596}
+  - component: {fileID: 7905897093341117595}
   m_Layer: 5
   m_Name: Panel - RaceComplete
   m_TagString: Untagged
@@ -45315,7 +45315,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &7905897093341117596
+--- !u!114 &7905897093341117595
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -45324,7 +45324,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7905897093341117591}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0299d37a6dd55642b269d83ce88b1b6, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d19ccb9ad83f4c4897c7a851e26c66d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   MinCount: 0
